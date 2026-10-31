@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<title>FunnyRpgMaker — MV CoreScript integration fixture</title>
+<style>
+body { background:#172131;color:#e9eef7;font:18px system-ui;max-width:900px;margin:40px auto }
+button { padding:10px 18px;margin:5px;font:inherit } canvas { display:block;background:#26354b;margin-top:16px }
+pre { white-space:pre-wrap;font-size:14px;max-height:180px;overflow:auto } .note { color:#aec2de }
+</style>
+<h1>RPG Maker MV 真实引擎接入测试</h1>
+<p class="note">使用开源 MV CoreScript 的真实类与 Bitmap 绘制。不是商业游戏，也不是原版 FunnyGamePlayer 界面。</p>
+<button id="gold">金币 +100</button><button id="variable">变量 1 +1</button>
+<pre id="status">Loading engine…</pre>
+<script src="js/libs/pixi.js"></script>
+<script src="js/libs/pixi-tilemap.js"></script>
+<script src="js/libs/pixi-picture.js"></script>
+<script src="js/libs/fpsmeter.js"></script>
+<script src="js/libs/lz-string.js"></script>
+<script src="js/libs/iphone-inline-video.browser.js"></script>
+<script src="js/rpg_core.js"></script><script src="js/rpg_managers.js"></script>
+<script src="js/rpg_objects.js"></script><script src="js/rpg_scenes.js"></script>
+<script src="js/rpg_sprites.js"></script><script src="js/rpg_windows.js"></script>
+<script src="fixture.js"></script>
+</html>

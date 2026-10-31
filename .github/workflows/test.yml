@@ -17,3 +17,25 @@ jobs:
           node-version: '22'
       - run: npm test
       - run: npm run demo
+  real-mv-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: python scripts/prepare_mv_fixture.py
+      - run: npm run test:engine
+        env:
+          MV_VALIDATION_REPORT: work/mv_browser_validation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: mv-engine-evidence
+          path: |
+            work/mv_browser_validation.json
+            work/mv-integration.png

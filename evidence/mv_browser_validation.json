@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "runtime": "Real Chrome + upstream MV CoreScript, synthetic database/test scene",
+  "upstream": {
+    "upstream": "https://github.com/rpgtkoolmv/corescript",
+    "revision": "182e31449707ba7e406db0485c44c2a9d11e2dcd",
+    "scope": "Real engine classes; synthetic database and custom test scene, not a complete game"
+  },
+  "browser": "155.0.8059.82",
+  "before": {
+    "engine": "MV",
+    "version": "1.6.1",
+    "gold": 123,
+    "movementSpeed": 4,
+    "switches": [
+      null,
+      true
+    ],
+    "variables": [
+      null,
+      7
+    ],
+    "translationLoaded": false,
+    "speedRatio": 1
+  },
+  "after": {
+    "engine": "MV",
+    "version": "1.6.1",
+    "gold": 123,
+    "movementSpeed": 6,
+    "switches": [
+      null,
+      true
+    ],
+    "variables": [
+      null,
+      7
+    ],
+    "translationLoaded": true,
+    "speedRatio": 2
+  },
+  "clock": {
+    "realDelta": 64.90000000037253,
+    "scaledDelta": 129.80000000074506,
+    "ratio": 2
+  },
+  "verified": [
+    "DevTools discovery/attach",
+    "public CLI movement command",
+    "real Game_Party read and UI button mutation",
+    "real Game_Player speed",
+    "real SceneManager clock advances at approximately 2x",
+    "Window_Base font hook",
+    "translation reaches real Bitmap.drawText"
+  ],
+  "notVerified": [
+    "original DLL injection",
+    "full game/map/battle/save-load",
+    "MZ engine",
+    "Steam Deck"
+  ],
+  "pageErrors": []
+}
