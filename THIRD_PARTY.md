@@ -19,3 +19,9 @@
   The upstream source checkout is retained locally in ignored `tools/WolfTL/`.
 - Local analysis tools Ghidra, Temurin JDK and REA remain under ignored `tools/`;
   their upstream licenses and notices continue to apply.
+- The optional native Wolf capture adapter links [TsudaKageyu/MinHook](https://github.com/TsudaKageyu/minhook),
+  pinned at `8af6b4acae5a9388fd742b56fa79ece89d96f823`, under its 2-clause BSD-style license,
+  including the bundled Hacker Disassembler Engine notices. Source stays in ignored
+  `tools/minhook/`; builds copy the full upstream `LICENSE.txt` into `build/wolf/MinHook-LICENSE.txt`.
+  Do not redistribute the generated DLL without that notice. The capture/launcher code in
+  `native/wolf/` is newly written and is not the original FunnyGamePlayer DLL.
