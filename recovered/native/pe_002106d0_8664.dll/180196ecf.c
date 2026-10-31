@@ -1,0 +1,13 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 180196ecf */
+
+void FUN_180196ecf(longlong param_1)
+
+{
+  if (param_1 != 0) {
+    FUN_18019a550();
+    FUN_1800fe8d4(param_1);
+    return;
+  }
+  return;
+}
+

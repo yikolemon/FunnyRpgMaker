@@ -1,0 +1,19 @@
+/* Ghidra pseudocode. Image: pe_00000000_8664.exe Address: 1401c2e64 */
+
+/* Library Function - Multiple Matches With Different Base Names
+    _sopen_s
+    _wsopen_s
+   
+   Libraries: Visual Studio 2017 Release, Visual Studio 2019 Release */
+
+errno_t __cdecl
+FID_conflict__sopen_s
+          (int *_FileHandle,char *_Filename,int _OpenFlag,int _ShareFlag,int _PermissionMode)
+
+{
+  errno_t eVar1;
+  
+  eVar1 = common_sopen_dispatch<>(_Filename,_OpenFlag,_ShareFlag,_PermissionMode,_FileHandle,1);
+  return eVar1;
+}
+

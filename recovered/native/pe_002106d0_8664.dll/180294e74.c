@@ -1,0 +1,17 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 180294e74 */
+
+void FUN_180294e74(char param_1,undefined8 *param_2,undefined8 param_3)
+
+{
+  if ((param_1 != '\0') && ((*(uint *)((longlong)param_2 + 0x14) >> 9 & 1) != 0)) {
+    FUN_180284ab0(param_2,param_3);
+    LOCK();
+    *(uint *)((longlong)param_2 + 0x14) = *(uint *)((longlong)param_2 + 0x14) & 0xfffffd7f;
+    UNLOCK();
+    *(undefined4 *)(param_2 + 4) = 0;
+    param_2[1] = 0;
+    *param_2 = 0;
+  }
+  return;
+}
+

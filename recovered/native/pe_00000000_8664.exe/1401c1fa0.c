@@ -1,0 +1,18 @@
+/* Ghidra pseudocode. Image: pe_00000000_8664.exe Address: 1401c1fa0 */
+
+void FUN_1401c1fa0(uint param_1)
+
+{
+  uint uVar1;
+  bool bVar2;
+  
+  param_1 = param_1 >> 0x18;
+  bVar2 = ((param_1 & 0x3f) >> 4 & 1) != 0;
+  uVar1 = (uint)bVar2;
+  MXCSR = MXCSR & 0xffffffc0 |
+          -(uint)((param_1 & 1) != 0) & 0x20 | -(uint)((param_1 & 2) != 0) & 0x10 |
+          -(uint)((param_1 & 4) != 0) & 8 | -(uint)((param_1 & 8) != 0) & 4 | uVar1 |
+          (uVar1 - bVar2) - (uint)((param_1 & 0x20) != 0) & 2;
+  return;
+}
+

@@ -1,0 +1,28 @@
+/* Ghidra pseudocode. Image: pe_00000000_8664.exe Address: 14044ab00 */
+
+void FUN_14044ab00(longlong param_1)
+
+{
+  code *pcVar1;
+  longlong lVar2;
+  int iVar3;
+  
+  lVar2 = _malloc_base();
+  while( true ) {
+    if (lVar2 != 0) {
+      return;
+    }
+    iVar3 = FUN_14048eff0(param_1);
+    if (iVar3 == 0) break;
+    lVar2 = _malloc_base(param_1);
+  }
+  if (param_1 == -1) {
+    FUN_140457950();
+    pcVar1 = (code *)swi(3);
+    (*pcVar1)();
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_14044ac40();
+}
+

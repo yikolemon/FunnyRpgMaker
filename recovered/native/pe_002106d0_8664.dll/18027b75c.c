@@ -1,0 +1,59 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 18027b75c */
+
+bool FUN_18027b75c(input_processor<char,__crt_stdio_input::string_input_adapter<char>_> *param_1)
+
+{
+  input_processor<char,__crt_stdio_input::string_input_adapter<char>_> iVar1;
+  input_processor<char,__crt_stdio_input::string_input_adapter<char>_> *piVar2;
+  longlong lVar3;
+  bool bVar4;
+  undefined1 uVar5;
+  int iVar6;
+  
+  iVar6 = *(int *)(param_1 + 0x34);
+  if (iVar6 == 2) {
+    iVar6 = FUN_18027bc84(param_1 + 8,*(undefined8 *)(param_1 + 0x78));
+    lVar3 = *(longlong *)(param_1 + 0x18);
+    if ((lVar3 != *(longlong *)(param_1 + 8)) &&
+       ((lVar3 != *(longlong *)(param_1 + 0x10) || (iVar6 != -1)))) {
+      *(longlong *)(param_1 + 0x18) = lVar3 + -1;
+    }
+    bVar4 = true;
+  }
+  else {
+    if (iVar6 == 3) {
+      piVar2 = *(input_processor<char,__crt_stdio_input::string_input_adapter<char>_> **)
+                (param_1 + 0x18);
+      if (piVar2 != *(input_processor<char,__crt_stdio_input::string_input_adapter<char>_> **)
+                     (param_1 + 0x10)) {
+        iVar1 = *piVar2;
+        *(input_processor<char,__crt_stdio_input::string_input_adapter<char>_> **)(param_1 + 0x18) =
+             piVar2 + 1;
+        if (iVar1 == param_1[0x38]) {
+          uVar5 = FUN_18027b814(param_1);
+          return (bool)uVar5;
+        }
+        if (piVar2 + 1 !=
+            *(input_processor<char,__crt_stdio_input::string_input_adapter<char>_> **)(param_1 + 8))
+        {
+          *(input_processor<char,__crt_stdio_input::string_input_adapter<char>_> **)(param_1 + 0x18)
+               = piVar2;
+        }
+      }
+    }
+    else if (iVar6 == 4) {
+      bVar4 = __crt_stdio_input::
+              input_processor<char,__crt_stdio_input::string_input_adapter<char>_>::
+              process_conversion_specifier(param_1);
+      if (((bVar4) && (*(int *)(param_1 + 0x50) != 9)) &&
+         (param_1[0x3a] == (input_processor<char,__crt_stdio_input::string_input_adapter<char>_>)0x0
+         )) {
+        *(longlong *)(param_1 + 0x88) = *(longlong *)(param_1 + 0x88) + 1;
+      }
+      return bVar4;
+    }
+    bVar4 = false;
+  }
+  return bVar4;
+}
+

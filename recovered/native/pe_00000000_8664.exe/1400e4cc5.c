@@ -1,0 +1,41 @@
+/* Ghidra pseudocode. Image: pe_00000000_8664.exe Address: 1400e4cc5 */
+
+void FUN_1400e4cc5(longlong param_1,int param_2,int param_3)
+
+{
+  longlong lVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  int iVar4;
+  uint uVar5;
+  int iVar6;
+  
+  if (param_2 == -1) {
+    param_2 = *(int *)(*(longlong *)(param_1 + 0x38) + 0x1c);
+  }
+  lVar1 = *(longlong *)(param_1 + 0x2b0);
+  if (param_3 == -1) {
+    param_3 = *(int *)(*(longlong *)(param_1 + 0x38) + 0x20);
+  }
+  iVar6 = *(int *)(param_1 + 8) + -1;
+  uVar5 = *(int *)(lVar1 + 0xa8) + iVar6;
+  uVar5 = (int)uVar5 >> 1 | uVar5;
+  uVar5 = (int)uVar5 >> 2 | uVar5;
+  uVar5 = (int)uVar5 >> 4 | uVar5;
+  uVar5 = (int)uVar5 >> 8 | uVar5;
+  uVar2 = FUN_1400796a5(param_2 << (param_2 < param_3),((int)uVar5 >> 0x10 | uVar5) + 1);
+  uVar5 = iVar6 + *(int *)(lVar1 + 0xac);
+  uVar5 = (int)uVar5 >> 1 | uVar5;
+  uVar5 = (int)uVar5 >> 2 | uVar5;
+  uVar5 = (int)uVar5 >> 4 | uVar5;
+  uVar5 = (int)uVar5 >> 8 | uVar5;
+  uVar3 = FUN_1400796a5(param_3 << (param_3 <= param_2),((int)uVar5 >> 0x10 | uVar5) + 1);
+  iVar6 = FUN_1400a4c0f(uVar2,*(undefined4 *)(param_1 + 0xc),*(undefined4 *)(param_1 + 0x14));
+  iVar4 = FUN_1400a4c0f(uVar3,*(undefined4 *)(param_1 + 0x10),*(undefined4 *)(param_1 + 0x18));
+  if ((iVar6 == param_2) && (iVar4 == param_3)) {
+    return;
+  }
+  FUN_1400e46ef(param_1,iVar6,iVar4);
+  return;
+}
+

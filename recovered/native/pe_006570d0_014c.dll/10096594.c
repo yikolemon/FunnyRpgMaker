@@ -1,0 +1,97 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 10096594 */
+
+undefined1 * __fastcall FUN_10096594(undefined1 *param_1)
+
+{
+  undefined4 *puVar1;
+  int iVar2;
+  undefined1 *local_5c;
+  undefined1 *local_58;
+  undefined1 *local_54;
+  undefined1 *local_50;
+  undefined1 *local_4c;
+  undefined1 *local_48;
+  undefined1 *local_44;
+  undefined1 *local_40;
+  undefined1 *local_3c;
+  undefined1 *local_38;
+  undefined1 *local_34;
+  undefined1 *local_30;
+  undefined4 local_2c;
+  undefined1 local_25;
+  undefined1 *local_24;
+  undefined1 *local_20;
+  void *local_1c;
+  undefined1 *local_18;
+  undefined4 local_14;
+  
+  local_20 = (undefined1 *)&local_5c;
+  local_18 = &LAB_100c3ac0;
+  local_1c = ExceptionList;
+  ExceptionList = &local_1c;
+  *param_1 = 0;
+  *(undefined4 *)(param_1 + 4) = 0;
+  *(undefined4 *)(param_1 + 8) = 0;
+  *(undefined4 *)(param_1 + 0xc) = 0;
+  *(undefined4 *)(param_1 + 0x10) = 0;
+  *(undefined8 *)(param_1 + 0x14) = 0;
+  local_14 = 0;
+  local_5c = param_1 + 0x1c;
+  local_24 = param_1;
+  FUN_100012b0(L"");
+  local_58 = local_24 + 0x34;
+  *(undefined4 *)(local_24 + 0x34) = 0;
+  *(undefined4 *)(local_24 + 0x38) = 0;
+  *(undefined4 *)(local_24 + 0x3c) = 0;
+  local_14 = 2;
+  local_54 = local_24 + 0x40;
+  FUN_100012b0(L"");
+  local_14 = 3;
+  local_50 = local_24 + 0x58;
+  FUN_100012b0(L"");
+  local_4c = local_24 + 0x70;
+  *(undefined4 *)(local_24 + 0x70) = 0;
+  *(undefined4 *)(local_24 + 0x74) = 0;
+  *(undefined4 *)(local_24 + 0x78) = 0;
+  local_48 = local_24 + 0x7c;
+  *(undefined4 *)(local_24 + 0x7c) = 0;
+  *(undefined4 *)(local_24 + 0x80) = 0;
+  *(undefined4 *)(local_24 + 0x84) = 0;
+  local_44 = local_24 + 0x88;
+  *(undefined4 *)(local_24 + 0x88) = 0;
+  *(undefined4 *)(local_24 + 0x8c) = 0;
+  *(undefined4 *)(local_24 + 0x90) = 0;
+  local_40 = local_24 + 0x94;
+  *(undefined4 *)(local_24 + 0x94) = 0;
+  *(undefined4 *)(local_24 + 0x98) = 0;
+  *(undefined4 *)(local_24 + 0x9c) = 0;
+  local_3c = local_24 + 0xa0;
+  *(undefined4 *)(local_24 + 0xa0) = 0;
+  *(undefined4 *)(local_24 + 0xa4) = 0;
+  *(undefined4 *)(local_24 + 0xa8) = 0;
+  local_38 = local_24 + 0xac;
+  iVar2 = 0xc0;
+  do {
+    puVar1 = (undefined4 *)(local_24 + iVar2 + -0x14);
+    *puVar1 = 0;
+    puVar1[1] = 0;
+    puVar1[2] = 0;
+    puVar1[3] = 0;
+    *(undefined4 *)(local_24 + iVar2 + -4) = 0;
+    *(undefined4 *)(local_24 + iVar2) = 7;
+    iVar2 = iVar2 + 0x18;
+  } while (iVar2 != 0xa20);
+  local_25 = 0;
+  local_2c = 0xa0c;
+  local_14 = 10;
+  local_34 = local_24 + 0xa0c;
+  FUN_100012b0(L"");
+  local_14 = 0xb;
+  local_30 = local_24 + 0xa24;
+  FUN_100012b0(L"");
+  *(undefined4 *)(local_24 + 0xa3c) = 0;
+  local_24[0xa40] = 0;
+  ExceptionList = local_1c;
+  return local_24;
+}
+

@@ -1,0 +1,13 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 1028a975 */
+
+FARPROC GetProcAddress(HMODULE hModule,LPCSTR lpProcName)
+
+{
+  FARPROC pFVar1;
+  
+                    /* WARNING: Could not recover jumptable at 0x1028a975. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  pFVar1 = GetProcAddress(hModule,lpProcName);
+  return pFVar1;
+}
+

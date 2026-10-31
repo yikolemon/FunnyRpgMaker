@@ -1,0 +1,11 @@
+/* Ghidra pseudocode. Image: pe_00d3d4d0_014c.exe Address: 0049203e */
+
+void FUN_0049203e(void)
+
+{
+  int unaff_EBP;
+  
+  __unlock_file(*(FILE **)(unaff_EBP + 8));
+  return;
+}
+

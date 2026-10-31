@@ -1,0 +1,1862 @@
+address	value
+0041c186	PRhh R
+0041c1af	PRhp R
+004a87cc	iostream stream error
+004d0754	..-         -XXXXXXX-    X    -           X           -XXXXXXX          -          XXXXXXX-     XX          - XX       XX ..-         -X.....X-   X.X   -          X.X          -X.....X          -          X.....X-    X..X         -X..X     X..X---         -XXX.XXX-  X...X  -         X...X         -X....X           -           X....X-    X..X         -X...X   X...XX           -  X.X  - X.....X -        X.....X        -X...X            -            X...X-    X..X         - X...X X...X XX          -  X.X  -X.......X-       X.......X       -X..X.X           -           X.X..X-    X..X         -  X...X...X  X.X         -  X.X  -XXXX.XXXX-       XXXX.XXXX       -X.X X.X          -          X.X X.X-    X..XXX       -   X.....X   X..X        -  X.X  -   X.X   -          X.X          -XX   X.X         -         X.X   XX-    X..X..XXX    -    X...X    X...X       -  X.X  -   X.X   -    XX    X.X    XX    -      X.X        -        X.X      -    X..X..X..XX  -     X.X     X....X      -  X.X  -   X.X   -   X.X    X.X    X.X   -       X.X       -       X.X       -    X..X..X..X.X -    X...X    X.....X     -  X.X  -   X.X   -  X..X    X.X    X..X  -        X.X      -      X.X        -XXX X..X..X..X..X-   X.....X   X......X    -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -         X.X   XX-XX   X.X         -X..XX........X..X-  X...X...X  X.......X   -  X.X  -   X.X   -X.....................X-          X.X X.X-X.X X.X          -X...X...........X- X...X X...X X........X  -  X.X  -   X.X   - X...XXXXXX.XXXXXX...X -           X.X..X-X..X.X           - X..............X-X...X   X...XX.........X -XXX.XXX-   X.X   -  X..X    X.X    X..X  -            X...X-X...X            -  X.............X-X..X     X..XX..........X-X.....X-   X.X   -   X.X    X.X    X.X   -           X....X-X....X           -  X.............X- XX       XX X......XXXXX-XXXXXXX-   X.X   -    XX    X.X    XX    -          X.....X-X.....X          -   X............X--------------X...X..X    ---------   X.X   -          X.X          -          XXXXXXX-XXXXXXX          -   X...........X -             X..X X..X   -       -XXXX.XXXX-       XXXX.XXXX       -------------------------------------    X..........X -             X.X  X..X   -       -X.......X-       X.......X       -    XX           XX    -           -    X..........X -             XX    X..X  -       - X.....X -        X.....X        -   X.X           X.X   -           -     X........X  -                   X..X  -       -  X...X  -         X...X         -  X..X           X..X  -           -     X........X  -                    XX   -       -   X.X   -          X.X          - X...XXXXXXXXXXXXX...X -           -     XXXXXXXXXX  -             -------------       -    X    -           X           -X.....................X-           -------------------                                 ----------------------------------- X...XXXXXXXXXXXXX...X -                                                                                                 -  X..X           X..X  -                                                                                                 -   X.X           X.X   -                                                                                                 -    XX           XX    -                                           
+004d3d34	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`a
+004dd780	H E Z L O C U S
+004dd79e	u v x z o e s c
+004dd7ae	n r x z o e s c
+004e0690	mldAbarAnmrAtsvAumaBgneBdhuBmkaCsnaCiraCrehCtpoCtrpClryCaveDtrsDihtEroeG
+004e06dc	galGhtoGkerGrjuGuruGrbeHilaKrmhK
+004e0700	adnKooaLntaL
+004e0714	usiLmylMfdeMgnoMrmyMookN
+004e0730	kclOhkrOegsOamsOghoRruaSwahShniSdnuSlmaTtvaTuleTgnfTiahTiiaVbmiLayrOolyStbiTinaH0 1 2 3 4 5 6 7 8 9
+004e2a80	DFGirl-W6-WIN-BF
+004e2a94	DFGothic-EB
+004e2ad0	DFHSGothic-W5
+004e2ae4	DFHSMincho-W3
+004e2af8	DFHSMincho-W7
+004e2b0c	DFKaiSho-SB
+004e2b48	DFMing
+004e2b70	HuaTianKaiTi?
+004e2b84	HuaTianSongTi?
+004e2b98	Ming(for ISO10646)
+004e2bac	MingLiU
+004e2bc0	MingMedium
+004e2bd4	PMingLiU
+004e2be8	MingLi43
+004e3d86	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_
+004e3e4a	`abcdefghijklmn
+004e5cc0	%!PS-TrueTypeFont
+004e6e78	.null
+004e6e7e	nonmarkingreturn
+004e6e8f	notequal
+004e6e98	infinity
+004e6ea1	lessequal
+004e6eab	greaterequal
+004e6eb8	partialdiff
+004e6ec4	summation
+004e6ece	product
+004e6ed9	integral
+004e6ee8	radical
+004e6ef0	approxequal
+004e6efc	Delta
+004e6f02	nonbreakingspace
+004e6f13	lozenge
+004e6f1b	apple
+004e6f21	franc
+004e6f27	Gbreve
+004e6f2e	gbreve
+004e6f35	Idotaccent
+004e6f40	Scedilla
+004e6f49	scedilla
+004e6f52	Cacute
+004e6f59	cacute
+004e6f60	Ccaron
+004e6f67	ccaron
+004e6f75	.notdef
+004e6f7d	space
+004e6f83	exclam
+004e6f8a	quotedbl
+004e6f93	numbersign
+004e6f9e	dollar
+004e6fa5	percent
+004e6fad	ampersand
+004e6fb7	quoteright
+004e6fc2	parenleft
+004e6fcc	parenright
+004e6fd7	asterisk
+004e6fe5	comma
+004e6feb	hyphen
+004e6ff2	period
+004e6ff9	slash
+004e700c	three
+004e7020	seven
+004e7026	eight
+004e7031	colon
+004e7037	semicolon
+004e7046	equal
+004e704c	greater
+004e7054	question
+004e7094	bracketleft
+004e70a0	backslash
+004e70aa	bracketright
+004e70b7	asciicircum
+004e70c3	underscore
+004e70ce	quoteleft
+004e710c	braceleft
+004e711a	braceright
+004e7125	asciitilde
+004e7130	exclamdown
+004e7140	sterling
+004e7149	fraction
+004e7156	florin
+004e715d	section
+004e7165	currency
+004e716e	quotesingle
+004e717a	quotedblleft
+004e7187	guillemotleft
+004e7195	guilsinglleft
+004e71a3	guilsinglright
+004e71b8	endash
+004e71bf	dagger
+004e71c6	daggerdbl
+004e71d0	periodcentered
+004e71df	paragraph
+004e71e9	bullet
+004e71f0	quotesinglbase
+004e71ff	quotedblbase
+004e720c	quotedblright
+004e721a	guillemotright
+004e7229	ellipsis
+004e7232	perthousand
+004e723e	questiondown
+004e724b	grave
+004e7251	acute
+004e7257	circumflex
+004e7262	tilde
+004e7268	macron
+004e726f	breve
+004e7275	dotaccent
+004e727f	dieresis
+004e728d	cedilla
+004e7295	hungarumlaut
+004e72a9	caron
+004e72b9	ordfeminine
+004e72c5	Lslash
+004e72cc	Oslash
+004e72d6	ordmasculine
+004e72e6	dotlessi
+004e72ef	lslash
+004e72f6	oslash
+004e7300	germandbls
+004e730b	onesuperior
+004e7317	logicalnot
+004e7325	trademark
+004e7333	onehalf
+004e733b	plusminus
+004e7345	Thorn
+004e734b	onequarter
+004e7356	divide
+004e735d	brokenbar
+004e7367	degree
+004e736e	thorn
+004e7374	threequarters
+004e7382	twosuperior
+004e738e	registered
+004e7399	minus
+004e73a3	multiply
+004e73ac	threesuperior
+004e73ba	copyright
+004e73c4	Aacute
+004e73cb	Acircumflex
+004e73d7	Adieresis
+004e73e1	Agrave
+004e73e8	Aring
+004e73ee	Atilde
+004e73f5	Ccedilla
+004e73fe	Eacute
+004e7405	Ecircumflex
+004e7411	Edieresis
+004e741b	Egrave
+004e7422	Iacute
+004e7429	Icircumflex
+004e7435	Idieresis
+004e743f	Igrave
+004e7446	Ntilde
+004e744d	Oacute
+004e7454	Ocircumflex
+004e7460	Odieresis
+004e746a	Ograve
+004e7471	Otilde
+004e7478	Scaron
+004e747f	Uacute
+004e7486	Ucircumflex
+004e7492	Udieresis
+004e749c	Ugrave
+004e74a3	Yacute
+004e74aa	Ydieresis
+004e74b4	Zcaron
+004e74bb	aacute
+004e74c2	acircumflex
+004e74ce	adieresis
+004e74d8	agrave
+004e74df	aring
+004e74e5	atilde
+004e74ec	ccedilla
+004e74f5	eacute
+004e74fc	ecircumflex
+004e7508	edieresis
+004e7512	egrave
+004e7519	iacute
+004e7520	icircumflex
+004e752c	idieresis
+004e7536	igrave
+004e753d	ntilde
+004e7544	oacute
+004e754b	ocircumflex
+004e7557	odieresis
+004e7561	ograve
+004e7568	otilde
+004e756f	scaron
+004e7576	uacute
+004e757d	ucircumflex
+004e7589	udieresis
+004e7593	ugrave
+004e759a	yacute
+004e75a1	ydieresis
+004e75ab	zcaron
+004e75b2	exclamsmall
+004e75be	Hungarumlautsmall
+004e75d0	dollaroldstyle
+004e75df	dollarsuperior
+004e75ee	ampersandsmall
+004e75fd	Acutesmall
+004e7608	parenleftsuperior
+004e761a	parenrightsuperior
+004e762d	twodotenleader
+004e763c	onedotenleader
+004e764b	zerooldstyle
+004e7658	oneoldstyle
+004e7664	twooldstyle
+004e7670	threeoldstyle
+004e767e	fouroldstyle
+004e768b	fiveoldstyle
+004e7698	sixoldstyle
+004e76a4	sevenoldstyle
+004e76b2	eightoldstyle
+004e76c0	nineoldstyle
+004e76cd	commasuperior
+004e76db	threequartersemdash
+004e76ef	periodsuperior
+004e76fe	questionsmall
+004e770c	asuperior
+004e7716	bsuperior
+004e7720	centsuperior
+004e772d	dsuperior
+004e7737	esuperior
+004e7741	isuperior
+004e774b	lsuperior
+004e7755	msuperior
+004e775f	nsuperior
+004e7769	osuperior
+004e7773	rsuperior
+004e777d	ssuperior
+004e7787	tsuperior
+004e779c	parenleftinferior
+004e77ae	parenrightinferior
+004e77c1	Circumflexsmall
+004e77d1	hyphensuperior
+004e77e0	Gravesmall
+004e77eb	Asmall
+004e77f2	Bsmall
+004e77f9	Csmall
+004e7800	Dsmall
+004e7807	Esmall
+004e780e	Fsmall
+004e7815	Gsmall
+004e781c	Hsmall
+004e7823	Ismall
+004e782a	Jsmall
+004e7831	Ksmall
+004e7838	Lsmall
+004e783f	Msmall
+004e7846	Nsmall
+004e784d	Osmall
+004e7854	Psmall
+004e785b	Qsmall
+004e7862	Rsmall
+004e7869	Ssmall
+004e7870	Tsmall
+004e7877	Usmall
+004e787e	Vsmall
+004e7885	Wsmall
+004e788c	Xsmall
+004e7893	Ysmall
+004e789a	Zsmall
+004e78a1	colonmonetary
+004e78af	onefitted
+004e78c0	Tildesmall
+004e78cb	exclamdownsmall
+004e78db	centoldstyle
+004e78e8	Lslashsmall
+004e78f4	Scaronsmall
+004e7900	Zcaronsmall
+004e790c	Dieresissmall
+004e791a	Brevesmall
+004e7925	Caronsmall
+004e7930	Dotaccentsmall
+004e793f	Macronsmall
+004e794b	figuredash
+004e7956	hypheninferior
+004e7965	Ogoneksmall
+004e7971	Ringsmall
+004e797b	Cedillasmall
+004e7988	questiondownsmall
+004e799a	oneeighth
+004e79a4	threeeighths
+004e79b1	fiveeighths
+004e79bd	seveneighths
+004e79ca	onethird
+004e79d3	twothirds
+004e79dd	zerosuperior
+004e79ea	foursuperior
+004e79f7	fivesuperior
+004e7a04	sixsuperior
+004e7a10	sevensuperior
+004e7a1e	eightsuperior
+004e7a2c	ninesuperior
+004e7a39	zeroinferior
+004e7a46	oneinferior
+004e7a52	twoinferior
+004e7a5e	threeinferior
+004e7a6c	fourinferior
+004e7a79	fiveinferior
+004e7a86	sixinferior
+004e7a92	seveninferior
+004e7aa0	eightinferior
+004e7aae	nineinferior
+004e7abb	centinferior
+004e7ac8	dollarinferior
+004e7ad7	periodinferior
+004e7ae6	commainferior
+004e7af4	Agravesmall
+004e7b00	Aacutesmall
+004e7b0c	Acircumflexsmall
+004e7b1d	Atildesmall
+004e7b29	Adieresissmall
+004e7b38	Aringsmall
+004e7b43	AEsmall
+004e7b4b	Ccedillasmall
+004e7b59	Egravesmall
+004e7b65	Eacutesmall
+004e7b71	Ecircumflexsmall
+004e7b82	Edieresissmall
+004e7b91	Igravesmall
+004e7b9d	Iacutesmall
+004e7ba9	Icircumflexsmall
+004e7bba	Idieresissmall
+004e7bc9	Ethsmall
+004e7bd2	Ntildesmall
+004e7bde	Ogravesmall
+004e7bea	Oacutesmall
+004e7bf6	Ocircumflexsmall
+004e7c07	Otildesmall
+004e7c13	Odieresissmall
+004e7c22	OEsmall
+004e7c2a	Oslashsmall
+004e7c36	Ugravesmall
+004e7c42	Uacutesmall
+004e7c4e	Ucircumflexsmall
+004e7c5f	Udieresissmall
+004e7c6e	Yacutesmall
+004e7c7a	Thornsmall
+004e7c85	Ydieresissmall
+004e7cb4	Black
+004e7cc4	Light
+004e7cca	Medium
+004e7cd1	Regular
+004e7cd9	Roman
+004e7cdf	Semibold
+004e8278	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_
+004e833c	`abcdefghijklmn
+004f6124	Delta
+004f612a	Omega
+004f6130	fraction
+004f6139	hyphen
+004f6140	macron
+004f614a	periodcentered
+004f6159	space
+004f615f	Tcommaaccent
+004f616c	tcommaaccent
+004f68d0	0123456789ABCDEF
+00501960	log10
+00502901	BlueFuzz
+0050290a	hb_set_is_empty
+0050291a	Registry
+00502923	FontDirectory
+00502931	February
+0050293a	January
+00502942	primary
+0050294a	tertiary
+00502953	secondary
+0050295d	hb_font_destroy
+0050296d	hb_set_destroy
+0050297c	hb_buffer_destroy
+0050298e	hb_face_destroy
+0050299e	hb_blob_destroy
+005029ae	WantDestroy
+005029bf	KeypadMultiply
+005029ce	lenBuildCharArray
+005029e0	FDArray
+005029e8	Thursday
+005029f1	Tuesday
+005029f9	Wednesday
+00502a03	Saturday
+00502a0c	Sunday
+00502a13	Monday
+00502a1a	Friday
+00502a2c	psaux
+00502a32	FontBBox
+00502a3b	FontMatrix
+00502a46	hb_face_set_index
+00502a5b	RightArrow
+00502a66	LeftArrow
+00502a70	UpArrow
+00502a78	DownArrow
+00502a82	BorderShadow
+00502a8f	DockingPreview
+00502ab1	%I64u
+00502aba	hb_set_next
+00502acb	August
+00502ad2	hb_version_atleast
+00502ae5	bad cast
+00502aee	Insert
+00502af5	GamepadStart
+00502b02	default-script
+00502b11	fallback-script
+00502b21	SubrCount
+00502b2b	CIDCount
+00502b34	IsBaseFont
+00502b3f	%!PS-AdobeFont
+00502b4e	IsCIDFont
+00502b58	%!PS-Adobe-3.0 Resource-CIDFont
+00502b78	Invalid presentation type for floating-point
+00502baa	Content
+00502bb2	Supplement
+00502bbd	GraveAccent
+00502bc9	Slant
+00502bcf	RightAlt
+00502bd8	LeftAlt
+00502be0	TableRowBgAlt
+00502bee	ModAlt
+00502bf5	FixedFit
+00502bfe	surface_bright
+00502c0d	NavWindowingHighlight
+00502c23	increase-x-height
+00502c35	Weight
+00502c3c	CapHeight
+00502c46	XHeight
+00502c4e	GamepadRStickRight
+00502c61	GamepadLStickRight
+00502c74	MouseRight
+00502c7f	GamepadFaceRight
+00502c90	GamepadDpadRight
+00502ca1	TableBorderLight
+00502cb2	RightShift
+00502cbd	LeftShift
+00502cc7	BlueShift
+00502cd1	ModShift
+00502cda	GamepadRStickLeft
+00502cec	GamepadLStickLeft
+00502cfe	MouseLeft
+00502d08	GamepadFaceLeft
+00502d18	GamepadDpadLeft
+00502d28	SubrMapOffset
+00502d36	CIDMapOffset
+00502d43	ios_base::failbit set
+00502d59	ios_base::eofbit set
+00502d6e	ios_base::badbit set
+00502d83	invalid literal/lengths set
+00502d9f	invalid code lengths set
+00502db8	unknown header flags set
+00502dd1	invalid distances set
+00502de7	RightBracket
+00502df4	LeftBracket
+00502e00	DragDropTarget
+00502e0f	CharacterSet
+00502e1c	glyph-dict
+00502e27	%ADOBeginFontDict
+00502e39	ColumnsRect
+00502e45	OuterRect
+00502e4f	InnerRect
+00502e59	HostClipRect
+00502e66	ColumnsClipRect
+00502e76	InnerClipRect
+00502e84	BackgroundClipRect
+00502e97	ContentRegionRect
+00502ea9	ColumnsWorkRect
+00502eb9	hb_set_subtract
+00502ec9	KeypadSubtract
+00502edc	float
+00502ee2	font-format
+00502eee	invalid bit length repeat
+00502f0c	Invalid presentation type for wchar_t
+00502f32	integral cannot be stored in wchar_t
+00502f57	Minus
+00502f5d	exists
+00502f64	winfonts
+00502f6d	/sfnts
+00502f74	hb_buffer_clear_contents
+00502f8d	MetricsSets
+00502f99	UnderlineThickness
+00502fac	IsWow64Process
+00502fbb	StartKernPairs
+00502fca	EndKernPairs
+00502fd7	multi-masters
+00502fe5	darkening-parameters
+00502ffa	Characters
+0050300b	hb_ot_layout_collect_lookups
+00503028	tt-cmaps
+00503031	postscript-cmaps
+00503042	overlaps
+0050304b	hb_buffer_get_glyph_infos
+00503065	hb_buffer_get_glyph_positions
+00503083	BlendDesignPositions
+00503098	metrics-variations
+005030ab	too many length or distance symbols
+005030cf	svg-hooks
+005030d9	StartAxis
+005030e3	EndAxis
+005030eb	invalid stored block lengths
+00503108	hb_ot_layout_lookup_collect_glyphs
+0050312b	CharStrings
+00503137	BlueValues
+00503142	FamilyBlues
+0050314e	FamilyOtherBlues
+0050315f	SDBytes
+00503167	GDBytes
+0050316f	FDBytes
+00503177	StartComposites
+00503187	EndComposites
+00503195	WantUpdates
+005031a1	BlendAxisTypes
+005031b0	PlotLines
+005031ba	TreeLines
+005031c4	psnames
+005031cc	hb_face_create_for_tables
+005031e6	hb_buffer_guess_segment_properties
+00503209	pfr-metrics
+00503215	StartFontMetrics
+00503226	EndFontMetrics
+00503235	StartCharMetrics
+00503246	EndCharMetrics
+00503255	hb_set_has
+00503267	WeightVector
+00503274	DesignVector
+00503281	VVector
+00503289	ExpansionFactor
+00503299	Separator
+005032a3	NavCursor
+005032ad	InputTextCursor
+005032bd	error
+005032c7	autofitter
+005032d2	Invalid presentation type for pointer
+005032f8	pshinter
+00503301	KeypadEnter
+0050330d	RightSuper
+00503318	LeftSuper
+00503322	ModSuper
+0050332b	primary_container
+0050333d	tertiary_container
+00503350	secondary_container
+00503364	error_container
+00503374	UnsavedMarker
+00503382	Invalid presentation type specifier
+005033a6	Invalid presentation type for integer
+005033cc	Border
+005033d3	Reset order###ResetOrder
+005033ec	Descender
+005033f6	Ascender
+005033ff	Header
+00503406	October
+0050340e	November
+00503417	September
+00503421	December
+0050342a	Regular
+00503432	EscChar
+0050343a	hb_set_clear
+0050344b	Hide tab bar###HideTabBar
+00503465	LanguageGroup
+00503473	StretchProp
+0050347f	ResizeGrip
+0050348e	glyph-to-script-map
+005034a2	BlendDesignMap
+005034b1	GamepadRStickUp
+005034c1	GamepadLStickUp
+005034d1	PageUp
+005034d8	GamepadFaceUp
+005034e6	GamepadDpadUp
+005034f7	postscript-info
+00503507	known
+0050350d	GamepadRStickDown
+0050351f	GamepadLStickDown
+00503531	PageDown
+0050353a	GamepadFaceDown
+0050354a	GamepadDpadDown
+00503562	StartTrackKern
+00503571	EndTrackKern
+0050357e	Button
+00503585	Semicolon
+0050358f	Unknown exception
+005035a1	invalid string position
+005035b9	UnderlinePosition
+005035cb	StartDirection
+005035da	EndDirection
+005035e7	bad allocation
+005035f6	interpreter-version
+0050360a	CIDFontVersion
+0050361d	flip_sign
+00503627	ColumnsContentUnfrozen
+0050363e	ColumnsContentFrozen
+00503653	PrintScreen
+0050365f	TouchScreen
+00503677	surface_dim
+00503683	primary_fixed_dim
+00503695	tertiary_fixed_dim
+005036a8	secondary_fixed_dim
+005036bc	system
+005036c3	hb_face_set_upem
+005036d4	PlotHistogram
+005036e2	iostream
+005036ef	RightCtrl
+005036f9	LeftCtrl
+00503702	ModCtrl
+0050370a	Invalid presentation type for bool
+0050372d	libharfbuzz-0.dll
+0050373f	Size all columns to default###SizeAll
+00503765	Size all columns to fit###SizeAll
+00503787	April
+0050378d	hb_set_del
+00503798	AxisLabel
+005037a2	KeypadEqual
+005037ae	KeypadDecimal
+005037bc	ContentIdeal
+005037c9	ColumnsContentHeadersIdeal
+005037e4	critical
+005037ed	CheckMark
+005037f7	Copy Link###CopyLink
+0050380c	TextLink
+00503815	invalid code -- missing end-of-block
+0050383a	CapsLock
+00503843	NumLock
+0050384b	ScrollLock
+00503856	incorrect header check
+0050386d	incorrect length check
+00503884	incorrect data check
+00503899	Black
+0050389f	invalid distance too far back
+005038bd	AppBack
+005038c5	GamepadBack
+005038d5	smooth
+005038dc	hb_buffer_get_length
+005038f1	bad array new length
+00503906	CharWidth
+00503910	StrokeWidth
+0050391c	Backslash
+00503926	Slash
+0050392c	isFixedPitch
+00503939	IsFixedPitch
+00503946	header crc mismatch
+0050395a	March
+00503960	ot-svg
+00503967	debug
+00503971	TableBorderStrong
+00503983	list too long
+00503991	string too long
+005039a1	Can not switch from automatic to manual indexing
+005039d2	Can not switch from manual to automatic indexing
+00503a03	Invalid presentation type for string
+00503a28	Ordering
+00503a31	kerning
+00503a39	warning
+00503a41	no-stem-darkening
+00503a53	ExpertEncoding
+00503a62	StandardEncoding
+00503a73	ISOLatin1Encoding
+00503a85	Number is too big
+00503a97	DockingEmptyBg
+00503aa6	WindowBg
+00503aaf	TableRowBg
+00503aba	DragDropTargetBg
+00503acb	TableHeaderBg
+00503ad9	ScrollbarBg
+00503ae5	MenuBarBg
+00503aef	PopupBg
+00503af7	ModalWindowDimBg
+00503b08	NavWindowingDimBg
+00503b1a	FrameBg
+00503b22	TitleBg
+00503b2a	ChildBg
+00503b32	CheckboxSelectedBg
+00503b45	TextSelectedBg
+00503b54	tt-glyf
+00503b70	.notdef
+00503b85	V:%0.3f
+00503b8d	S:%0.3f
+00503b95	R:%0.3f
+00503b9d	H:%0.3f
+00503ba5	G:%0.3f
+00503bad	B:%0.3f
+00503bb7	%0.3f
+00503bc5	invalid window size
+00503bd9	OpticalSize
+00503be5	SeparatorActive
+00503bf5	HeaderActive
+00503c02	ResizeGripActive
+00503c13	ButtonActive
+00503c20	FrameBgActive
+00503c2e	TitleBgActive
+00503c3c	SliderGrabActive
+00503c4d	ScrollbarGrabActive
+00503c66	Oblique
+00503c72	hb_ot_layout_lookup_would_substitute
+00503c97	absolute
+00503ca0	Delete
+00503ca7	Private
+00503caf	hb_font_create
+00503cbe	hb_set_create
+00503ccc	hb_buffer_create
+00503cdd	hb_face_create
+00503cec	hb_blob_create
+00503cfb	WantCreate
+00503d06	Mouse
+00503d0c	Pause
+00503d12	false
+00503d18	UIDBase
+00503d20	MinFeature
+00503d2b	truetype
+00503d34	Zero modifier requires an arithmetic or pointer presentation type
+00503d76	Hash/sign modifier requires an arithmetic presentation type
+00503db2	invalid block type
+00503dc5	CIDFontType
+00503dd1	%!FontType
+00503ddc	PaintType
+00503de6	AxisType
+00503def	TrueType
+00503df8	/FSType
+00503e00	hb_shape
+00503e09	Escape
+00503e1a	TabDimmedSelectedOverline
+00503e34	TabSelectedOverline
+00503e48	hinting-engine
+00503e57	truetype-engine
+00503e67	Size column to fit###SizeOne
+00503e89	MappingScheme
+00503e97	EncodingScheme
+00503ea6	postscript-font-name
+00503ebb	bad locale name
+00503ecb	StretchSame
+00503ed7	FixedSame
+00503ee1	FamilyName
+00503eec	CIDFontName
+00503ef8	FullName
+00503f01	closefile
+00503f0b	ItalicAngle
+00503f17	MouseMiddle
+00503f23	double
+00503f2a	sfnt-table
+00503f35	hb_font_set_scale
+00503f47	BlueScale
+00503f51	Apostrophe
+00503f5c	hb_ot_tags_from_script_and_language
+00503f80	invalid literal/length code
+00503f9c	invalid distance code
+00503fb2	KeypadDivide
+00503fbf	Notice
+00503fc6	trace
+00503fcc	Backspace
+00503fd6	Space
+00503fdc	inverse_surface
+00503fec	hb_font_get_face
+00503ffd	adobe
+00504003	password
+0050400c	AppForward
+00504017	Keyboard
+00504020	Period
+00504027	unknown compression method
+00504042	background
+00504051	ForceBoldThreshold
+00504064	ForceBold
+0050406e	t1cid
+00504074	Destroyed
+0050407e	primary_fixed
+0050408c	tertiary_fixed
+0050409b	secondary_fixed
+005040ab	TabDimmedSelected
+005040bd	TabSelected
+005040c9	TitleBgCollapsed
+005040da	ColumnsContentHeadersUsed
+005040f4	PlotLinesHovered
+00504105	SeparatorHovered
+00504116	HeaderHovered
+00504124	ResizeGripHovered
+00504136	ButtonHovered
+00504144	PlotHistogramHovered
+00504159	FrameBgHovered
+00504168	ScrollbarGrabHovered
+0050417d	TabHovered
+00504188	OuterRectClipped
+00504199	TabDimmed
+005041a3	TextDisabled
+005041b0	random-seed
+005041c0	hb_set_add
+005041cb	KeypadAdd
+005041d5	Gamepad
+005041dd	cff-load
+005041e6	spread
+005041f0	%I64d
+005041f6	V:%3d
+005041fc	S:%3d
+00504202	R:%3d
+00504208	H:%3d
+0050420e	G:%3d
+00504214	B:%3d
+00504223	/..namedfork/rsrc
+00504235	generic
+0050423d	Bold Italic
+00504249	eexec
+00504257	SliderGrab
+00504262	ScrollbarGrab
+00504277	StartData
+00504281	StartKernData
+0050428f	EndKernData
+0050429b	Comma
+005042a4	\\\\.\\pipe\\
+005042b2	MouseWheelY
+005042be	RAW_SUPERSCRIPT_Y
+005042d0	RAW_SUBSCRIPT_Y
+005042e0	RESOLUTION_Y
+005042f0	CHARSET_REGISTRY
+00504301	FONTNAME_REGISTRY
+00504313	FOUNDRY
+0050432b	MouseWheelX
+00504337	RAW_SUPERSCRIPT_X
+00504349	RAW_SUBSCRIPT_X
+00504359	RESOLUTION_X
+00504379	StdVW
+0050437f	StdHW
+00504389	StemSnapV
+00504393	IsFixedV
+005043b3	STARTFONT
+005043bd	ENDFONT
+005043c5	Windows FNT
+005043d1	COMMENT
+005043d9	RAW_DESCENT
+005043e5	RAW_STRIKEOUT_DESCENT
+005043fb	FONT_DESCENT
+00504408	RAW_ASCENT
+00504413	RAW_STRIKEOUT_ASCENT
+00504428	FONT_ASCENT
+00504434	SLANT
+0050443a	COPYRIGHT
+00504444	RELATIVE_WEIGHT
+00504454	RAW_X_HEIGHT
+00504461	RAW_CAP_HEIGHT
+00504470	_MULE_BASELINE_OFFSET
+00504486	RAW_UNDERLINE_THICKNESS
+0050449e	CHARSET_COLLECTIONS
+005044b2	ENDPROPERTIES
+005044c0	_XFREE86_GLYPH_RANGES
+005044da	DEFAULT_CHAR
+005044e7	ENDCHAR
+005044f7	BITMAP
+00504500	RESOLUTION
+0050450b	RAW_UNDERLINE_POSITION
+00504522	DESTINATION
+0050452e	FunnyGamePlayer-GlobalHotkeyManager-FGGHM
+00504561	StemSnapH
+0050456b	RAW_AVG_CAPITAL_WIDTH
+00504581	RAW_AVG_LOWERCASE_WIDTH
+00504599	RAW_FIGURE_WIDTH
+005045aa	RAW_AVERAGE_WIDTH
+005045bc	RAW_QUAD_WIDTH
+005045cb	RELATIVE_SETWIDTH
+005045dd	USAGE: INJECT_DLL_PATH EXE_PATH
+00504604	CHARSET_ENCODING
+00504615	SPACING
+0050462c	RAW_SUPERSCRIPT_SIZE
+00504641	RAW_SUBSCRIPT_SIZE
+00504654	RAW_POINT_SIZE
+00504663	RAW_SMALL_CAP_SIZE
+00504676	RAW_PIXEL_SIZE
+00504685	RAW_POINTSIZE
+00504693	RAW_PIXELSIZE
+005046a1	_MULE_RELATIVE_COMPOSE
+005046b8	FAMILY_NAME
+005046c4	DEVICE_FONT_NAME
+005046d5	WEIGHT_NAME
+005046e1	FULL_NAME
+005046eb	SETWIDTH_NAME
+005046f9	ADD_STYLE_NAME
+00504708	FACE_NAME
+00504712	ITALIC_ANGLE
+0050471f	NOTICE
+00504726	RAW_MAX_SPACE
+00504734	RAW_MIN_SPACE
+00504742	RAW_NORM_SPACE
+00504751	RAW_END_SPACE
+0050475f	UniqueID
+0050477a	Keypad9
+0050478e	hb_buffer_add_utf8
+005047a1	Keypad8
+005047b6	.UTF-8
+005047bd	Keypad7
+005047cc	Keypad6
+005047e9	Keypad5
+005047f8	Keypad4
+00504813	Keypad3
+0050481b	GamepadR3
+00504825	GamepadL3
+0050483a	Keypad2
+00504842	MouseX2
+0050484a	GamepadR2
+00504854	GamepadL2
+00504861	type42
+00504868	Type 42
+00504887	StartKernPairs1
+00504897	raster1
+0050489f	type1
+005048a5	Keypad1
+005048ad	MouseX1
+005048b8	GamepadR1
+005048c2	GamepadL1
+005048e0	CID Type 1
+005048eb	StartKernPairs0
+005048fb	Keypad0
+00504914	resource.frk/
+00504922	.AppleDouble/
+00504930	.resource/
+0050493b	Hold SHIFT to enable Docking window.
+00504960	Format specifier requires numeric or pointer argument.
+00504997	Format specifier requires numeric argument.
+005049c3	Unknown format specifier.
+005049dd	Missing precision specifier.
+005049fa	Precision is not an integer.
+00504a17	Width is not an integer.
+00504a30	Invalid type specification.
+00504a4c	Negative precision.
+00504a60	String pointer is null.
+00504a78	Negative width.
+00504a88	Missing '}' in format string.
+00504aa6	Unmatched '}' in format string.
+00504ac6	Invalid format string.
+00504add	Number is too big.
+00504af0	Precision not allowed for this argument type.
+00504b1e	Click and drag to move or undock whole node.
+00504b4b	Argument not found.
+00504b5f	Invalid fill (too long).
+00504b78	char*
+00504b7e	(Main menu bar)
+00504b96	nan(snan)
+00504ba0	nan(ind)
+00504ba9	(Untitled)
+00504bb4	Dear ImGui 1.92.9 WIP (19281)
+00504bd2	invalid fill character '{'
+00504bed	Open '%s'
+00504c06	FONTBOUNDINGBOX 
+00504c1c	FONT 
+00504c22	CHARS 
+00504c29	STARTPROPERTIES 
+00504c3a	STARTCHAR 
+00504c45	SWIDTH 
+00504c55	ENCODING 
+00504c5f	SIZE 
+00504c65	INJECT_DLL_PATH not exist: 
+00504c81	EXE_PATH not exist: 
+00504c96	Failed to process global hotkey manager: {}
+00504cee	Failed to install global hotkey manager: {}
+00504d46	register hotkey
+00504d66	Unknown error
+00504d82	\\sysnative\\rundll32.exe
+00504db2	true
+00504dbc	false
+00504dc8	ERROR
+00504dd4	WINDIR
+00504de2	KERNEL32.DLL
+00504dfc	rundll32.exe "%s",#1
+00504e26	Win32 Error 
+00504e40	Unable to launch process: 
+00504e76	Failed to create process: 
+00504eac	[This PE file has an import table, but the import table size is marked as 0. This is an error.If it is not repaired, the launched program will not work properly, Detours has automatically repaired its import table size for you! ! !]\r\n
+00505090	dddd, MMMM dd, yyyy
+005050a4	MM/dd/yy
+005050b0	directory not empty
+005050c4	text file busy
+005050d4	device or resource busy
+005050ec	no such file or directory
+00505108	not a directory
+00505118	is a directory
+00505128	not enough memory
+0050513c	February
+00505148	January
+00505158	Thursday
+00505164	Tuesday
+0050516c	Wednesday
+00505178	Saturday
+00505184	Sunday
+0050518c	Monday
+00505194	Friday
+005051a0	GetDateFormatEx
+005051b0	GetTimeFormatEx
+005051c0	EnumSystemLocalesEx
+005051d4	GetLocaleInfoEx
+005051e4	LCMapStringEx
+005051f4	CompareStringEx
+00505218	stream timeout
+00505228	timed out
+00505234	August
+0050524c	invalid argument
+00505260	operator co_await
+00505274	connection reset
+00505288	network reset
+00505298	ios_base::failbit set
+005052b0	ios_base::eofbit set
+005052c8	ios_base::badbit set
+005052e0	not a socket
+005052f0	__restrict
+00505304	file exists
+00505310	connection already in progress
+00505330	operation in progress
+00505348	no such device or address
+00505364	bad address
+00505370	no such process
+00505380	no child process
+00505394	CorExitProcess
+005053a4	success
+005053ac	HH:mm:ss
+005053c4	too many symbolic link levels
+005053e4	too many links
+005053f4	no stream resources
+00505418	resource deadlock would occur
+0050543c	bad file descriptor
+00505450	operator
+0050545c	executable format error
+00505474	io error
+00505480	unknown error
+00505490	protocol error
+005054a0	floor
+005054a8	_nextafter
+005054b4	October
+005054bc	November
+005054c8	September
+005054d4	December
+00505500	network down
+00505518	no protocol option
+0050552c	bad exception
+0050553c	inappropriate io control operation
+00505570	argument out of domain
+00505588	resource unavailable try again
+005055a8	too many files open
+005055d0	too many files open in system
+005055f0	read only file system
+00505608	not a stream
+0050561c	__fastcall
+00505628	__thiscall
+00505634	__vectorcall
+00505644	__clrcall
+00505650	__stdcall
+0050565c	bad function call
+00505670	April
+00505680	__cdecl
+00505688	no link
+00505690	cross device link
+005056a4	invalid seek
+005056b4	operation would block
+005056f0	March
+00505700	argument list too long
+00505718	filename too long
+00505738	message size
+00505748	RoUninitialize
+00505758	RoInitialize
+0050576c	 delete
+00505774	address in use
+00505784	wrong protocol type
+00505798	AppPolicyGetThreadInitializationType
+005057c0	broken pipe
+005057d4	__preserve_none
+005057e4	GetUserDefaultLocaleName
+00505800	LCIDToLocaleName
+00505814	IsValidLocaleName
+00505828	state not recoverable
+00505840	address not available
+00505858	no lock available
+0050586c	no message available
+00505884	host unreachable
+00505898	network unreachable
+005058ac	value too large
+005058bc	file too large
+005058cc	result out of range
+005058e0	no message
+005058ec	bad message
+005058f8	illegal byte sequence
+00505910	no space on device
+00505924	no such device
+00505934	no buffer space
+0050594c	AppPolicyGetProcessTerminationMethod
+00505974	identifier removed
+00505988	operation not permitted
+005059a0	address family not supported
+005059c0	function not supported
+005059d8	operation not supported
+005059f0	protocol not supported
+00505a08	not supported
+00505a18	connection aborted
+00505a2c	interrupted
+00505a38	already connected
+00505a4c	not connected
+00505a5c	connection refused
+00505a70	destination address required
+00505a90	__unaligned
+00505a9c	operation canceled
+00505ab0	permission denied
+00505ac8	owner dead
+00505af0	 delete[]
+00505b00	1#SNAN
+00505b08	1#QNAN
+00505b24	AreFileApisANSI
+00505b38	1#INF
+00505b44	1#IND
+00505b4c	LocaleNameToLCID
+00505b68	operator<=>
+00505bc8	__swift_3
+00505bdc	FlsGetValue2
+00505bec	__swift_2
+00505bfc	__swift_1
+00505c0c	log10
+00505c3c	nan(snan)
+00505c48	(null)
+00505c50	nan(ind)
+00505c5c	NAN(SNAN)
+00505c68	NAN(IND)
+00505c78	restrict(
+00505c84	__based(
+00505c90	 Base Class Descriptor at (
+00505cac	 Base Class Array'
+00505cc0	 Class Hierarchy Descriptor'
+00505ce0	 Type Descriptor'
+00505cf4	`vector deleting destructor'
+00505d14	`scalar deleting destructor'
+00505d34	`vbase destructor'
+00505d48	`vector copy constructor iterator'
+00505d6c	`eh vector copy constructor iterator'
+00505d94	`managed vector copy constructor iterator'
+00505dc0	`vector vbase copy constructor iterator'
+00505dec	`eh vector vbase copy constructor iterator'
+00505e18	`vector constructor iterator'
+00505e38	`eh vector constructor iterator'
+00505e5c	`managed vector constructor iterator'
+00505e84	`vector vbase constructor iterator'
+00505ea8	`eh vector vbase constructor iterator'
+00505ed0	`vector destructor iterator'
+00505ef0	`eh vector destructor iterator'
+00505f10	`managed vector destructor iterator'
+00505f38	 Complete Object Locator'
+00505f54	`virtual displacement map'
+00505f78	`string'
+00505f84	`udt returning'
+00505f94	`omni callsig'
+00505fb0	`copy constructor closure'
+00505fcc	`default constructor closure'
+00505fec	`local vftable constructor closure'
+00506010	`placement delete closure'
+0050602c	`placement delete[] closure'
+0050604c	`vftable'
+00506058	`local vftable'
+00506068	`vbtable'
+00506074	`anonymous namespace'
+0050608c	`local static thread guard'
+005060a8	`local static guard'
+005060c0	`dynamic atexit destructor for '
+005060e4	`dynamic initializer for '
+00506110	operator "" 
+00506140	english-nz
+00506190	dddd, MMMM dd, yyyy
+005061b8	MM/dd/yy
+005061f4	February
+00506208	January
+00506230	July
+00506264	spanish-uruguay
+00506284	spanish-paraguay
+005062a8	Thursday
+005062bc	Tuesday
+005062cc	Wednesday
+005062e0	Saturday
+005062f4	Sunday
+00506304	Monday
+00506314	Friday
+005063ac	spanish-peru
+0050644c	August
+005064d8	de-at
+005064e4	english-aus
+00506508	english-us
+00506520	german-swiss
+0050653c	italian-swiss
+00506558	french-swiss
+00506574	swiss
+00506580	HH:mm:ss
+005065c0	united-states
+0050661c	spanish-honduras
+00506680	spanish-el salvador
+005066a8	spanish-ecuador
+0050671c	October
+0050672c	November
+00506740	September
+00506754	December
+0050683c	english-trinidad y tobago
+00506870	trinidad & tobago
+005068b4	puerto-rico
+005068cc	spanish-puerto rico
+00506968	sr-sp-latn
+00506980	bs-ba-latn
+00506998	sr-ba-latn
+005069e0	sr-SP-Latn
+005069f8	bs-BA-Latn
+00506a10	sr-BA-Latn
+00506a34	spanish-modern
+00506a78	german-lichtenstein
+00506aa0	great britain
+00506ad4	kn-in
+00506ae0	bn-in
+00506b08	hi-in
+00506b14	te-in
+00506b20	ta-in
+00506b2c	sa-in
+00506b38	pa-in
+00506b70	german-austrian
+00506b90	portuguese-brazilian
+00506bbc	australian
+00506bd4	dutch-belgian
+00506bf0	french-belgian
+00506c10	belgian
+00506c20	norwegian
+00506c34	french-canadian
+00506c54	canadian
+00506c68	english-caribbean
+00506c8c	spanish-mexican
+00506cac	english-american
+00506cd0	english-can
+00506cf0	united-kingdom
+00506d74	sr-sp-cyrl
+00506dd4	sr-SP-Cyrl
+00506e2c	ntdll
+00506e38	mscoree.dll
+00506e50	April
+00506e84	chinese-traditional
+00506eac	norwegian-bokmal
+00506edc	english-uk
+00506ef4	norwegian-nynorsk
+00506f8c	sl-si
+00506fac	de-li
+00507028	american-english
+0050704c	irish-english
+00507068	american english
+005070a0	March
+005070c4	fr-ch
+005070d0	de-ch
+005070fc	german-luxembourg
+00507120	french-luxembourg
+00507144	chinese-hongkong
+00507168	hong-kong
+005071b0	english-belize
+005071f8	chinese
+00507208	kernelbase
+0050723c	se-se
+00507258	chinese-singapore
+0050727c	english-ire
+005072b0	June
+005072bc	spanish-chile
+005072d8	!x-sys-default-locale
+0050733c	de-de
+0050737c	swedish-finland
+0050739c	holland
+005073ac	england
+005073bc	new-zealand
+005073d4	id-id
+005073e8	chinese-simplified
+00507424	spanish-dominican republic
+00507500	spanish-nicaragua
+00507538	english-usa
+00507584	spanish-argentina
+005075a8	pr-china
+005075bc	pr china
+005075d0	china
+005075dc	spanish-panama
+00507608	spanish-venezuela
+0050762c	spanish-guatemala
+00507660	spanish-bolivia
+00507680	spanish-colombia
+005076ac	south-korea
+005076c4	south korea
+005076e4	south-africa
+00507700	english-south africa
+0050772c	america
+0050773c	spanish-costa rica
+00507764	english-jamaica
+00507824	LC_MONETARY
+00507884	zh-TW
+00507964	de-AT
+00507970	en-US
+005079e0	ko-KR
+00507a4c	ja-JP
+00507b4c	kn-IN
+00507b58	bn-IN
+00507b80	hi-IN
+00507b8c	te-IN
+00507b98	ta-IN
+00507ba4	sa-IN
+00507bb0	pa-IN
+00507bc8	zh-CN
+00507c2c	LC_ALL
+00507c9c	sl-SI
+00507cb4	de-LI
+00507d28	fr-CH
+00507d34	de-CH
+00507d94	LC_COLLATE
+00507dc8	se-SE
+00507de4	LC_CTYPE
+00507e14	LC_TIME
+00507e54	de-DE
+00507e9c	LC_NUMERIC
+00507fb8	utf8
+00507fc4	utf-8
+00507fd0	api-ms-win-core-file-l1-2-4
+00508008	api-ms-win-core-file-l2-1-4
+00508040	user32
+00508050	kernel32
+00508064	advapi32
+00508078	api-ms-win-core-file-l1-2-2
+005080b0	api-ms-win-core-fibers-l1-1-2
+005080ec	api-ms-win-core-sysinfo-l1-2-1
+0050812c	api-ms-win-core-synch-l1-2-0
+00508168	api-ms-win-core-xstate-l2-1-0
+005081a4	api-ms-win-core-winrt-l1-1-0
+005081e0	api-ms-win-core-string-l1-1-0
+00508224	ext-ms-
+00508234	api-ms-
+0050824c	(null)
+0050825c	CONOUT$
+00508270	api-ms-win-core-processthreads-l1-1-2
+005082c0	api-ms-win-appmodel-runtime-l1-1-2
+00508308	api-ms-win-core-localization-l1-2-1
+00508350	api-ms-win-core-datetime-l1-1-1
+00508390	api-ms-win-core-localization-obsolete-l1-2-0
+005083f0	ext-ms-win-ntuser-dialogbox-l1-1-0
+00508438	api-ms-win-rtcore-ntuser-window-l1-1-0
+00508488	api-ms-win-security-systemfunctions-l1-1-0
+005084e0	ext-ms-win-ntuser-windowstation-l1-1-0
+00508d92	AcquireSRWLockExclusive
+00508dac	AreFileApisANSI
+00508dbe	CloseHandle
+00508dcc	CompareStringW
+00508dde	ConnectNamedPipe
+00508df2	CreateFile2
+00508e00	CreateFileA
+00508e0e	CreateFileMappingA
+00508e24	CreateFileW
+00508e32	CreateNamedPipeA
+00508e46	CreateProcessW
+00508e58	CreateThread
+00508e68	DecodePointer
+00508e78	DeleteCriticalSection
+00508e90	EncodePointer
+00508ea0	EnterCriticalSection
+00508eb8	EnumSystemLocalesW
+00508ece	ExitProcess
+00508edc	ExitThread
+00508eea	FindClose
+00508ef6	FindFirstFileExW
+00508f0a	FindFirstFileW
+00508f1c	FindNextFileW
+00508f2c	FlsAlloc
+00508f38	FlsFree
+00508f42	FlsGetValue
+00508f50	FlsSetValue
+00508f5e	FlushFileBuffers
+00508f72	FormatMessageA
+00508f84	FormatMessageW
+00508f96	FreeEnvironmentStringsW
+00508fb0	FreeLibrary
+00508fbe	FreeLibraryAndExitThread
+00508fda	GetACP
+00508fe4	GetCPInfo
+00508ff0	GetCommandLineA
+00509002	GetCommandLineW
+00509014	GetConsoleMode
+00509026	GetConsoleOutputCP
+0050903c	GetCurrentProcess
+00509050	GetCurrentProcessId
+00509066	GetCurrentThreadId
+0050907c	GetEnvironmentStringsW
+00509096	GetEnvironmentVariableW
+005090b0	GetExitCodeProcess
+005090c6	GetExitCodeThread
+005090da	GetFileAttributesExW
+005090f2	GetFileInformationByHandleEx
+00509112	GetFileSizeEx
+00509122	GetFileType
+00509130	GetFullPathNameW
+00509144	GetLastError
+00509154	GetLocaleInfoEx
+00509166	GetLocaleInfoW
+00509178	GetModuleFileNameW
+0050918e	GetModuleHandleExW
+005091a4	GetModuleHandleW
+005091b8	GetOEMCP
+005091c4	GetProcAddress
+005091d6	GetProcessHeap
+005091e8	GetStartupInfoW
+005091fa	GetStdHandle
+0050920a	GetStringTypeW
+0050921c	GetSystemTimeAsFileTime
+00509236	GetSystemTimePreciseAsFileTime
+00509258	GetUserDefaultLCID
+0050926e	HeapAlloc
+0050927a	HeapFree
+00509286	HeapReAlloc
+00509294	HeapSize
+005092a0	InitializeCriticalSectionEx
+005092be	InitializeSListHead
+005092d4	IsDebuggerPresent
+005092e8	IsProcessorFeaturePresent
+00509304	IsValidCodePage
+00509316	IsValidLocale
+00509326	LCMapStringEx
+00509336	LCMapStringW
+00509346	LeaveCriticalSection
+0050935e	LoadLibraryA
+0050936e	LoadLibraryExW
+00509380	LoadLibraryW
+00509390	LocalFree
+0050939c	MapViewOfFile
+005093ac	MultiByteToWideChar
+005093c2	OutputDebugStringW
+005093d8	PeekNamedPipe
+005093e8	QueryPerformanceCounter
+00509402	RaiseException
+00509414	ReadConsoleW
+00509424	ReadFile
+00509430	ReadProcessMemory
+00509444	ReleaseSRWLockExclusive
+0050945e	ResumeThread
+0050946e	RtlUnwind
+0050947a	SetEnvironmentVariableW
+00509494	SetFilePointerEx
+005094a8	SetLastError
+005094b8	SetStdHandle
+005094c8	SetUnhandledExceptionFilter
+005094e6	TerminateProcess
+005094fa	TryAcquireSRWLockExclusive
+00509518	UnhandledExceptionFilter
+00509534	UnmapViewOfFile
+00509546	VirtualAllocEx
+00509558	VirtualProtect
+0050956a	VirtualProtectEx
+0050957e	VirtualQueryEx
+00509590	WaitForSingleObject
+005095a6	WaitForSingleObjectEx
+005095be	WakeAllConditionVariable
+005095da	WideCharToMultiByte
+005095f0	WriteConsoleW
+00509600	WriteFile
+0050960c	WriteProcessMemory
+00509622	CallNextHookEx
+00509634	DispatchMessageW
+00509648	GetKeyboardLayout
+0050965c	GetMessageW
+0050966a	MapVirtualKeyExW
+0050967e	MessageBoxW
+0050968c	PostThreadMessageW
+005096a2	SetWindowsHookExW
+005096b6	TranslateMessage
+005096ca	UnhookWindowsHookEx
+005096de	KERNEL32.dll
+005096eb	USER32.dll
+0050e008	.?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??wmain@@9@X$$V@std@@
+0050e058	.?AV<lambda_0>@?0??wmain@@9@
+0050e088	.?AV_System_error_category@std@@
+0050e0b8	.?AVerror_category@std@@
+0050e0e8	.?AVbad_array_new_length@std@@
+0050e118	.?AVbad_alloc@std@@
+0050e138	.?AVexception@std@@
+0050e158	.?AV_Generic_error_category@std@@
+0050e188	.?AVfilesystem_error@filesystem@std@@
+0050e1b8	.?AVsystem_error@std@@
+0050e1d8	.?AV_System_error@std@@
+0050e1f8	.?AVruntime_error@std@@
+0050e218	.?AV?$ctype@_W@std@@
+0050e238	.?AUctype_base@std@@
+0050e258	.?AVfacet@locale@std@@
+0050e278	.?AV_Facet_base@std@@
+0050e298	.?AU_Crt_new_delete@std@@
+0050e2c8	.?AU_Ctype_constants_base@std@@
+0050e2f8	.?AVbad_cast@std@@
+0050e318	.?AVfailure@ios_base@std@@
+0050e348	.?AV_Iostream_error_category2@std@@
+0050e378	.?AV?$_Func_base@X$$V@std@@
+0050e3a8	.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+0050e408	.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+0050e448	.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+0050e488	.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+0050e4c8	.?AVios_base@std@@
+0050e4e8	.?AV?$_Iosb@H@std@@
+0050e508	.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+0050e548	.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+0050e598	.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+0050e5d8	.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+0050e638	.?AV?$numpunct@_W@std@@
+0050e658	.?AV?$_Fmt_iterator_buffer@V?$back_insert_iterator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@_WU_Fmt_buffer_traits@2@@std@@
+0050e708	.?AU_Fmt_buffer_traits@std@@
+0050e738	.?AV?$_Fmt_buffer@_W@std@@
+0050e768	.?AVformat_error@std@@
+0050e788	.?AV?$ctype@D@std@@
+0050e7d8	.?AVNamedPipeClient@@
+0050e7f8	.?AVNamedPipe@@
+0050e818	.?AV?$_Ref_count_obj2@VNamedPipeServer@@@std@@
+0050e858	.?AV_Ref_count_base@std@@
+0050e888	.?AVNamedPipeServer@@
+0050ea80	FreeType
+0050eac8	.?AV?$_Func_impl_no_alloc@V<lambda_14>@?0??OnBackground@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050eb78	.?AV<lambda_14>@?0??OnBackground@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050ebf8	.?AV?$_Func_impl_no_alloc@V<lambda_33>@?0??OnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050eca8	.?AV<lambda_33>@?0??OnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050ed18	.?AV?$_Func_impl_no_alloc@V<lambda_38>@?0??OnSurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050edc8	.?AV<lambda_38>@?0??OnSurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050ee48	.?AV?$_Func_impl_no_alloc@V<lambda_43>@?0??InverseOnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050eef8	.?AV<lambda_43>@?0??InverseOnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050ef78	.?AV?$_Func_impl_no_alloc@V<lambda_46>@?0??Outline@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050f018	.?AV<lambda_46>@?0??Outline@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f088	.?AV?$_Func_impl_no_alloc@V<lambda_49>@?0??OutlineVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050f138	.?AV<lambda_49>@?0??OutlineVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f1b8	.?AV?$_Func_impl_no_alloc@V<lambda_59>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+0050f268	.?AV<lambda_59>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f2d8	.?AV?$_Func_impl_no_alloc@V<lambda_58>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050f378	.?AV<lambda_58>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f3e8	.?AV?$_Func_impl_no_alloc@V<lambda_62>@?0??OnPrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050f498	.?AV<lambda_62>@?0??OnPrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f508	.?AV?$_Func_impl_no_alloc@V<lambda_66>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+0050f5c8	.?AV<lambda_66>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f648	.?AV?$_Func_impl_no_alloc@V<lambda_65>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050f6f8	.?AV<lambda_65>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f778	.?AV?$_Func_impl_no_alloc@V<lambda_69>@?0??OnPrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050f828	.?AV<lambda_69>@?0??OnPrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f8a8	.?AV?$_Func_impl_no_alloc@V<lambda_72>@?0??InversePrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050f958	.?AV<lambda_72>@?0??InversePrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050f9d8	.?AV?$_Func_impl_no_alloc@V<lambda_76>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+0050fa88	.?AV<lambda_76>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050faf8	.?AV?$_Func_impl_no_alloc@V<lambda_75>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050fba8	.?AV<lambda_75>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050fc18	.?AV?$_Func_impl_no_alloc@V<lambda_79>@?0??OnSecondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050fcc8	.?AV<lambda_79>@?0??OnSecondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050fd38	.?AV?$_Func_impl_no_alloc@V<lambda_83>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+0050fdf8	.?AV<lambda_83>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050fe78	.?AV?$_Func_impl_no_alloc@V<lambda_82>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+0050ff28	.?AV<lambda_82>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0050ffa8	.?AV?$_Func_impl_no_alloc@V<lambda_86>@?0??OnSecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00510058	.?AV<lambda_86>@?0??OnSecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005100d8	.?AV?$_Func_impl_no_alloc@V<lambda_90>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+00510188	.?AV<lambda_90>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005101f8	.?AV?$_Func_impl_no_alloc@V<lambda_89>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005102a8	.?AV<lambda_89>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510318	.?AV?$_Func_impl_no_alloc@V<lambda_93>@?0??OnTertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005103c8	.?AV<lambda_93>@?0??OnTertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510438	.?AV?$_Func_impl_no_alloc@V<lambda_97>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+005104f8	.?AV<lambda_97>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510578	.?AV?$_Func_impl_no_alloc@V<lambda_96>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00510628	.?AV<lambda_96>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005106a8	.?AV?$_Func_impl_no_alloc@V<lambda_100>@?0??OnTertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00510758	.?AV<lambda_100>@?0??OnTertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005107d8	.?AV?$_Func_impl_no_alloc@V<lambda_104>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+00510888	.?AV<lambda_104>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005108f8	.?AV?$_Func_impl_no_alloc@V<lambda_103>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00510998	.?AV<lambda_103>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510a08	.?AV?$_Func_impl_no_alloc@V<lambda_107>@?0??OnError@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00510ab8	.?AV<lambda_107>@?0??OnError@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510b28	.?AV?$_Func_impl_no_alloc@V<lambda_111>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+00510be8	.?AV<lambda_111>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510c68	.?AV?$_Func_impl_no_alloc@V<lambda_110>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00510d18	.?AV<lambda_110>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510d98	.?AV?$_Func_impl_no_alloc@V<lambda_114>@?0??OnErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00510e48	.?AV<lambda_114>@?0??OnErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00510ec8	.?AV?$_Func_impl_no_alloc@V<lambda_118>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+00510f88	.?AV<lambda_118>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511008	.?AV?$_Func_impl_no_alloc@V<lambda_117>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005110b8	.?AV<lambda_117>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511138	.?AV?$_Func_impl_no_alloc@V<lambda_122>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+005111f8	.?AV<lambda_122>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511278	.?AV?$_Func_impl_no_alloc@V<lambda_121>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00511328	.?AV<lambda_121>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005113a8	.?AV?$_Func_impl_no_alloc@V<lambda_126>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00511458	.?AV<lambda_126>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005114d8	.?AV?$_Func_impl_no_alloc@V<lambda_125>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00511588	.?AV<lambda_125>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511608	.?AV?$_Func_impl_no_alloc@V<lambda_130>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005116b8	.?AV<lambda_130>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511738	.?AV?$_Func_impl_no_alloc@V<lambda_129>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005117e8	.?AV<lambda_129>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511868	.?AV?$_Func_impl_no_alloc@V<lambda_134>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+00511928	.?AV<lambda_134>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005119a8	.?AV?$_Func_impl_no_alloc@V<lambda_133>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00511a58	.?AV<lambda_133>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511ad8	.?AV?$_Func_impl_no_alloc@V<lambda_138>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+00511b98	.?AV<lambda_138>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511c18	.?AV?$_Func_impl_no_alloc@V<lambda_137>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00511cc8	.?AV<lambda_137>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511d48	.?AV?$_Func_impl_no_alloc@V<lambda_142>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00511df8	.?AV<lambda_142>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511e78	.?AV?$_Func_impl_no_alloc@V<lambda_141>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00511f28	.?AV<lambda_141>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00511fa8	.?AV?$_Func_impl_no_alloc@V<lambda_146>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00512068	.?AV<lambda_146>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005120e8	.?AV?$_Func_impl_no_alloc@V<lambda_145>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005121a8	.?AV<lambda_145>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512228	.?AV?$_Func_impl_no_alloc@V<lambda_150>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+005122e8	.?AV<lambda_150>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512368	.?AV?$_Func_impl_no_alloc@V<lambda_149>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00512418	.?AV<lambda_149>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512498	.?AV?$_Func_impl_no_alloc@V<lambda_154>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@UToneDeltaPair@4@ABUDynamicScheme@4@@std@@
+00512558	.?AV<lambda_154>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005125d8	.?AV?$_Func_impl_no_alloc@V<lambda_153>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00512688	.?AV<lambda_153>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512708	.?AV?$_Func_impl_no_alloc@V<lambda_158>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005127b8	.?AV<lambda_158>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512838	.?AV?$_Func_impl_no_alloc@V<lambda_157>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+005128e8	.?AV<lambda_157>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512968	.?AV?$_Func_impl_no_alloc@V<lambda_162>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00512a18	.?AV<lambda_162>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512a98	.?AV?$_Func_impl_no_alloc@V<lambda_161>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@U54@ABUDynamicScheme@4@@std@@
+00512b48	.?AV<lambda_161>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512bc8	.?AV?$_Func_impl_no_alloc@V<lambda_0>@?0??PrimaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00512c88	.?AV<lambda_0>@?0??PrimaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512d08	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??PrimaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00512db8	.?AV<lambda_1>@?0??PrimaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512e38	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??SecondaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00512ef8	.?AV<lambda_2>@?0??SecondaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00512f78	.?AV?$_Func_impl_no_alloc@V<lambda_3>@?0??SecondaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00513028	.?AV<lambda_3>@?0??SecondaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005130a8	.?AV?$_Func_impl_no_alloc@V<lambda_4>@?0??TertiaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00513168	.?AV<lambda_4>@?0??TertiaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005131e8	.?AV?$_Func_impl_no_alloc@V<lambda_5>@?0??TertiaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00513298	.?AV<lambda_5>@?0??TertiaryPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513318	.?AV?$_Func_impl_no_alloc@V<lambda_6>@?0??NeutralPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005133d8	.?AV<lambda_6>@?0??NeutralPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513458	.?AV?$_Func_impl_no_alloc@V<lambda_7>@?0??NeutralPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00513508	.?AV<lambda_7>@?0??NeutralPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513588	.?AV?$_Func_impl_no_alloc@V<lambda_8>@?0??NeutralVariantPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00513658	.?AV<lambda_8>@?0??NeutralVariantPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005136e8	.?AV?$_Func_impl_no_alloc@V<lambda_9>@?0??NeutralVariantPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005137a8	.?AV<lambda_9>@?0??NeutralVariantPaletteKeyColor@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513838	.?AV?$_Func_impl_no_alloc@V<lambda_10>@?0??Background@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005138e8	.?AV<lambda_10>@?0??Background@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513958	.?AV?$_Func_impl_no_alloc@V<lambda_11>@?0??Background@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005139f8	.?AV<lambda_11>@?0??Background@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513a68	.?AV?$_Func_impl_no_alloc@V<lambda_12>@?0??OnBackground@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00513b28	.?AV<lambda_12>@?0??OnBackground@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513ba8	.?AV?$_Func_impl_no_alloc@V<lambda_13>@?0??OnBackground@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00513c58	.?AV<lambda_13>@?0??OnBackground@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513cd8	.?AV?$_Func_impl_no_alloc@V<lambda_15>@?0??Surface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00513d88	.?AV<lambda_15>@?0??Surface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513df8	.?AV?$_Func_impl_no_alloc@V<lambda_16>@?0??Surface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00513e98	.?AV<lambda_16>@?0??Surface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00513f08	.?AV?$_Func_impl_no_alloc@V<lambda_17>@?0??SurfaceDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00513fb8	.?AV<lambda_17>@?0??SurfaceDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514028	.?AV?$_Func_impl_no_alloc@V<lambda_18>@?0??SurfaceDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005140c8	.?AV<lambda_18>@?0??SurfaceDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514138	.?AV?$_Func_impl_no_alloc@V<lambda_19>@?0??SurfaceBright@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005141f8	.?AV<lambda_19>@?0??SurfaceBright@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514278	.?AV?$_Func_impl_no_alloc@V<lambda_20>@?0??SurfaceBright@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00514328	.?AV<lambda_20>@?0??SurfaceBright@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005143a8	.?AV?$_Func_impl_no_alloc@V<lambda_21>@?0??SurfaceContainerLowest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00514468	.?AV<lambda_21>@?0??SurfaceContainerLowest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005144e8	.?AV?$_Func_impl_no_alloc@V<lambda_22>@?0??SurfaceContainerLowest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00514598	.?AV<lambda_22>@?0??SurfaceContainerLowest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514618	.?AV?$_Func_impl_no_alloc@V<lambda_23>@?0??SurfaceContainerLow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005146d8	.?AV<lambda_23>@?0??SurfaceContainerLow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514758	.?AV?$_Func_impl_no_alloc@V<lambda_24>@?0??SurfaceContainerLow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00514808	.?AV<lambda_24>@?0??SurfaceContainerLow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514888	.?AV?$_Func_impl_no_alloc@V<lambda_25>@?0??SurfaceContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00514948	.?AV<lambda_25>@?0??SurfaceContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005149c8	.?AV?$_Func_impl_no_alloc@V<lambda_26>@?0??SurfaceContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00514a78	.?AV<lambda_26>@?0??SurfaceContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514af8	.?AV?$_Func_impl_no_alloc@V<lambda_27>@?0??SurfaceContainerHigh@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00514bb8	.?AV<lambda_27>@?0??SurfaceContainerHigh@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514c38	.?AV?$_Func_impl_no_alloc@V<lambda_28>@?0??SurfaceContainerHigh@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00514ce8	.?AV<lambda_28>@?0??SurfaceContainerHigh@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514d68	.?AV?$_Func_impl_no_alloc@V<lambda_29>@?0??SurfaceContainerHighest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00514e28	.?AV<lambda_29>@?0??SurfaceContainerHighest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514ea8	.?AV?$_Func_impl_no_alloc@V<lambda_30>@?0??SurfaceContainerHighest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00514f58	.?AV<lambda_30>@?0??SurfaceContainerHighest@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00514fd8	.?AV?$_Func_impl_no_alloc@V<lambda_31>@?0??OnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00515088	.?AV<lambda_31>@?0??OnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005150f8	.?AV?$_Func_impl_no_alloc@V<lambda_32>@?0??OnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00515198	.?AV<lambda_32>@?0??OnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515208	.?AV?$_Func_impl_no_alloc@V<lambda_34>@?0??SurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005152c8	.?AV<lambda_34>@?0??SurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515348	.?AV?$_Func_impl_no_alloc@V<lambda_35>@?0??SurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005153f8	.?AV<lambda_35>@?0??SurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515478	.?AV?$_Func_impl_no_alloc@V<lambda_36>@?0??OnSurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00515538	.?AV<lambda_36>@?0??OnSurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005155b8	.?AV?$_Func_impl_no_alloc@V<lambda_37>@?0??OnSurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00515668	.?AV<lambda_37>@?0??OnSurfaceVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005156e8	.?AV?$_Func_impl_no_alloc@V<lambda_39>@?0??InverseSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005157a8	.?AV<lambda_39>@?0??InverseSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515828	.?AV?$_Func_impl_no_alloc@V<lambda_40>@?0??InverseSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005158d8	.?AV<lambda_40>@?0??InverseSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515958	.?AV?$_Func_impl_no_alloc@V<lambda_41>@?0??InverseOnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00515a18	.?AV<lambda_41>@?0??InverseOnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515a98	.?AV?$_Func_impl_no_alloc@V<lambda_42>@?0??InverseOnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00515b48	.?AV<lambda_42>@?0??InverseOnSurface@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515bc8	.?AV?$_Func_impl_no_alloc@V<lambda_44>@?0??Outline@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00515c78	.?AV<lambda_44>@?0??Outline@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515ce8	.?AV?$_Func_impl_no_alloc@V<lambda_45>@?0??Outline@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00515d88	.?AV<lambda_45>@?0??Outline@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515df8	.?AV?$_Func_impl_no_alloc@V<lambda_47>@?0??OutlineVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00515eb8	.?AV<lambda_47>@?0??OutlineVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00515f38	.?AV?$_Func_impl_no_alloc@V<lambda_48>@?0??OutlineVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00515fe8	.?AV<lambda_48>@?0??OutlineVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516068	.?AV?$_Func_impl_no_alloc@V<lambda_50>@?0??Shadow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00516118	.?AV<lambda_50>@?0??Shadow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516188	.?AV?$_Func_impl_no_alloc@V<lambda_51>@?0??Shadow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00516228	.?AV<lambda_51>@?0??Shadow@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516298	.?AV?$_Func_impl_no_alloc@V<lambda_52>@?0??Scrim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00516348	.?AV<lambda_52>@?0??Scrim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005163b8	.?AV?$_Func_impl_no_alloc@V<lambda_53>@?0??Scrim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00516458	.?AV<lambda_53>@?0??Scrim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005164c8	.?AV?$_Func_impl_no_alloc@V<lambda_54>@?0??SurfaceTint@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00516578	.?AV<lambda_54>@?0??SurfaceTint@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005165e8	.?AV?$_Func_impl_no_alloc@V<lambda_55>@?0??SurfaceTint@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00516698	.?AV<lambda_55>@?0??SurfaceTint@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516708	.?AV?$_Func_impl_no_alloc@V<lambda_56>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005167b8	.?AV<lambda_56>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516828	.?AV?$_Func_impl_no_alloc@V<lambda_57>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005168c8	.?AV<lambda_57>@?0??Primary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516938	.?AV?$_Func_impl_no_alloc@V<lambda_60>@?0??OnPrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005169e8	.?AV<lambda_60>@?0??OnPrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516a58	.?AV?$_Func_impl_no_alloc@V<lambda_61>@?0??OnPrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00516af8	.?AV<lambda_61>@?0??OnPrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516b68	.?AV?$_Func_impl_no_alloc@V<lambda_63>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00516c28	.?AV<lambda_63>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516ca8	.?AV?$_Func_impl_no_alloc@V<lambda_64>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00516d58	.?AV<lambda_64>@?0??PrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516dd8	.?AV?$_Func_impl_no_alloc@V<lambda_67>@?0??OnPrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00516e98	.?AV<lambda_67>@?0??OnPrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00516f18	.?AV?$_Func_impl_no_alloc@V<lambda_68>@?0??OnPrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00516fc8	.?AV<lambda_68>@?0??OnPrimaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517048	.?AV?$_Func_impl_no_alloc@V<lambda_70>@?0??InversePrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00517108	.?AV<lambda_70>@?0??InversePrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517188	.?AV?$_Func_impl_no_alloc@V<lambda_71>@?0??InversePrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00517238	.?AV<lambda_71>@?0??InversePrimary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005172b8	.?AV?$_Func_impl_no_alloc@V<lambda_73>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00517368	.?AV<lambda_73>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005173d8	.?AV?$_Func_impl_no_alloc@V<lambda_74>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00517478	.?AV<lambda_74>@?0??Secondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005174e8	.?AV?$_Func_impl_no_alloc@V<lambda_77>@?0??OnSecondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00517598	.?AV<lambda_77>@?0??OnSecondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517608	.?AV?$_Func_impl_no_alloc@V<lambda_78>@?0??OnSecondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005176b8	.?AV<lambda_78>@?0??OnSecondary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517728	.?AV?$_Func_impl_no_alloc@V<lambda_80>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005177e8	.?AV<lambda_80>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517868	.?AV?$_Func_impl_no_alloc@V<lambda_81>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00517918	.?AV<lambda_81>@?0??SecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517998	.?AV?$_Func_impl_no_alloc@V<lambda_84>@?0??OnSecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00517a58	.?AV<lambda_84>@?0??OnSecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517ad8	.?AV?$_Func_impl_no_alloc@V<lambda_85>@?0??OnSecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00517b88	.?AV<lambda_85>@?0??OnSecondaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517c08	.?AV?$_Func_impl_no_alloc@V<lambda_87>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00517cb8	.?AV<lambda_87>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517d28	.?AV?$_Func_impl_no_alloc@V<lambda_88>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00517dc8	.?AV<lambda_88>@?0??Tertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517e38	.?AV?$_Func_impl_no_alloc@V<lambda_91>@?0??OnTertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00517ee8	.?AV<lambda_91>@?0??OnTertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00517f58	.?AV?$_Func_impl_no_alloc@V<lambda_92>@?0??OnTertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00517ff8	.?AV<lambda_92>@?0??OnTertiary@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518068	.?AV?$_Func_impl_no_alloc@V<lambda_94>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00518128	.?AV<lambda_94>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005181a8	.?AV?$_Func_impl_no_alloc@V<lambda_95>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00518258	.?AV<lambda_95>@?0??TertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005182d8	.?AV?$_Func_impl_no_alloc@V<lambda_98>@?0??OnTertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00518398	.?AV<lambda_98>@?0??OnTertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518418	.?AV?$_Func_impl_no_alloc@V<lambda_99>@?0??OnTertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005184c8	.?AV<lambda_99>@?0??OnTertiaryContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518548	.?AV?$_Func_impl_no_alloc@V<lambda_101>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005185f8	.?AV<lambda_101>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518668	.?AV?$_Func_impl_no_alloc@V<lambda_102>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00518708	.?AV<lambda_102>@?0??Error@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518778	.?AV?$_Func_impl_no_alloc@V<lambda_105>@?0??OnError@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00518828	.?AV<lambda_105>@?0??OnError@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518898	.?AV?$_Func_impl_no_alloc@V<lambda_106>@?0??OnError@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00518938	.?AV<lambda_106>@?0??OnError@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005189a8	.?AV?$_Func_impl_no_alloc@V<lambda_108>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00518a68	.?AV<lambda_108>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518ae8	.?AV?$_Func_impl_no_alloc@V<lambda_109>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00518b98	.?AV<lambda_109>@?0??ErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518c18	.?AV?$_Func_impl_no_alloc@V<lambda_112>@?0??OnErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00518cd8	.?AV<lambda_112>@?0??OnErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518d58	.?AV?$_Func_impl_no_alloc@V<lambda_113>@?0??OnErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00518e08	.?AV<lambda_113>@?0??OnErrorContainer@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518e88	.?AV?$_Func_impl_no_alloc@V<lambda_115>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00518f48	.?AV<lambda_115>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00518fc8	.?AV?$_Func_impl_no_alloc@V<lambda_116>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00519078	.?AV<lambda_116>@?0??PrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005190f8	.?AV?$_Func_impl_no_alloc@V<lambda_119>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+005191b8	.?AV<lambda_119>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519238	.?AV?$_Func_impl_no_alloc@V<lambda_120>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005192e8	.?AV<lambda_120>@?0??PrimaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519368	.?AV?$_Func_impl_no_alloc@V<lambda_123>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00519428	.?AV<lambda_123>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005194a8	.?AV?$_Func_impl_no_alloc@V<lambda_124>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00519558	.?AV<lambda_124>@?0??OnPrimaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+005195d8	.?AV?$_Func_impl_no_alloc@V<lambda_127>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00519698	.?AV<lambda_127>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519718	.?AV?$_Func_impl_no_alloc@V<lambda_128>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+005197c8	.?AV<lambda_128>@?0??OnPrimaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519848	.?AV?$_Func_impl_no_alloc@V<lambda_131>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00519908	.?AV<lambda_131>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519988	.?AV?$_Func_impl_no_alloc@V<lambda_132>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00519a38	.?AV<lambda_132>@?0??SecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519ab8	.?AV?$_Func_impl_no_alloc@V<lambda_135>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00519b78	.?AV<lambda_135>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519bf8	.?AV?$_Func_impl_no_alloc@V<lambda_136>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00519ca8	.?AV<lambda_136>@?0??SecondaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519d28	.?AV?$_Func_impl_no_alloc@V<lambda_139>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+00519de8	.?AV<lambda_139>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519e68	.?AV?$_Func_impl_no_alloc@V<lambda_140>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+00519f18	.?AV<lambda_140>@?0??OnSecondaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+00519f98	.?AV?$_Func_impl_no_alloc@V<lambda_143>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+0051a058	.?AV<lambda_143>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a0d8	.?AV?$_Func_impl_no_alloc@V<lambda_144>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+0051a188	.?AV<lambda_144>@?0??OnSecondaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a208	.?AV?$_Func_impl_no_alloc@V<lambda_147>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+0051a2c8	.?AV<lambda_147>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a348	.?AV?$_Func_impl_no_alloc@V<lambda_148>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+0051a3f8	.?AV<lambda_148>@?0??TertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a478	.?AV?$_Func_impl_no_alloc@V<lambda_151>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+0051a538	.?AV<lambda_151>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a5b8	.?AV?$_Func_impl_no_alloc@V<lambda_152>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+0051a668	.?AV<lambda_152>@?0??TertiaryFixedDim@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a6e8	.?AV?$_Func_impl_no_alloc@V<lambda_155>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+0051a7a8	.?AV<lambda_155>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a828	.?AV?$_Func_impl_no_alloc@V<lambda_156>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+0051a8d8	.?AV<lambda_156>@?0??OnTertiaryFixed@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051a958	.?AV?$_Func_impl_no_alloc@V<lambda_159>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@VTonalPalette@4@ABUDynamicScheme@4@@std@@
+0051aa18	.?AV<lambda_159>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051aa98	.?AV?$_Func_impl_no_alloc@V<lambda_160>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@4@XZ@NABUDynamicScheme@4@@std@@
+0051ab48	.?AV<lambda_160>@?0??OnTertiaryFixedVariant@MaterialDynamicColors@material_color_utilities@@SA?AUDynamicColor@3@XZ@
+0051abc8	.?AV?$_Func_base@UDynamicColor@material_color_utilities@@ABUDynamicScheme@2@@std@@
+0051ac28	.?AV?$_Func_base@UToneDeltaPair@material_color_utilities@@ABUDynamicScheme@2@@std@@
+0051ac88	.?AV?$_Func_base@VTonalPalette@material_color_utilities@@ABUDynamicScheme@2@@std@@
+0051ace8	.?AV?$_Func_base@NABUDynamicScheme@material_color_utilities@@@std@@
+0051b272	abcdefghijklmnopqrstuvwxyz
+0051b292	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0051b481	abcdefghijklmnopqrstuvwxyz
+0051b4a1	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0051b778	.?AVlogic_error@std@@
+0051b798	.?AVlength_error@std@@
+0051b7b8	.?AVout_of_range@std@@
+0051b7d8	.?AVbad_function_call@std@@
+0051b7fc	.?AVbad_exception@std@@
+0051b81c	.?AVtype_info@@
+0051b834	.?AV_Locimp@locale@std@@
+0051b858	.?AV?$basic_filebuf@_WU?$char_traits@_W@std@@@std@@
+0051b894	.?AVcodecvt_base@std@@
+0051b8b4	.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+0051b8e0	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+0051b918	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+0051b954	.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+0051b990	.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+0051b9cc	.?AV?$codecvt@DDU_Mbstatet@@@std@@
+00527060	<?xml version="1.0" standalone="yes"?>\n<assembly xmlns="urn:schemas-microsoft-com:asm.v1"\n          manifestVersion="1.0">\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requestedPrivileges>\n         <requestedExecutionLevel level='asInvoker' uiAccess='false'/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n</assembly>\n
+ffdff1ac	
+ffdffc00	
+ffdfff50	00000000-0000-0000-0000-000000000000

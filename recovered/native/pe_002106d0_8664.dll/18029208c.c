@@ -1,0 +1,39 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 18029208c */
+
+void FUN_18029208c(void)
+
+{
+  if (DAT_180450000 == 0) {
+    FUN_180292278(0,"AreFileApisANSI",&DAT_1803536c8,&DAT_1803536cc);
+  }
+  FUN_18029242c();
+  if (DAT_180450010 == 0) {
+    FUN_180292278(2,"EnumSystemLocalesEx",&DAT_1803536d8,&DAT_1803536e0);
+  }
+  if (DAT_180450028 == 0) {
+    FUN_180292278(5,"GetDateFormatEx",&DAT_1803536e8,&DAT_1803536f0);
+  }
+  if (DAT_180450050 == 0) {
+    FUN_180292278(10,"GetLocaleInfoEx",&DAT_1803536f0,&DAT_1803536f8);
+  }
+  if (DAT_180450068 == 0) {
+    FUN_180292278(0xd,"GetTimeFormatEx",&DAT_1803536f8,&DAT_180353700);
+  }
+  if (DAT_180450070 == 0) {
+    FUN_180292278(0xe,"GetUserDefaultLocaleName",&DAT_180353700,&DAT_180353708);
+  }
+  if (DAT_180450088 == 0) {
+    FUN_180292278(0x11,"IsValidLocaleName",&DAT_180353708,&DAT_180353710);
+  }
+  if (DAT_180450090 == 0) {
+    FUN_180292278(0x12,"LCMapStringEx",&DAT_180353710,&DAT_180353718);
+  }
+  if (DAT_180450098 == 0) {
+    FUN_180292278(0x13,"LCIDToLocaleName",&DAT_180353718,&DAT_180353720);
+  }
+  if (DAT_1804500a0 == 0) {
+    FUN_180292278(0x14,"LocaleNameToLCID",&DAT_180353720,&DAT_180353728);
+  }
+  return;
+}
+

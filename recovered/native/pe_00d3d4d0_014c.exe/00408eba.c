@@ -1,0 +1,28 @@
+/* Ghidra pseudocode. Image: pe_00d3d4d0_014c.exe Address: 00408eba */
+
+LPVOID __thiscall FUN_00408eba(void *this,uint param_1)
+
+{
+  LPVOID pvVar1;
+  LPVOID local_1c;
+  undefined1 *local_18;
+  void *local_14;
+  undefined1 *local_10;
+  undefined4 local_c;
+  
+  local_18 = (undefined1 *)&local_1c;
+  local_10 = &LAB_004180d0;
+  local_14 = ExceptionList;
+  local_1c = (LPVOID)((int)this + (-8 - *(int *)((int)this + -4)));
+  local_c = 0;
+  ExceptionList = &local_14;
+  FUN_00408f58((int)local_1c);
+  pvVar1 = local_1c;
+  local_c = 0xffffffff;
+  if ((param_1 & 1) != 0) {
+    FUN_0047f280(local_1c);
+  }
+  ExceptionList = local_14;
+  return pvVar1;
+}
+

@@ -1,0 +1,49 @@
+/* Ghidra pseudocode. Image: pe_00a0fad0_8664.exe Address: 140114178 */
+
+int FUN_140114178(undefined8 *param_1,longlong param_2,int param_3,longlong param_4)
+
+{
+  char cVar1;
+  int iVar2;
+  longlong lVar3;
+  
+  if ((*(uint *)((longlong)param_1 + 0x14) >> 0xd & 1) == 0) {
+    *(undefined1 *)(param_4 + 0x30) = 1;
+    iVar2 = -1;
+    *(undefined4 *)(param_4 + 0x2c) = 0x16;
+  }
+  else {
+    LOCK();
+    *(uint *)((longlong)param_1 + 0x14) = *(uint *)((longlong)param_1 + 0x14) & 0xfffffff7;
+    UNLOCK();
+    cVar1 = FUN_14011407c();
+    if (cVar1 == '\0') {
+      if (param_3 == 1) {
+        lVar3 = thunk_FUN_140114928(param_1,param_4);
+        param_2 = param_2 + lVar3;
+        param_3 = 0;
+      }
+      FUN_140115c98(param_1,param_4);
+      *param_1 = param_1[1];
+      *(undefined4 *)(param_1 + 2) = 0;
+      if ((*(uint *)((longlong)param_1 + 0x14) >> 2 & 1) == 0) {
+        if ((((byte)*(undefined4 *)((longlong)param_1 + 0x14) & 0x41) == 0x41) &&
+           ((*(uint *)((longlong)param_1 + 0x14) >> 8 & 1) == 0)) {
+          *(undefined4 *)(param_1 + 4) = 0x200;
+        }
+      }
+      else {
+        LOCK();
+        *(uint *)((longlong)param_1 + 0x14) = *(uint *)((longlong)param_1 + 0x14) & 0xfffffffc;
+        UNLOCK();
+      }
+      lVar3 = thunk_FUN_14012a47c(*(undefined4 *)(param_1 + 3),param_2,param_3,param_4);
+      iVar2 = (lVar3 != -1) - 1;
+    }
+    else {
+      iVar2 = 0;
+    }
+  }
+  return iVar2;
+}
+

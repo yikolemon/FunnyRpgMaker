@@ -1,0 +1,9 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 1009e30c */
+
+void Unwind_1009e30c(void)
+
+{
+  FUN_10004eae();
+  return;
+}
+

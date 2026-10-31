@@ -1,0 +1,77 @@
+/* Ghidra pseudocode. Image: pe_00a0fad0_8664.exe Address: 140125058 */
+
+undefined8
+FUN_140125058(undefined1 *param_1,ulonglong param_2,int param_3,char param_4,int param_5,
+             int *param_6,byte param_7,longlong param_8)
+
+{
+  int iVar1;
+  undefined8 uVar2;
+  undefined1 *puVar3;
+  longlong lVar4;
+  longlong lVar5;
+  
+  iVar1 = 0;
+  if (0 < param_3) {
+    iVar1 = param_3;
+  }
+  if ((ulonglong)(longlong)(iVar1 + 9) < param_2) {
+    if ((param_7 != 0) && (puVar3 = param_1 + (*param_6 == 0x2d), 0 < param_3)) {
+      lVar4 = -1;
+      do {
+        lVar5 = lVar4;
+        lVar4 = lVar5 + 1;
+      } while (puVar3[lVar4] != '\0');
+      FUN_140135ff0(puVar3 + 1,puVar3,lVar5 + 2);
+    }
+    if (*param_6 == 0x2d) {
+      *param_1 = 0x2d;
+      param_1 = param_1 + 1;
+    }
+    if (0 < param_3) {
+      *param_1 = param_1[1];
+      param_1 = param_1 + 1;
+      if (*(char *)(param_8 + 0x28) == '\0') {
+        FUN_14010bc80(param_8);
+      }
+      *param_1 = *(undefined1 *)**(undefined8 **)(*(longlong *)(param_8 + 0x18) + 0xf8);
+    }
+    param_1 = param_1 + ((ulonglong)param_7 ^ 1) + (longlong)param_3;
+    iVar1 = FUN_140120d90();
+    if (iVar1 != 0) {
+                    /* WARNING: Subroutine does not return */
+      _invoke_watson((wchar_t *)0x0,(wchar_t *)0x0,(wchar_t *)0x0,0,0);
+    }
+    if (param_4 != '\0') {
+      *param_1 = 0x45;
+    }
+    if (**(char **)(param_6 + 2) != '0') {
+      iVar1 = param_6[1] + -1;
+      if (iVar1 < 0) {
+        iVar1 = -iVar1;
+        param_1[1] = 0x2d;
+      }
+      if (99 < iVar1) {
+        param_1[2] = param_1[2] + (char)(iVar1 / 100);
+        iVar1 = iVar1 % 100;
+      }
+      if (9 < iVar1) {
+        param_1[3] = param_1[3] + (char)(iVar1 / 10);
+        iVar1 = iVar1 % 10;
+      }
+      param_1[4] = param_1[4] + (char)iVar1;
+    }
+    if ((param_5 == 2) && (param_1[2] == '0')) {
+      FUN_140135ff0(param_1 + 2,param_1 + 3,3);
+    }
+    uVar2 = 0;
+  }
+  else {
+    *(undefined1 *)(param_8 + 0x30) = 1;
+    *(undefined4 *)(param_8 + 0x2c) = 0x22;
+    FUN_1401210c8(0,0,0,0,0,param_8);
+    uVar2 = 0x22;
+  }
+  return uVar2;
+}
+

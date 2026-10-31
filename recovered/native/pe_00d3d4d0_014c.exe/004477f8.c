@@ -1,0 +1,37 @@
+/* Ghidra pseudocode. Image: pe_00d3d4d0_014c.exe Address: 004477f8 */
+
+int __fastcall FUN_004477f8(byte *param_1,int param_2)
+
+{
+  int *piVar1;
+  int iVar2;
+  int iVar3;
+  uint uVar4;
+  uint uVar5;
+  
+  piVar1 = *(int **)(param_1 + 8);
+  if (*piVar1 < param_2) {
+    uVar4 = (uint)*param_1;
+    if (1 < uVar4) {
+      uVar5 = 1;
+      do {
+        if (param_2 <= piVar1[uVar5]) {
+          iVar2 = *(int *)(*(int *)(param_1 + 4) + -4 + uVar5 * 4);
+          iVar3 = FUN_0041dcda(param_2 - piVar1[uVar5 - 1],
+                               *(int *)(*(int *)(param_1 + 4) + uVar5 * 4) - iVar2,
+                               piVar1[uVar5] - piVar1[uVar5 - 1]);
+          iVar3 = iVar3 + iVar2;
+          goto LAB_0044784a;
+        }
+        uVar5 = uVar5 + 1;
+      } while (uVar4 != uVar5);
+    }
+    iVar3 = *(int *)(*(int *)(param_1 + 4) + -4 + uVar4 * 4);
+  }
+  else {
+    iVar3 = **(int **)(param_1 + 4);
+  }
+LAB_0044784a:
+  return iVar3 << 0x10;
+}
+

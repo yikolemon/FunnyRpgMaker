@@ -1,0 +1,53 @@
+/* Ghidra pseudocode. Image: pe_00bf40d0_8664.exe Address: 140089460 */
+
+void FUN_140089460(DWORD param_1,longlong *param_2)
+
+{
+  int iVar1;
+  DWORD DVar2;
+  ulonglong uVar3;
+  int iVar4;
+  ulonglong uVar5;
+  ulonglong uVar6;
+  uint local_res18 [4];
+  
+  uVar6 = 0;
+  local_res18[0] = 0;
+  uVar5 = uVar6;
+  uVar3 = uVar6;
+  do {
+    if ((int)uVar3 != 0) break;
+    iVar4 = (int)uVar5;
+    if (iVar4 == 0) {
+      local_res18[0] = 0x409;
+      uVar5 = 0x409;
+LAB_1400894cf:
+      DVar2 = FormatMessageA(0x1300,(LPCVOID)0x0,param_1,(DWORD)uVar5,(LPSTR)param_2,0,
+                             (va_list *)0x0);
+      uVar3 = (ulonglong)DVar2;
+    }
+    else {
+      if (iVar4 != 1) {
+        local_res18[0] = 0;
+        uVar5 = uVar6;
+        goto LAB_1400894cf;
+      }
+      iVar1 = GetLocaleInfoEx(L"!x-sys-default-locale",0x20000001,(LPWSTR)local_res18,2);
+      if (iVar1 != 0) {
+        uVar5 = (ulonglong)local_res18[0];
+        goto LAB_1400894cf;
+      }
+    }
+    uVar5 = (ulonglong)(iVar4 + 1U);
+  } while ((int)(iVar4 + 1U) < 3);
+  if ((int)uVar3 != 0) {
+    do {
+      if ((&DAT_1400bc0c0)[*(byte *)(*param_2 + -1 + uVar3)] == '\0') {
+        return;
+      }
+      uVar3 = uVar3 - 1;
+    } while (uVar3 != 0);
+  }
+  return;
+}
+

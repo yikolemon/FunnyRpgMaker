@@ -1,0 +1,11 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 1009a023 */
+
+undefined4
+thunk_FUN_1009a028(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+                  undefined4 param_5)
+
+{
+  FUN_1009a04a(param_2,param_3,param_4,param_5);
+  return param_1;
+}
+

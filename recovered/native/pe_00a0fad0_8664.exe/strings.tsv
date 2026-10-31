@@ -1,0 +1,1546 @@
+address	value
+140139000	btnfr"\\
+140139040	"'`])>}
+140139060	"'`[(<{
+14013a200	iostream stream error
+14013b5d8	false
+14013b840	false
+14013cc70	0123456789abcdefghijklmnopqrstuvwxyz
+14013cca1	0010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+140140d20	Data
+140140d40	false
+14014296e	false
+140142b1c	00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+140143000	0123456789ABCDEFabcdef-+Xx
+140143020	0123456789ABCDEFabcdef-+XxPp
+140162fc0	false
+140164e68	data
+140164f40	Extracting data from encrypted files violates the guidelines.
+140164f80	expand 32-byte k
+140165708	0123456789-
+140165718	0123456789-
+140165728	0123456789ABCDEFabcdef-+Xx
+140165748	0123456789ABCDEFabcdef-+XxPp
+140165768	0123456789ABCDEFabcdef-+Xx
+140165788	0123456789ABCDEFabcdef-+XxPp
+1401657a8	0123456789-
+1401657b8	0123456789-
+140165a58	0123456789-
+140165a68	0123456789-
+140165a78	0123456789abcdefghijklmnopqrstuvwxyz
+140165ac8	0123456789abcdefghijklmnopqrstuvwxyz
+140165b2c	false
+140165f90	0123456789abcdef0123456789ABCDEF1
+140167db4	INITY
+140167dbc	inity
+140168fc0	UTF-8
+140168fc8	UTF-16LEUNICODE
+140168fe0	UTF-8
+140168ff0	UTF-16LEUNICODE
+14016e708	{}LZ4 compression failed. Data size: {}
+14016e740	is_empty
+14016e749	[WolfXWrapper] Data folder is empty
+14016e76d	create_directory
+14016e77e	binary
+14016e785	object key
+14016e790	invalid map<K, T> key
+14016e7a6	array
+14016e7ac	.wolfx
+14016e7b3	-x,--wolfx
+14016e7be	Invalid package version index
+14016e7e5	\\u%04x
+14016e7ec	incomplete UTF-8 string; last byte: 0x
+14016e81f	" has no text
+14016e82d	end of input
+14016e83a	virtual const tString __cdecl Command::CommandSpecialClasses::Picture::Text(void) const
+14016e892	virtual const tString __cdecl Command::CommandSpecialClasses::Picture::Filename(void) const
+14016e8ee	void __cdecl WolfRPG::checkValid(void) const
+14016e91b	[WolfXWrapper] Data folder does not exist
+14016e945	cannot create object from initializer list
+14016e970	bad cast
+14016e979	invalid vector subscript
+14016e992	remove_prot
+14016e99e	UberWolfLib: Invalid arguments count
+14016e9c3	MainFont
+14016e9cc	print
+14016e9d2	Invalid presentation type for floating-point
+14016e9ff	CommonEvent
+14016ea0b	Decrypt WolfX files if present
+14016ea2a	invalid number; expected '+', '-', or digit after exponent
+14016ea65	invalid stoul argument
+14016ea7c	invalid stoi argument
+14016ea92	 required for each element
+14016eaad	default
+14016eab5	Print this help message and exit
+14016ead7	digit
+14016eadd	ios_base::failbit set
+14016eaf3	ios_base::eofbit set
+14016eb08	ios_base::badbit set
+14016eb1d	punct
+14016eb23	-u,--unprotect
+14016eb32	SysDataBaseBasic.project
+14016eb4b	object
+14016eb52	BasicData/CommonEvent.dat
+14016eb6c	Failed to load CommonEvent.dat
+14016eb8b	SysDatabase.dat
+14016eb9b	CDatabase.dat
+14016eba9	Failed to load Database.dat
+14016ebc5	DataBase.dat
+14016ebd2	BasicData/Game.dat
+14016ebe5	TileSetData.dat
+14016ebf5	Invalid presentation type for wchar_t
+14016ec1b	integral cannot be stored in wchar_t
+14016ec40	invalid string: control character U+0009 (HT) must be escaped to \\u0009 or \\t
+14016ec93	directory_entry::status
+14016ecab	TitlePlus
+14016ecb5	One Way Heroics Plus
+14016ecca	exists
+14016ecd1	SubFonts
+14016ecda	events
+14016ece1	 Events
+14016ece9	invalid string: '\\u' must be followed by 4 hex digits
+14016ed1f	cannot use key() for non-object iterators
+14016ed49	Group names may not contain newlines or null characters
+14016ed81	cannot compare iterators of different containers
+14016edb7	Required min options greater than required max options
+14016edee	Required min options greater than number of available options
+14016ee2c	Options
+14016ee34	Positionals
+14016ee40	parsing got called with invalid option! You should not see this
+14016ee80	Short parsed but missing! You should not see this
+14016eeb2	windows option parsed but missing! You should not see this
+14016eeed	: Too many positional arguments with unlimited expected args
+14016ef2a	intArgs
+14016ef32	stringArgs
+14016ef41	UberWolfLib: -m argument requires two values
+14016ef6e	This should be caught in your main function, see examples
+14016efa8	Unprotect Pro files
+14016efbc	Override existing files
+14016efd4	 WolfX files
+14016efe1	create_directories
+14016eff4	pages
+14016effa	 Pages
+14016f001	Excludes
+14016f00a	 subcommands
+14016f017	Subcommands
+14016f023	Needs
+14016f029	One Way Heroics
+14016f039	codeStr
+14016f041	recursive_directory_iterator::recursive_directory_iterator
+14016f07c	directory_iterator::directory_iterator
+14016f0a3	invalid_iterator
+14016f0b4	object separator
+14016f0c5	parse_error
+14016f0d1	type_error
+14016f0dc	parse error
+14016f0e8	RequiresError
+14016f0f6	ExcludesError
+14016f104	ValidationError
+14016f114	ConversionError
+14016f124	ConfigError
+14016f130	ParseError
+14016f13b	RuntimeError
+14016f148	FileError
+14016f152	HorribleError
+14016f160	InvalidError
+14016f16d	RequiredError
+14016f17b	Copyright (c) 2023 Sinflower
+14016f198	Invalid presentation type for pointer
+14016f1be	upper
+14016f1c4	Invalid presentation type specifier
+14016f1e8	Invalid presentation type for integer
+14016f20e	number
+14016f215	Invalid presentation type for char
+14016f238	integral cannot be stored in char
+14016f25a	invalid string: control character U+000D (CR) must be escaped to \\u000D or \\r
+14016f2a8	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG\\GameDat.hpp
+14016f308	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG/CommonEvents.hpp
+14016f36d	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG\\WolfRPGUtils.hpp
+14016f3d2	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG\\FileCoder.hpp
+14016f434	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG\\Map.hpp
+14016f490	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG/Database.hpp
+14016f4f1	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG\\WolfDataBase.hpp
+14016f556	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG\\RouteCommand.hpp
+14016f5bb	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG\\Command.hpp
+14016f61b	C:\\Users\\Administrator\\Downloads\\FunnyGamePlayer\\cmake\\UberWolf\\UberWolfLib\\WolfRPG/WolfRPG.hpp
+14016f67b	decrypt_temp
+14016f688	-h,--help
+14016f692	CallForHelp
+14016f69e	CallForAllHelp
+14016f6b6	UberWolfConfig.json
+14016f6ca	File is not protected or not a ProV3 file, skipping decryption
+14016f709	description
+14016f715	Unknown exception
+14016f727	invalid string position
+14016f73f	IncorrectConstruction
+14016f755	bad conversion
+14016f764	CallForVersion
+14016f773	invalid number; expected digit after exponent sign
+14016f7a6	invalid flag argument given
+14016f7c2	config file is required but none was given
+14016f7ed	invalid BOM; must be 0xEF 0xBB 0xBF if given
+14016f81a	 were given
+14016f826	unknown token
+14016f838	boolean
+14016f840	invalid string: control character U+000A (LF) must be escaped to \\u000A or \\n
+14016f88e	alnum
+14016f894	system
+14016f89b	iostream
+14016f8a4	cntrl
+14016f8aa	Invalid presentation type for bool
+14016f8d2	Buffer is empty or too small
+14016f8ef	remove_all
+14016f8fa	number literal
+14016f909	null literal
+14016f916	string literal
+14016f925	true literal
+14016f932	false literal
+14016f940	invalid literal
+14016f950	'[', '{', or a literal
+14016f967	: Flags cannot be positional
+14016f984	weakly_canonical
+14016f995	blank
+14016f99b	-p,--pack
+14016f9aa	bad array new length
+14016f9bf	Trying to load with empty file path
+14016f9e3	invalid string: forbidden character after backslash
+14016fa17	graph
+14016fa1d	Key '{}' for object '{}' not found in patch
+14016fa49	ArgumentMismatch
+14016fa5a	dll_copy_msg
+14016fa67	decrypt_key_error_msg
+14016fa7d	inv_prot_key_error_msg
+14016fa94	calc_prot_key_error_msg
+14016faac	det_key_error_msg
+14016fabe	dxarc_key_error_msg
+14016fad2	decrypt_error_msg
+14016fae4	remove_prot_error_msg
+14016fafa	data_dir_error_msg
+14016fb0d	invalid_pro_error_msg
+14016fb23	prot_key_len_error_msg
+14016fb3a	inj_error_msg
+14016fb48	get_file_size_error_msg
+14016fb60	exe_error_msg
+14016fb6e	unprot_dir_create_error_msg
+14016fb8a	open_file_error_msg
+14016fb9e	write_file_error_msg
+14016fbb3	find_file_error_msg
+14016fbc7	read_file_error_msg
+14016fbdb	key_file_warn_msg
+14016fbed	det_key_inj_msg
+14016fbfd	exec_game_inj_msg
+14016fc0f	dec_key_search_msg
+14016fc22	unpacking_msg
+14016fc30	done_msg
+14016fc39	search_game_msg
+14016fc49	det_key_found_msg
+14016fc5b	exe_found_msg
+14016fc69	pro_game_detected_msg
+14016fc7f	failed_msg
+14016fc8a	unpacked_msg
+14016fc97	dll_copied_msg
+14016fca6	StartUpMsg
+14016fcb1	TitleMsg
+14016fcba	map/set too long
+14016fccb	Key is too long
+14016fcdb	vector too long
+14016fceb	string too long
+14016fcfb	vector<bool> too long
+14016fd11	Can not switch from automatic to manual indexing
+14016fd42	Can not switch from manual to automatic indexing
+14016fd73	Max retries reached, aborting
+14016fd91	 missing
+14016fd9a	Invalid presentation type for string
+14016fdbf	BadNameString
+14016fdcd	Number is too big
+14016fddf	: too many inputs for a flag
+14016fe04	invalid string: control character U+000C (FF) must be escaped to \\u000C or \\f
+14016fe52	file_size
+14016fe5c	WriteBytesVec: size is larger than buffer size
+14016fe8b	ReadBytesVec: size is larger than buffer size
+14016feb9	Invalid data size
+14016fed0	remove
+14016fedc	iterator does not fit current value
+14016ff00	cannot get value
+14016ff11	Data size exceeds maximum uint32_t value
+14016ff3a	invalid string: ill-formed UTF-8 byte
+14016ff60	absolute
+14016ff69	invalid string: missing closing quote
+14016ff8f	false
+14016ff95	Zero modifier requires an arithmetic or pointer presentation type
+14016ffd7	Hash/sign modifier requires an arithmetic presentation type
+140170013	\rLoading Maps ... Done
+14017002a	added option matched existing option name
+140170054	bad locale name
+140170064	Title
+14017006a	copy_file
+140170074	: This option is not allowed in a configuration file
+1401700a9	Skip: Attempted to skip past end of file
+1401700d2	Seek: Attempted to seek past end of file
+1401700fb	At: Attempted to read past end of file
+140170122	ReadBytes: Attempted to read past end of file
+140170150	Invalid WOLFX file
+140170163	[ERROR] Currently, packing can only be used with an executable
+1401701a2	disable
+1401701aa	enable
+1401701b1	out_of_range
+1401701be	stoul argument out of range
+1401701da	stoi argument out of range
+1401701f5	iterator out of range
+14017020b	Usage
+140170211	Clear: FileWriter not in buffer mode
+14017023b	-o,--override
+140170249	 was given a disallowed flag override
+14017026f	space
+140170275	 not found
+140170280	OptionNotFound
+14017028f	A subcommand
+14017029f	MAGIC invalid
+1401702ad	\\ufffd
+1401702b4	FileWriter not initialized
+1401702cf	FileWalker not initialized
+1401702ea	CommonEvent has more data than expected
+140170312	Game.dat has more data than expected
+140170337	uncompressed
+140170344	 is required
+140170351	Event initialization failed
+14017036d	Page initialization failed
+140170388	RouteCommand initialization failed
+1401703ab	read: End of file reached
+1401703c5	discarded
+1401703cf	 is already added
+1401703e1	OptionAlreadyAdded
+1401703f7	unprot_file_loc
+140170407	generic
+140170415	invalid string: control character U+0008 (BS) must be escaped to \\u0008 or \\b
+140170466	BasicData
+140170470	alpha
+140170476	Ph=X3^]o2A(,1=@3#a
+140170489	nGui9('&1=@3#a
+14017049c	UNKNOWN_
+1401704a5	pages::list[{}]
+1401704b5	CommonEvent::commands[{}]
+1401704cf	FILE[s]
+1401704d7	 of the following options are allowed]
+1401704fe	 \n[Exactly 1 of the following options is required]
+140170531	 options from the following list are required]
+140170560	 of the follow options are required]
+140170585	 of the following options are required]
+1401705b5	unrecognized escape sequence \\
+1401705d4	{"bytes":[
+1401705df	 in [
+1401705e5	Exactly 1 option from [
+1401705fd	At least 1 option from [
+140170616	 were given from [
+140170629	Requires at most 1 options be given from [
+140170654	 not in range [
+14017066f	VER_IDX
+140170684	FLOAT
+14017068a	OPTIONS
+140170692	SUBCOMMANDS
+1401706a2	NUMBER
+1401706ac	UNKNOWN_PRO
+1401706b8	invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
+140170704	invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+140170748	0123456789ABCDEF
+140170759	invalid string: control character U+001F (US) must be escaped to \\u001F
+1401707a1	invalid string: control character U+000F (SI) must be escaped to \\u000F
+1401707f9	POSITIVE
+140170802	NONNEGATIVE
+140170813	invalid string: control character U+001E (RS) must be escaped to \\u001E
+14017085b	invalid string: control character U+000E (SO) must be escaped to \\u000E
+1401708a3	SUBCOMMAND
+1401708ae	REQUIRED
+1401708b7	invalid string: control character U+001D (GS) must be escaped to \\u001D
+1401708ff	invalid string: control character U+001C (FS) must be escaped to \\u001C
+140170947	invalid string: control character U+001B (ESC) must be escaped to \\u001B
+140170990	invalid string: control character U+000B (VT) must be escaped to \\u000B
+1401709d8	TilesetA
+1401709e1	invalid string: control character U+001A (SUB) must be escaped to \\u001A
+140170a2a	<Game[Pro].exe>\n<data_folder>\n<.wolf-files>
+140170a56	<parse error>
+140170a64	<uninitialized>
+140170a74	<discarded>
+140170a80	<U+%.4X>
+140170a89	WLFRPrO!p(;s5((8P@((UFWlu$#5(=
+140170aab	Long parsed but missing (you should not see this):
+140170aeb	invalid string: control character U+0019 (EM) must be escaped to \\u0019
+140170b41	invalid string: control character U+0018 (CAN) must be escaped to \\u0018
+140170b8a	.UTF-8
+140170b96	invalid string: control character U+0017 (ETB) must be escaped to \\u0017
+140170bdf	invalid string: control character U+0007 (BEL) must be escaped to \\u0007
+140170c32	 expected 0x66
+140170c41	invalid string: control character U+0016 (SYN) must be escaped to \\u0016
+140170c8a	invalid string: control character U+0006 (ACK) must be escaped to \\u0006
+140170cd8	Wolf RPG v2.225
+140170ce8	invalid string: control character U+0015 (NAK) must be escaped to \\u0015
+140170d31	invalid string: control character U+0005 (ENQ) must be escaped to \\u0005
+140170d7a	NOT POSSIBLE FOR WolfRPG v3.5
+140170d98	DBase4
+140170da4	invalid string: control character U+0014 (DC4) must be escaped to \\u0014
+140170ded	Wolf RPG v3.14
+140170dfc	invalid string: control character U+0004 (EOT) must be escaped to \\u0004
+140170e45	dll_error_msg_3
+140170e55	invalid string: control character U+0013 (DC3) must be escaped to \\u0013
+140170e9e	invalid string: control character U+0003 (ETX) must be escaped to \\u0003
+140170ee7	Commo2
+140170eee	dll_error_msg_2
+140170efe	invalid string: control character U+0012 (DC2) must be escaped to \\u0012
+140170f47	invalid string: control character U+0002 (STX) must be escaped to \\u0002
+140170f90	Wolf RPG ChaCha2 v1
+140170fa4	dll_error_msg_1
+140170fb4	basicD1
+140170fbc	Wolf RPG v3.31
+140170fcb	invalid string: control character U+0011 (DC1) must be escaped to \\u0011
+140171014	invalid string: control character U+0001 (SOH) must be escaped to \\u0001
+14017106c	 expected 0x70
+14017107b	Wolf RPG v3.50
+14017108a	Wolf RPG v2.20
+140171099	invalid string: control character U+0010 (DLE) must be escaped to \\u0010
+1401710e2	Wolf RPG v2.10
+1401710f1	invalid string: control character U+0000 (NUL) must be escaped to \\u0000
+14017113a	Wolf RPG v3.00
+14017114b	Format specifier requires numeric or pointer argument.
+140171182	Format specifier requires numeric argument.
+1401711ae	Unknown format specifier.
+1401711c8	Missing precision specifier.
+1401711e5	Precision is not an integer.
+140171202	Width is not an integer.
+14017121b	FileCoder: READ mode requires a filename or buffer.
+14017124f	[json.exception.
+140171260	Invalid type specification.
+14017127c	Negative precision.
+140171290	String pointer is null.
+1401712a8	Negative width.
+1401712b8	Missing '}' in format string.
+1401712d6	Unmatched '}' in format string.
+1401712f6	Invalid format string.
+14017130d	Number is too big.
+140171320	Precision not allowed for this argument type.
+14017134e	Failed to initialize game with the provided executable.
+140171386	Argument not found.
+14017139a	No valid files found.
+1401713b0	Zero length string encountered.
+1401713d0	LZ4 decompression failed.
+1401713ea	No files specified.
+1401713fe	Failed to decrypt ProV3 data.
+14017141c	[0xD800, 0xDFFF] are not valid UTF-8.
+140171442	 files ...
+14017144d	Invalid fill (too long).
+14017146c	recursive_directory_iterator::operator++
+14017149a	bool __cdecl Page::Init(FileCoder &, uint32_t)
+1401714c9	nan(snan)
+1401714d3	PATH(non-existing)
+1401714e6	PATH(existing)
+1401714f5	nan(ind)
+1401714fe	bool __cdecl Database::init(void)
+140171520	void __cdecl FileCoder::Pack(void)
+140171543	tString __cdecl FileCoder::ReadString(void)
+14017156f	void __cdecl FileCoder::decryptV3_5(void)
+140171599	 was not readable (missing?)
+1401715b6	current_path()
+1401715c5	current_path(const path&)
+1401715df	virtual void __cdecl Command::Command::SetText(const tString &, const uint32_t &)
+140171631	bool __cdecl CommonEvent::init(FileCoder &)
+14017165d	bool __cdecl Event::Init(FileCoder &)
+140171683	bool __cdecl RouteCommand::Init(FileCoder &)
+1401716b0	static CommandShPtr::Command __cdecl Command::Command::Init(FileCoder &)
+1401716f9	bool __cdecl Type::ReadDat(FileCoder &)
+140171721	virtual bool __cdecl GameDat::load(FileCoder &)
+140171751	virtual bool __cdecl CommonEvents::load(FileCoder &)
+140171786	virtual bool __cdecl Map::load(FileCoder &)
+1401717b2	__cdecl Command::CommandSpecialClasses::Move::Move(const CommandType &, const uInts &, const tStrings &, const uint8_t &, FileCoder &)
+140171839	void __cdecl CommonEvent::Patch(const nlohmann::ordered_json &)
+140171879	void __cdecl Event::Patch(const nlohmann::ordered_json &)
+1401718b3	void __cdecl Page::Patch(const nlohmann::ordered_json &)
+1401718ec	virtual void __cdecl Command::Command::Patch(const nlohmann::ordered_json &)
+140171939	void __cdecl FileCoder::Unpack(const bool &)
+140171966	void __cdecl CheckAndCreateDir(const std::filesystem::path &)
+1401719a4	virtual void __cdecl CommonEvents::Patch(const std::filesystem::path &)
+1401719ec	virtual void __cdecl WolfDataBase::Patch(const std::filesystem::path &)
+140171a34	bool __cdecl WolfDataBase::Load(const std::filesystem::path &)
+140171a73	virtual void __cdecl Command::CommandSpecialClasses::Picture::SetText(const tString &)
+140171aca	virtual void __cdecl Command::CommandSpecialClasses::Picture::SetFilename(const tString &)
+140171b25	__cdecl FileCoder::FileCoder(const Mode &, const WolfFileType &)
+140171b66	unrecognized classifier (you should not see this!)
+140171b99	Failed at readDat for type(
+140171bba	Invalid IPV4 address must have four parts (
+140171be6	Failed parsing number (
+140171c02	invalid fill character '{'
+140171c2c	invalid comment; missing closing '*/'
+140171c52	invalid comment; expecting '/' or '*' after '/'
+140171c82	invalid number; expected digit after '.'
+140171cab	invalid number; expected digit after '-'
+140171ce0	number overflow parsing '
+140171cfa	; last read: '
+140171d24	Picture type "
+140171d42	 \n[Exactly 
+140171d4e	 options used but only 
+140171d66	invalid UTF-8 byte at index 
+140171d87	 options be used but 
+140171d9d	] is required but 
+140171db0	Requires at most 
+140171dc2	 \n[At most 
+140171dce	: At Most 
+140171dd9	Requires at least 
+140171dec	 \n[At least 
+140171df9	: At least 
+140171e05	CommonEvent data indicator not 0x8F (got 
+140171e2f	CommonEvent header indicator not 0x8E (got 
+140171e5b	CommonEvent data terminator smaller than 0x89 (got 
+140171e8f	CommonEvent data indicator not 0x92 (got 
+140171eb9	CommonEvent data indicator not 0x91 (got 
+140171ee3	CommonEvent data indicator not 0x92 or 0x91 (got 
+140171f15	, got 
+140171f1c	type must be number, but is 
+140171f39	type must be boolean, but is 
+140171f57	type must be string, but is 
+140171f74	incompatible ReferenceType for get_ref, actual type is 
+140171fac	 requires 
+140171fb7	Long names strings require 2 dashes 
+140171fdc	 excludes 
+140171fe7	unicode sequence must have 8 hex codes 
+14017200f	unicode sequence must have 4 hex codes 
+140172037	syntax error 
+14017204a	, column 
+140172059	 \n[Between 
+140172065	cannot use operator[] with a string argument with 
+140172098	cannot use operator[] with a numeric argument with 
+1401720cc	adding ignore case caused a name conflict with 
+1401720fc	adding ignore underscore caused a name conflict with 
+140172132	Run with 
+14017213c	cannot use push_back() with 
+140172159	cannot use erase() with 
+140172172	Retrying 
+14017217c	while parsing 
+14017218b	Failed parsing 
+14017219b	Value 
+1401721a2	INI was not able to parse 
+1401721bd	 at line 
+1401721c7	CommandLineToArgvW failed with code 
+1401721ec	invalid escape sequence 
+140172205	Found 
+14017220c	Subcommand 
+140172218	 and 
+14017221e	 required but received 
+140172236	unexpected 
+140172242	ID mismatch in patch (expected 
+140172262	; expected 
+14017226e	Expected 
+140172278	 required 
+140172283	 as a 
+1401722a8	File is empty: 
+1401722b8	File is actually a directory: 
+1401722d7	Protection key: 
+1401722e8	Directory does not exist: 
+140172303	Path does not exist: 
+140172319	File does not exist: 
+14017232f	Could not convert: 
+140172343	Error processing CommonEvent.dat: 
+140172366	Error processing Database.dat: 
+140172386	Path already exists: 
+14017239c	     aliases: 
+1401723ab	Must have a name, not just dashes: 
+1401723cf	Unexpected command terminator: 
+1401723ef	Unexpected event indicator: 
+14017240c	Error: 
+140172414	[Option Group: 
+140172424	\rLoading Map: 
+140172433	added option matches existing positional option: 
+140172465	added option positional name matches existing option: 
+14017249c	Event ID mismatch: 
+1401724b0	Page ID mismatch: 
+1401724c3	Error while processing: 
+1401724dc	excessive array size: 
+1401724f3	excessive object size: 
+14017250b	Only one positional name allowed, remove: 
+140172536	Invalid one char name: 
+14017254e	added option matched existing option name: 
+14017257a	Bad long name: 
+14017258a	Invalid positional Name: 
+1401725a4	Failed to open output file: 
+1401725c1	Failed to open file: 
+1401725d7	Directory is actually a file: 
+1401725f6	Index out of range: 
+14017260b	Invalid mode: 
+14017261a	DecryptWolfXFiles failed with exit code: 
+140172644	UnpackDataVec failed with exit code: 
+14017266a	UnpackData failed with exit code: 
+14017268d	PackData failed with exit code: 
+1401726ae	Page terminator not 0x7A (found: 
+1401726d0	File not found: 
+1401726e1	The following argument was not expected: 
+14017270b	The following arguments were not expected: 
+140172737	An error occurred: 
+14017274b	 only partially specified: 
+140172767	 Events, but read: 
+14017277b	 Pages, but read: 
+14017279a	Each IP number must be between 0 and 255 
+1401727c4	Loading Game.dat ... 
+1401727da	Loading CommonEvents ... 
+1401727f4	Loading Maps ... 
+140172806	Loading Databases ... 
+14017281d	Decrypting WolfX files ... 
+140172839	Collecting WolfX decryption information ... 
+140172866	Invalid package version index - 
+140172897	              
+1401728ad	 Options\n
+1401728c0	 for more information.\n
+1401728e0	{}_{}
+1401728ec	Failed to open file {}
+14017291a	Invalid directory: {}
+140172946	Searching for game executable in: {}
+140172990	Unprotected files can be found in: {}
+1401729dc	UberWolfLib: Invalid game executable path: {}
+140172a38	UberWolfLib: Could not find protection file: {}
+140172a98	Failed to open file: {}
+140172ac8	Found game executable: {}
+140172afc	Encryption function not found for mode: {}
+140172b52	CreateProcess() failed: {}
+140172b88	GetExitCodeProcess() failed: {}
+140172bc8	ERROR: {}
+140172bdc	Party
+140172be8	DLL copied successfully
+140172c18	Failed to find the decryption key
+140172c5c	ERROR: Unable to calculate protection key
+140172cb0	ERROR: Invalid protection key
+140172cec	ERROR: Unable to find DxArc key
+140172d2c	InputKey
+140172d3e	SetVariableEx
+140172d7e	ClearDebugText
+140172d9c	AutoInput
+140172db0	BanInput
+140172dc2	List
+140172dcc	Teleport
+140172dde	print
+140172dea	Checkpoint
+140172e00	CommonEvent
+140172e18	BreakEvent
+140172e2e	EraseEvent
+140172e44	.content
+140172e56	Comment
+140172e68	digit
+140172e74	Wait
+140172e7e	ERROR: Unable to remove protection, data folder not set
+140172eee	ChipSet
+140172efe	punct
+140172f0a	.project
+140172f1c	Invalid WolfRPG object
+140172f4a	MapEffect
+140172f5e	commonevent.dat
+140172f7e	CommonEvent.dat
+140172f9e	cdatabase.dat
+140172fba	game.dat
+140172fcc	Game.dat
+140172fde	.assets
+140172ff6	.res
+140173000	LoopTimes
+140173014	Choices
+140173024	 [%d/%d] %d%%%%  %s
+14017304c	ChangeColor
+140173064	lower
+140173070	upper
+14017307c	UberWolfLib: Could not find data folder
+1401730cc	backup
+1401730da	StartLoop
+1401730ee	BreakLoop
+14017310a	Chip
+14017311c	SetTransition
+140173138	ExecuteTransition
+14017315c	PrepareTransition
+140173180	StringCondition
+1401731a0	VariableCondition
+1401731c4	Found the decryption key, restarting extraction
+140173224	.bin
+14017322e	ScrollScreen
+140173248	MoveDuringEventOn
+14017326c	alnum
+14017327e	cntrl
+14017328a	SetLabel
+14017329c	JumpLabel
+1401732b0	blank
+1401732bc	Blank
+1401732c8	.pak
+1401732d2	ERROR: Invalid key length
+140173306	graph
+14017332e	SetString
+140173342	Injecting the DLL failed, stopping
+140173388	{} is already unpacked, skipping
+1401733d4	jpeg
+1401733de	.wolf
+1401733f2	MoveDuringEventOff
+140173418	GamePro.exe
+140173430	Game.exe
+140173442	CommonEventReserve
+140173468	WaitForMove
+140173480	true
+14017348a	false
+140173496	ImportDatabase
+1401734b4	SysDatabase
+1401734cc	CancelCase
+1401734e2	ElseCase
+1401734f4	SpecialChoiceCase
+140173518	CDataBase
+14017352c	Picture
+14017353c	ERROR: The Pro version of the game does not support this feature
+1401735be	Done
+1401735c8	ERROR: Unable to remove protection, this does not look like a WolfPro game
+14017365e	WARNING: Unable to find DxArc key file, this does not look like a WolfPro game
+1401736fc	CommonEventByName
+140173720	SaveGame
+140173732	EndGame
+140173742	LoadGame
+140173754	ReturnToTitle
+140173770	ERROR: Unable to decrypt protection key file
+1401737ca	UberWolfLib: Failed to create file
+140173810	ERROR: Unable to decrypt protected file
+140173860	GameFile
+140173872	Could not find the game executable
+1401738b8	SetVariable
+1401738d0	Specified Mode: {} out of range
+140173910	) out of range
+14017392e	ForceStopMessage
+140173950	DebugMessage
+14017396a	.resource
+14017397e	UberWolfLib: Failed to find resource
+1401739c8	UberWolfLib: Failed to load resource
+140173a12	space
+140173a1e	Sound
+140173a2a	Command
+140173a3a	LoopEnd
+140173a4a	BranchEnd
+140173a5e	unprotected
+140173a76	] has more data than expected
+140173ab2	Failed
+140173ac0	SaveLoad
+140173ad2	StopNonPic
+140173ae8	ResumeNonPic
+140173b0e	.data
+140173b1a	TileSetData
+140173b32	BasicData
+140173b46	alpha
+140173b66	[\\/\\\\:\\*\\?\\"<>\\|]
+140173b8a	\\\\?\\UNC\\
+140173b9c	\\\\?\\
+140173ba6	Map [
+140173bb2	Database [
+140173bc8	\\\\?\\GLOBALROOT
+140173be6	NO DEFAULT FOUND
+140173c18	BasicData2
+140173c2e	0000-0000
+140173c46	Copying DLL from resource to {} ...
+140173c8e	WolfPro game detected, trying to get decryption key ...
+140173cfe	Searching for decryption key ...
+140173d40	ERROR: Invalid key length, exiting ...
+140173d8e	ERROR: Data folder "{}" is not a directory, stopping ...
+140173e00	ERROR: Data folder "{}" does not exist, stopping ...
+140173e6a	ERROR: Unable to get file size for "{}".
+140173ebc	ERROR: Unable to open file "{}".
+140173efe	ERROR: Unable to write file "{}".
+140173f42	ERROR: Unable to find file "{}".
+140173f84	ERROR: Unable to read file "{}".
+140173fce	^\\u3000*
+140173fe0	ERROR: Unable to create unprotected folder ({})
+140174040	setText(
+140174052	\\u3000*$
+140174064	{}Invalid magic string: "{}" expected: "{}"
+1401740bc	 terminator at the end of "
+1401740fc	" -m 
+140174108	Failed to create directory: 
+140174142	  - got: 
+140174156	Failed to create file mapping for: 
+14017419e	Failed to open file for dumping: 
+1401741e2	Failed to open file: 
+14017420e	Failed to create map view of file: 
+140174256	Patch file not found: 
+140174284	] project and dat type count mismatch expected: 
+1401742e6	Removing protection from: {} ... 
+14017432a	Unpacking: {} ... 
+140174350	Trying to get decryption key using injection ... 
+1401743b4	Executing game and injecting DLL ... 
+14017441c	Sunday
+140174424	Monday
+14017442c	Friday
+14017446c	August
+1401744ac	floor
+14017450c	April
+140174540	March
+14017455c	%.0Lf
+140174570	false
+1401745c8	1#SNAN
+1401745d0	1#QNAN
+1401745f0	1#INF
+140174600	1#IND
+14017466c	log10
+1401746a8	(null)
+140174970	dddd, MMMM dd, yyyy
+140174988	MM/dd/yy
+140174998	directory not empty
+1401749b0	text file busy
+1401749c0	device or resource busy
+1401749d8	no such file or directory
+1401749f8	not a directory
+140174a08	is a directory
+140174a18	not enough memory
+140174a30	February
+140174a40	January
+140174a48	Thursday
+140174a58	Tuesday
+140174a60	Wednesday
+140174a70	Saturday
+140174a80	%m / %d / %y
+140174a90	GetDateFormatEx
+140174aa0	GetTimeFormatEx
+140174ab0	EnumSystemLocalesEx
+140174ac8	GetLocaleInfoEx
+140174ad8	LCMapStringEx
+140174ae8	CompareStringEx
+140174af8	stream timeout
+140174b08	timed out
+140174b18	invalid argument
+140174b30	operator co_await
+140174b48	connection reset
+140174b60	network reset
+140174b70	ios_base::failbit set
+140174b88	ios_base::eofbit set
+140174ba0	ios_base::badbit set
+140174bb8	not a socket
+140174bc8	__restrict
+140174bd8	file exists
+140174be8	connection already in progress
+140174c08	operation in progress
+140174c20	no such device or address
+140174c40	bad address
+140174c50	no such process
+140174c60	no child process
+140174c78	CorExitProcess
+140174c88	success
+140174c90	HH:mm:ss
+140174ca0	too many symbolic link levels
+140174cc0	too many links
+140174cd0	no stream resources
+140174ce8	resource deadlock would occur
+140174d08	bad file descriptor
+140174d20	operator
+140174d30	regex_error
+140174d40	executable format error
+140174d58	io error
+140174d68	unknown error
+140174d78	protocol error
+140174d88	_nextafter
+140174d98	October
+140174da0	November
+140174db0	September
+140174dc0	December
+140174dd0	%I : %M : %S %p
+140174de0	network down
+140174df0	no protocol option
+140174e08	bad exception
+140174e18	invalid string position
+140174e30	inappropriate io control operation
+140174e58	bad allocation
+140174e68	argument out of domain
+140174e80	resource unavailable try again
+140174ea0	too many files open
+140174ec8	too many files open in system
+140174ee8	read only file system
+140174f00	not a stream
+140174f10	__fastcall
+140174f20	__thiscall
+140174f30	__vectorcall
+140174f40	__clrcall
+140174f50	__stdcall
+140174f60	bad function call
+140174f78	__cdecl
+140174f80	no link
+140174f88	cross device link
+140174fa0	invalid seek
+140174fb0	operation would block
+140174fc8	argument list too long
+140174fe0	filename too long
+140174ff8	message size
+140175008	 delete
+140175010	address in use
+140175020	wrong protocol type
+140175038	broken pipe
+140175048	__preserve_none
+140175058	bad locale name
+140175068	GetUserDefaultLocaleName
+140175088	LCIDToLocaleName
+1401750a0	IsValidLocaleName
+1401750b8	state not recoverable
+1401750d0	address not available
+1401750e8	no lock available
+140175100	no message available
+140175118	host unreachable
+140175130	network unreachable
+140175148	value too large
+140175158	file too large
+140175168	result out of range
+140175180	no message
+140175190	bad message
+1401751a0	illegal byte sequence
+1401751b8	no space on device
+1401751d0	no such device
+1401751e0	no buffer space
+1401751f0	AppPolicyGetProcessTerminationMethod
+140175218	identifier removed
+140175230	operation not permitted
+140175248	address family not supported
+140175268	function not supported
+140175280	operation not supported
+140175298	protocol not supported
+1401752b0	not supported
+1401752c0	connection aborted
+1401752d8	interrupted
+1401752e8	already connected
+140175300	not connected
+140175310	connection refused
+140175328	destination address required
+140175348	__unaligned
+140175358	operation canceled
+140175370	permission denied
+140175388	owner dead
+140175398	 delete[]
+1401753a8	%a %b %e %T %Y
+1401753b8	%H : %M : %S
+1401753c8	%H : %M
+1401753d0	AreFileApisANSI
+1401753e0	LocaleNameToLCID
+1401753f8	operator<=>
+140175410	__swift_3
+140175420	FlsGetValue2
+140175430	__swift_2
+140175440	__swift_1
+140175450	regex_error(error_syntax)
+140175470	nan(snan)
+140175480	regex_error(error_parse)
+1401754a0	nan(ind)
+1401754b0	NAN(SNAN)
+1401754c0	NAN(IND)
+1401754d0	restrict(
+1401754e0	__based(
+1401754f0	 Base Class Descriptor at (
+140175510	 Base Class Array'
+140175528	 Class Hierarchy Descriptor'
+140175548	 Type Descriptor'
+140175560	`vector deleting destructor'
+140175580	`scalar deleting destructor'
+1401755a0	`vbase destructor'
+1401755b8	`vector copy constructor iterator'
+1401755e0	`eh vector copy constructor iterator'
+140175608	`managed vector copy constructor iterator'
+140175638	`vector vbase copy constructor iterator'
+140175668	`eh vector vbase copy constructor iterator'
+140175698	`vector constructor iterator'
+1401756b8	`eh vector constructor iterator'
+1401756e0	`managed vector constructor iterator'
+140175708	`vector vbase constructor iterator'
+140175730	`eh vector vbase constructor iterator'
+140175758	`vector destructor iterator'
+140175778	`eh vector destructor iterator'
+140175798	`managed vector destructor iterator'
+1401757c0	 Complete Object Locator'
+1401757e0	`virtual displacement map'
+140175808	`string'
+140175818	`udt returning'
+140175828	`omni callsig'
+140175848	`copy constructor closure'
+140175868	`default constructor closure'
+140175888	`local vftable constructor closure'
+1401758b0	`placement delete closure'
+1401758d0	`placement delete[] closure'
+1401758f0	`vftable'
+140175900	`local vftable'
+140175910	`vbtable'
+140175920	`anonymous namespace'
+140175938	`local static thread guard'
+140175958	`local static guard'
+140175970	`dynamic atexit destructor for '
+140175998	`dynamic initializer for '
+1401759b8	Bad dynamic_cast!
+1401759d0	Attempted a typeid of nullptr pointer!
+1401759f8	Bad read pointer - no RTTI data!
+140175a20	Access violation - no RTTI data!
+140175a48	operator "" 
+140175a78	english-nz
+140175ad0	dddd, MMMM dd, yyyy
+140175af8	MM/dd/yy
+140175b40	February
+140175b58	January
+140175b88	July
+140175bb8	spanish-uruguay
+140175bd8	spanish-paraguay
+140175c00	Thursday
+140175c18	Tuesday
+140175c28	Wednesday
+140175c40	Saturday
+140175c58	Sunday
+140175c68	Monday
+140175c78	Friday
+140175ca8	w+bx
+140175d30	spanish-peru
+140175dc8	August
+140175e48	de-at
+140175e58	english-aus
+140175e80	english-us
+140175e98	german-swiss
+140175eb8	italian-swiss
+140175ed8	french-swiss
+140175ef8	swiss
+140175f08	HH:mm:ss
+140175f40	united-states
+140175fa0	spanish-honduras
+140175ff8	spanish-el salvador
+140176020	spanish-ecuador
+140176090	October
+1401760a0	November
+1401760b8	September
+1401760d0	December
+1401761d0	english-trinidad y tobago
+140176208	trinidad & tobago
+140176250	puerto-rico
+140176268	spanish-puerto rico
+140176310	sr-sp-latn
+140176328	bs-ba-latn
+140176340	sr-ba-latn
+140176388	sr-SP-Latn
+1401763a0	bs-BA-Latn
+1401763b8	sr-BA-Latn
+1401763e0	spanish-modern
+140176418	german-lichtenstein
+140176440	great britain
+140176460	britain
+140176490	kn-in
+1401764a0	bn-in
+1401764d0	hi-in
+1401764e0	te-in
+1401764f0	ta-in
+140176500	sa-in
+140176510	pa-in
+140176550	german-austrian
+140176570	portuguese-brazilian
+1401765a0	australian
+1401765b8	dutch-belgian
+1401765d8	french-belgian
+1401765f8	belgian
+140176608	norwegian
+140176620	french-canadian
+140176640	canadian
+140176658	english-caribbean
+140176680	spanish-mexican
+1401766a0	english-american
+1401766c8	english-can
+140176708	am/pm
+140176718	united-kingdom
+1401767a0	sr-sp-cyrl
+140176800	sr-SP-Cyrl
+140176850	ntdll
+140176860	mscoree.dll
+140176878	April
+1401768a8	chinese-traditional
+1401768d0	norwegian-bokmal
+140176908	english-uk
+140176920	norwegian-nynorsk
+1401769b0	sl-si
+1401769d8	de-li
+140176a50	american-english
+140176a78	irish-english
+140176a98	american english
+140176ad8	March
+140176b08	fr-ch
+140176b18	de-ch
+140176b50	german-luxembourg
+140176b78	french-luxembourg
+140176ba0	chinese-hongkong
+140176bc8	hong-kong
+140176c10	english-belize
+140176c58	chinese
+140176c68	kernelbase
+140176ca0	se-se
+140176cc0	chinese-singapore
+140176ce8	english-ire
+140176d20	June
+140176d30	spanish-chile
+140176d50	!_is_double
+140176d68	_is_double
+140176d80	!x-sys-default-locale
+140176df0	de-de
+140176e30	swedish-finland
+140176e50	holland
+140176e60	england
+140176e70	new-zealand
+140176e98	chinese-simplified
+140176ed8	spanish-dominican republic
+140176ff8	spanish-nicaragua
+140177030	english-usa
+140177078	spanish-argentina
+1401770a0	pr-china
+1401770b8	pr china
+1401770d0	china
+1401770e0	spanish-panama
+140177110	spanish-venezuela
+140177138	spanish-guatemala
+140177160	spanish-bolivia
+140177180	spanish-colombia
+1401771a8	south-korea
+1401771c0	south korea
+1401771d8	south-africa
+1401771f8	english-south africa
+140177228	america
+140177238	spanish-costa rica
+140177260	english-jamaica
+140177340	LC_MONETARY
+1401773b8	zh-TW
+1401774d8	de-AT
+1401774e8	en-US
+140177578	ko-KR
+140177608	ja-JP
+140177748	kn-IN
+140177758	bn-IN
+140177788	hi-IN
+140177798	te-IN
+1401777a8	ta-IN
+1401777b8	sa-IN
+1401777c8	pa-IN
+1401777e8	zh-CN
+140177858	LC_ALL
+1401778e8	sl-SI
+140177908	de-LI
+140177998	fr-CH
+1401779a8	de-CH
+140177a28	LC_COLLATE
+140177a60	se-SE
+140177a80	LC_CTYPE
+140177ab8	LC_TIME
+140177b08	de-DE
+140177b68	LC_NUMERIC
+140177cc0	utf8
+140177cd0	utf-8
+140177ce0	api-ms-win-core-file-l1-2-4
+140177d18	api-ms-win-core-file-l2-1-4
+140177d50	user32
+140177d60	kernel32
+140177d78	advapi32
+140177d90	api-ms-win-core-file-l1-2-2
+140177dc8	api-ms-win-core-fibers-l1-1-2
+140177e08	api-ms-win-core-sysinfo-l1-2-1
+140177e48	api-ms-win-core-synch-l1-2-0
+140177e88	api-ms-win-core-xstate-l2-1-0
+140177ec8	api-ms-win-core-winrt-l1-1-0
+140177f08	api-ms-win-core-string-l1-1-0
+140177f50	ext-ms-
+140177f60	api-ms-
+140177f78	(null)
+140177f88	CONOUT$
+140177fa0	:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+140178000	+v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
+140178080	:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+140178110	regex_error(error_brace): The expression contained mismatched { and }.
+140178160	regex_error(error_range): The expression contained an invalid character range, such as [b-a] in most encodings.
+1401781d0	regex_error(error_badbrace): The expression contained an invalid range in a {} expression.
+140178230	regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
+140178290	regex_error(error_complexity): The complexity of an attempted match against a regular expression exceeded a pre-set level.
+140178310	regex_error(error_escape): The expression contained an invalid escaped character, or a trailing escape.
+140178380	regex_error(error_space): There was insufficient memory to convert the expression into a finite state machine.
+1401783f0	regex_error(error_collate): The expression contained an invalid collating element name.
+140178450	regex_error(error_ctype): The expression contained an invalid character class name.
+1401784b0	regex_error(error_stack): There was insufficient memory to determine whether the regular expression could match the specified character sequence.
+140178550	regex_error(error_backref): The expression contained an invalid back reference.
+1401785a0	regex_error(error_brack): The expression contained mismatched [ and ].
+1401785f0	regex_error(error_paren): The expression contained mismatched ( and ).
+140178640	:Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
+1401786f0	__crt_strtox::floating_point_value::as_float
+140178750	:Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
+140178860	minkernel\\crts\\ucrt\\inc\\corecrt_internal_strtox.h
+1401788d0	__crt_strtox::floating_point_value::as_double
+140178930	api-ms-win-core-processthreads-l1-1-2
+140178980	api-ms-win-appmodel-runtime-l1-1-2
+1401789d0	api-ms-win-core-localization-l1-2-1
+140178a20	api-ms-win-core-datetime-l1-1-1
+140178a60	api-ms-win-core-localization-obsolete-l1-2-0
+140178ac0	ext-ms-win-ntuser-dialogbox-l1-1-0
+140178b10	api-ms-win-rtcore-ntuser-window-l1-1-0
+140178b60	api-ms-win-security-systemfunctions-l1-1-0
+140178bc0	ext-ms-win-ntuser-windowstation-l1-1-0
+14017968a	AcquireSRWLockExclusive
+1401796a4	AreFileApisANSI
+1401796b6	CloseHandle
+1401796c4	CompareStringEx
+1401796d6	CompareStringW
+1401796e8	CopyFile2
+1401796f4	CreateDirectoryW
+140179708	CreateFile2
+140179716	CreateFileMappingW
+14017972c	CreateFileW
+14017973a	CreateProcessW
+14017974c	CreateToolhelp32Snapshot
+140179768	DecodePointer
+140179778	DeleteCriticalSection
+140179790	DeleteFileW
+14017979e	EncodePointer
+1401797ae	EnterCriticalSection
+1401797c6	EnumSystemLocalesW
+1401797dc	ExitProcess
+1401797ea	FindClose
+1401797f6	FindFirstFileExW
+14017980a	FindFirstFileW
+14017981c	FindNextFileW
+14017982c	FlsAlloc
+140179838	FlsFree
+140179842	FlsGetValue
+140179850	FlsSetValue
+14017985e	FlushFileBuffers
+140179872	FormatMessageA
+140179884	FreeEnvironmentStringsW
+14017989e	FreeLibrary
+1401798ac	GetACP
+1401798b6	GetCPInfo
+1401798c2	GetCommandLineA
+1401798d4	GetCommandLineW
+1401798e6	GetConsoleMode
+1401798f8	GetConsoleOutputCP
+14017990e	GetCurrentDirectoryW
+140179926	GetCurrentProcess
+14017993a	GetCurrentProcessId
+140179950	GetCurrentThreadId
+140179966	GetDateFormatW
+140179978	GetEnvironmentStringsW
+140179992	GetExitCodeProcess
+1401799a8	GetFileAttributesExW
+1401799c0	GetFileAttributesW
+1401799d6	GetFileInformationByHandle
+1401799f4	GetFileInformationByHandleEx
+140179a14	GetFileSize
+140179a22	GetFileSizeEx
+140179a32	GetFileType
+140179a40	GetFinalPathNameByHandleW
+140179a5c	GetFullPathNameW
+140179a70	GetLastError
+140179a80	GetLocaleInfoEx
+140179a92	GetLocaleInfoW
+140179aa4	GetModuleFileNameW
+140179aba	GetModuleHandleExW
+140179ad0	GetModuleHandleW
+140179ae4	GetOEMCP
+140179af0	GetProcAddress
+140179b02	GetProcessHeap
+140179b14	GetStartupInfoW
+140179b26	GetStdHandle
+140179b36	GetStringTypeW
+140179b48	GetSystemTimeAsFileTime
+140179b62	GetTickCount
+140179b72	GetTimeFormatW
+140179b84	GetTimeZoneInformation
+140179b9e	GetUserDefaultLCID
+140179bb4	HeapAlloc
+140179bc0	HeapFree
+140179bcc	HeapReAlloc
+140179bda	HeapSize
+140179be6	InitializeCriticalSectionEx
+140179c04	InitializeSListHead
+140179c1a	IsDebuggerPresent
+140179c2e	IsProcessorFeaturePresent
+140179c4a	IsValidCodePage
+140179c5c	IsValidLocale
+140179c6c	LCMapStringEx
+140179c7c	LCMapStringW
+140179c8c	LeaveCriticalSection
+140179ca4	LoadLibraryExW
+140179cb6	LocalFree
+140179cc2	MapViewOfFile
+140179cd2	MultiByteToWideChar
+140179ce8	Process32FirstW
+140179cfa	Process32NextW
+140179d0c	QueryPerformanceCounter
+140179d26	RaiseException
+140179d38	ReadConsoleW
+140179d48	ReadFile
+140179d54	ReleaseSRWLockExclusive
+140179d6e	RtlCaptureContext
+140179d82	RtlLookupFunctionEntry
+140179d9c	RtlPcToFileHeader
+140179db0	RtlUnwind
+140179dbc	RtlUnwindEx
+140179dca	RtlVirtualUnwind
+140179dde	SetCurrentDirectoryW
+140179df6	SetEndOfFile
+140179e06	SetEnvironmentVariableW
+140179e20	SetFileApisToANSI
+140179e34	SetFileAttributesW
+140179e4a	SetFileInformationByHandle
+140179e68	SetFilePointerEx
+140179e7c	SetFileTime
+140179e8a	SetLastError
+140179e9a	SetStdHandle
+140179eaa	SetUnhandledExceptionFilter
+140179ec8	SleepConditionVariableSRW
+140179ee4	TerminateProcess
+140179ef8	UnhandledExceptionFilter
+140179f14	UnmapViewOfFile
+140179f26	VirtualProtect
+140179f38	WaitForSingleObject
+140179f4e	WakeAllConditionVariable
+140179f6a	WideCharToMultiByte
+140179f80	WriteConsoleW
+140179f90	WriteFile
+140179f9c	CommandLineToArgvW
+140179fb2	wsprintfW
+140179fbc	KERNEL32.dll
+140179fc9	SHELL32.dll
+140179fd5	USER32.dll
+1401c5010	.?AVParseError@CLI@@
+1401c5040	.?AVexception@std@@
+1401c5070	.?AVbad_array_new_length@std@@
+1401c50a0	.?AVbad_alloc@std@@
+1401c50d0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0Validator@CLI@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@V45@$$V@std@@
+1401c5170	.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@std@@
+1401c51e0	.?AV<lambda_1>@?0???0Validator@CLI@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@
+1401c5260	.?AV?$_Func_impl_no_alloc@V<lambda_1>@func_@Validator@CLI@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@std@@
+1401c5300	.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@@std@@
+1401c5370	.?AV<lambda_1>@func_@Validator@CLI@@
+1401c53b0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0ExistingFileValidator@detail@CLI@@QEAA@XZ@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@std@@
+1401c5470	.?AV_System_error_category@std@@
+1401c54b0	.?AVerror_category@std@@
+1401c54e0	.?AV_Generic_error_category@std@@
+1401c5520	.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+1401c55a0	.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+1401c55e0	.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+1401c5620	.?AVcodecvt_base@std@@
+1401c5650	.?AVfacet@locale@std@@
+1401c5680	.?AV_Facet_base@std@@
+1401c56b0	.?AU_Crt_new_delete@std@@
+1401c56e0	.?AVrange_error@std@@
+1401c5710	.?AVruntime_error@std@@
+1401c5740	.?AV<lambda_1>@?0???0ExistingFileValidator@detail@CLI@@QEAA@XZ@
+1401c5790	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0ExistingDirectoryValidator@detail@CLI@@QEAA@XZ@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@std@@
+1401c5850	.?AV<lambda_1>@?0???0ExistingDirectoryValidator@detail@CLI@@QEAA@XZ@
+1401c58b0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0ExistingPathValidator@detail@CLI@@QEAA@XZ@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@std@@
+1401c5970	.?AV<lambda_1>@?0???0ExistingPathValidator@detail@CLI@@QEAA@XZ@
+1401c59c0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0NonexistentPathValidator@detail@CLI@@QEAA@XZ@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@std@@
+1401c5a80	.?AV<lambda_1>@?0???0NonexistentPathValidator@detail@CLI@@QEAA@XZ@
+1401c5ae0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0IPV4Validator@detail@CLI@@QEAA@XZ@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@std@@
+1401c5b90	.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1401c5bf0	.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+1401c5c40	.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+1401c5c90	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+1401c5cd0	.?AVios_base@std@@
+1401c5d00	.?AV?$_Iosb@H@std@@
+1401c5d30	.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+1401c5d80	.?AVfailure@ios_base@std@@
+1401c5db0	.?AVsystem_error@std@@
+1401c5de0	.?AV_System_error@std@@
+1401c5e10	.?AV_Iostream_error_category2@std@@
+1401c5e50	.?AV?$ctype@D@std@@
+1401c5e80	.?AUctype_base@std@@
+1401c5eb0	.?AU_Ctype_constants_base@std@@
+1401c5ee0	.?AVbad_cast@std@@
+1401c5f10	.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1401c5f70	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+1401c5fc0	.?AV<lambda_1>@?0???0IPV4Validator@detail@CLI@@QEAA@XZ@
+1401c6010	.?AV?$_Func_impl_no_alloc@V<lambda_1>@desc_function_@Validator@CLI@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@std@@
+1401c60b0	.?AV<lambda_1>@desc_function_@Validator@CLI@@
+1401c60f0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0EscapedStringTransformer@detail@CLI@@QEAA@XZ@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@@std@@
+1401c61b0	.?AVinvalid_argument@std@@
+1401c61e0	.?AVlogic_error@std@@
+1401c6210	.?AV<lambda_1>@?0???0EscapedStringTransformer@detail@CLI@@QEAA@XZ@
+1401c6270	.?AVApp@CLI@@
+1401c6290	.?AVFormatter@CLI@@
+1401c62c0	.?AVFormatterBase@CLI@@
+1401c62f0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??make_groups@Formatter@CLI@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@4@W4AppFormatMode@4@@Z@_NPEBVOption@4@@std@@
+1401c63c0	.?AV?$_Func_base@_NPEBVOption@CLI@@@std@@
+1401c6400	.?AV<lambda_1>@?0??make_groups@Formatter@CLI@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@3@W4AppFormatMode@3@@Z@
+1401c64b0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??make_positionals@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@4@@Z@_NPEBVOption@4@@std@@
+1401c6580	.?AV<lambda_1>@?0??make_positionals@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@3@@Z@
+1401c6620	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??make_subcommands@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@4@W4AppFormatMode@4@@Z@_NPEBV74@@std@@
+1401c66f0	.?AV?$_Func_base@_NPEBVApp@CLI@@@std@@
+1401c6730	.?AV<lambda_2>@?0??make_subcommands@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@3@W4AppFormatMode@3@@Z@
+1401c67e0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??make_usage@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@4@V56@@Z@_NPEBVOption@4@@std@@
+1401c68a0	.?AV<lambda_1>@?0??make_usage@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@3@V45@@Z@
+1401c6940	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??make_usage@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@4@V56@@Z@_NPEBVOption@4@@std@@
+1401c6a00	.?AV<lambda_2>@?0??make_usage@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@3@V45@@Z@
+1401c6aa0	.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1401c6b00	.?AV?$_Func_impl_no_alloc@V<lambda_4>@?0??make_usage@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@4@V56@@Z@_NPEBV74@@std@@
+1401c6bc0	.?AV<lambda_4>@?0??make_usage@Formatter@CLI@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@3@V45@@Z@
+1401c6c60	.?AV?$_Ref_count@VFormatter@CLI@@@std@@
+1401c6ca0	.?AV_Ref_count_base@std@@
+1401c6cd0	.?AV?$_Func_impl_no_alloc@P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@CLI@@AEBVError@4@@ZV12@PEBV34@AEBV54@@std@@
+1401c6d80	.?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@CLI@@AEBVError@4@@std@@
+1401c6e00	.P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBVApp@CLI@@AEBVError@3@@Z
+1401c6e70	.?AVConfigBase@CLI@@
+1401c6ea0	.?AVConfig@CLI@@
+1401c6ed0	.?AVArgumentMismatch@CLI@@
+1401c6f00	.?AVValidationError@CLI@@
+1401c6f30	.?AVError@CLI@@
+1401c6f50	.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+1401c6fb0	.?AV?$numpunct@D@std@@
+1401c6fe0	.?AVOptionNotFound@CLI@@
+1401c7010	.?AVConversionError@CLI@@
+1401c7040	.?AV?$_Ref_count@VConfigBase@CLI@@@std@@
+1401c7080	.?AVIncorrectConstruction@CLI@@
+1401c70b0	.?AVConstructionError@CLI@@
+1401c70e0	.?AVOptionAlreadyAdded@CLI@@
+1401c7110	.?AV?$_Func_impl_no_alloc@V<lambda_1>@type_name_@Option@CLI@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@std@@
+1401c71b0	.?AV<lambda_1>@type_name_@Option@CLI@@
+1401c71f0	.?AVBadNameString@CLI@@
+1401c7220	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??type_name@Option@CLI@@QEAAPEAV34@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@V56@$$V@std@@
+1401c72d0	.?AV<lambda_1>@?0??type_name@Option@CLI@@QEAAPEAV23@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@
+1401c7360	.?AVInvalidError@CLI@@
+1401c7390	.?AVHorribleError@CLI@@
+1401c73c0	.?AVExtrasError@CLI@@
+1401c73f0	.?AVCallForAllHelp@CLI@@
+1401c7420	.?AVSuccess@CLI@@
+1401c7450	.?AVCallForHelp@CLI@@
+1401c7480	.?AVExcludesError@CLI@@
+1401c74b0	.?AVRequiresError@CLI@@
+1401c74e0	.?AVRequiredError@CLI@@
+1401c7510	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?0??_process_requirements@App@CLI@@IEAAXXZ@_NPEAV34@@std@@
+1401c7590	.?AV?$_Func_base@_NPEAVApp@CLI@@@std@@
+1401c75d0	.?AV<lambda_2>@?0??_process_requirements@App@CLI@@IEAAXXZ@
+1401c7620	.?AVFileError@CLI@@
+1401c7650	.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+1401c76a0	.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+1401c76f0	.?AV?$codecvt@DDU_Mbstatet@@@std@@
+1401c7730	.?AVConfigError@CLI@@
+1401c7760	.?AVfilesystem_error@filesystem@std@@
+1401c77a0	.?AV?$_Ref_count_obj2@U_Dir_enum_impl@filesystem@std@@@std@@
+1401c77f0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0?$TypeValidator@N@CLI@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@V45@AEAV45@@std@@
+1401c78a0	.?AV<lambda_1>@?0???0?$TypeValidator@N@CLI@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@
+1401c7930	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???0Validator@CLI@@IEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@@Z@5@@Z@V45@$$V@std@@
+1401c7a30	.?AV<lambda_1>@?0???0Validator@CLI@@IEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$function@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV12@@Z@4@@Z@
+1401c7b10	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??description@Validator@CLI@@QEAAAEAV34@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@V56@$$V@std@@
+1401c7bc0	.?AV<lambda_1>@?0??description@Validator@CLI@@QEAAAEAV23@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@
+1401c7c50	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$?0N@Range@CLI@@QEAA@NNAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@V45@AEAV45@@std@@
+1401c7d00	.?AV<lambda_1>@?0???$?0N@Range@CLI@@QEAA@NNAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@
+1401c7d80	.?AV?$_Fmt_iterator_buffer@V?$back_insert_iterator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@DU_Fmt_buffer_traits@2@@std@@
+1401c7e30	.?AU_Fmt_buffer_traits@std@@
+1401c7e60	.?AV?$_Fmt_buffer@D@std@@
+1401c7e90	.?AVformat_error@std@@
+1401c7ec0	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$add_option@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@3@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@6@0@Z@V56@$$V@std@@
+1401c80c0	.?AV<lambda_2>@?0???$add_option@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@5@0@Z@
+1401c82a0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$add_option@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@3@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@6@0@Z@_NAEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@6@@std@@
+1401c8540	.?AV?$_Func_base@_NAEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@std@@
+1401c8610	.?AV<lambda_1>@?0???$add_option@V?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@5@0@Z@
+1401c87f0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$add_flag@_N$0A@@App@CLI@@QEAAPEAVOption@3@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEA_N0@Z@_NAEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@6@@std@@
+1401c8950	.?AV<lambda_1>@?0???$add_flag@_N$0A@@App@CLI@@QEAAPEAVOption@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEA_N0@Z@
+1401c89f0	.?AV?$_Func_impl_no_alloc@V<lambda_2>@?0???$add_option@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@3@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@0@Z@V56@$$V@std@@
+1401c8af0	.?AV<lambda_2>@?0???$add_option@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV45@0@Z@
+1401c8bd0	.?AV?$_Func_impl_no_alloc@V<lambda_1>@?0???$add_option@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@3@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV56@0@Z@_NAEBV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@6@@std@@
+1401c8d70	.?AV<lambda_1>@?0???$add_option@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@$0A@@App@CLI@@QEAAPEAVOption@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV45@0@Z@
+1401c8e50	.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+1401c8eb0	.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+1401c8f00	.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+1401c8f50	.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+1401c8f90	.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+1401c8fe0	.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+1401c9040	.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+1401c9090	.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+1401c90e0	.?AV?$_Fmt_iterator_buffer@V?$back_insert_iterator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@std@@_WU_Fmt_buffer_traits@2@@std@@
+1401c9190	.?AV?$_Fmt_buffer@_W@std@@
+1401c91c0	.?AV?$numpunct@_W@std@@
+1401c91f0	.?AV?$ctype@_W@std@@
+1401c9220	.?AVexception@detail@json_abi_v3_11_2@nlohmann@@
+1401c9270	.?AVout_of_range@detail@json_abi_v3_11_2@nlohmann@@
+1401c92c0	.?AVinvalid_iterator@detail@json_abi_v3_11_2@nlohmann@@
+1401c9310	.?AVtype_error@detail@json_abi_v3_11_2@nlohmann@@
+1401c9360	.?AVparse_error@detail@json_abi_v3_11_2@nlohmann@@
+1401c93b0	.?AV?$_Ref_count_obj2@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@json_abi_v3_11_2@nlohmann@@@std@@
+1401c9460	.?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@json_abi_v3_11_2@nlohmann@@
+1401c94f0	.?AU?$output_adapter_protocol@D@detail@json_abi_v3_11_2@nlohmann@@
+1401c9550	.?AVInvalidModeException@@
+1401c9580	.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+1401c9600	.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+1401c9830	.?AVCommonEvents@@
+1401c9860	.?AVWolfDataBase@@
+1401c9890	.?AVWolfRPGException@@
+1401c98c0	.?AV?$basic_fstream@DU?$char_traits@D@std@@@std@@
+1401c9910	.?AVFileWalkerException@@
+1401c9950	.?AVFileWriterException@@
+1401c9980	.?AV?$collate_byname@_W@std@@
+1401c99b0	.?AV?$collate@_W@std@@
+1401c99e0	.?AV_Root_node@std@@
+1401c9a10	.?AV_Node_base@std@@
+1401c9a40	.?AV_Node_capture@std@@
+1401c9a70	.?AV_Node_back@std@@
+1401c9aa0	.?AV?$_Node_class@_WV?$regex_traits@_W@std@@@std@@
+1401c9af0	.?AV_Node_assert@std@@
+1401c9b20	.?AV?$_Node_str@_W@std@@
+1401c9b50	.?AV_Node_endif@std@@
+1401c9b80	.?AV_Node_if@std@@
+1401c9bb0	.?AV_Node_end_group@std@@
+1401c9be0	.?AV_Node_end_rep@std@@
+1401c9c10	.?AV_Node_rep@std@@
+1401c9c40	.?AV?$_Ref_count_obj2@VMove@CommandSpecialClasses@Command@@@std@@
+1401c9ca0	.?AVMove@CommandSpecialClasses@Command@@
+1401c9ce0	.?AVCommand@0@
+1401c9d00	.?AV?$_Ref_count_obj2@VPicture@CommandSpecialClasses@Command@@@std@@
+1401c9d60	.?AVPicture@CommandSpecialClasses@Command@@
+1401c9da0	.?AV?$_Ref_count_obj2@VProFeature@CommandSpecialClasses@Command@@@std@@
+1401c9e00	.?AVProFeature@CommandSpecialClasses@Command@@
+1401c9e40	.?AV?$_Ref_count_obj2@VSetString@CommandSpecialClasses@Command@@@std@@
+1401c9ea0	.?AVSetString@CommandSpecialClasses@Command@@
+1401c9ee0	.?AV?$_Ref_count_obj2@VSetVariable@CommandSpecialClasses@Command@@@std@@
+1401c9f40	.?AVSetVariable@CommandSpecialClasses@Command@@
+1401c9f80	.?AV?$_Ref_count_obj2@VCommand@1@@std@@
+1401c9fc0	.?AV?$num_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+1401ca09c	DXBDXARC
+1401ca181	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLM
+1401ca230	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+1401ca3b0	.?AV?$_Ref_count_obj2@U_Recursive_dir_enum_impl@filesystem@std@@@std@@
+1401ca410	.?AVGameDat@@
+1401ca430	.?AVMap@@
+1401cab1a	abcdefghijklmnopqrstuvwxyz
+1401cab3a	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+1401cad41	abcdefghijklmnopqrstuvwxyz
+1401cad61	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+1401cb040	.?AVlength_error@std@@
+1401cb068	.?AVout_of_range@std@@
+1401cb090	.?AVbad_function_call@std@@
+1401cb0c0	.?AVregex_error@std@@
+1401cb0e8	.?AV__non_rtti_object@std@@
+1401cb118	.?AVbad_typeid@std@@
+1401cb140	.?AVbad_exception@std@@
+1401cb168	.?AVtype_info@@
+1401cb188	.?AV_Locimp@locale@std@@
+1401cb1c0	.?AV?$num_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+1401cb220	.?AV?$codecvt@GDU_Mbstatet@@@std@@
+1401cb258	.?AV?$ctype@G@std@@
+1401cb280	.?AUmessages_base@std@@
+1401cb2a8	.?AUmoney_base@std@@
+1401cb2d0	.?AUtime_base@std@@
+1401cb300	.?AV?$num_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+1401cb360	.?AV?$messages@_W@std@@
+1401cb390	.?AV?$money_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+1401cb3f0	.?AV?$money_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+1401cb450	.?AV?$moneypunct@_W$0A@@std@@
+1401cb480	.?AV?$_Mpunct@_W@std@@
+1401cb4a8	.?AV?$moneypunct@_W$00@std@@
+1401cb4e0	.?AV?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+1401cb540	.?AV?$time_put@_WV?$ostreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@
+1401cb5a0	.?AV?$num_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+1401cb600	.?AV?$num_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+1401cb660	.?AV?$numpunct@G@std@@
+1401cb688	.?AV?$collate@G@std@@
+1401cb6b0	.?AV?$messages@G@std@@
+1401cb6e0	.?AV?$money_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+1401cb740	.?AV?$money_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+1401cb7a0	.?AV?$moneypunct@G$0A@@std@@
+1401cb7d0	.?AV?$_Mpunct@G@std@@
+1401cb7f8	.?AV?$moneypunct@G$00@std@@
+1401cb830	.?AV?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+1401cb890	.?AV?$time_put@GV?$ostreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@
+1401cb8f0	.?AV?$collate@D@std@@
+1401cb918	.?AV?$messages@D@std@@
+1401cb940	.?AV?$money_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+1401cb9a0	.?AV?$money_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+1401cba00	.?AV?$moneypunct@D$0A@@std@@
+1401cba30	.?AV?$_Mpunct@D@std@@
+1401cba58	.?AV?$moneypunct@D$00@std@@
+1401cba90	.?AV?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+1401cbaf0	.?AV?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+1401cbb50	.?AV?$basic_filebuf@_WU?$char_traits@_W@std@@@std@@
+140372060	<?xml version="1.0" standalone="yes"?>\n<assembly xmlns="urn:schemas-microsoft-com:asm.v1"\n          manifestVersion="1.0">\n  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requestedPrivileges>\n         <requestedExecutionLevel level='asInvoker' uiAccess='false'/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n</assembly>\n
+ff000002d0	
+ff000002ee	
+ff00001268	
+ff00001710	00000000-0000-0000-0000-000000000000

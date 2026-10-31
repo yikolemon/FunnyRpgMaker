@@ -1,0 +1,75 @@
+/* Ghidra pseudocode. Image: pe_00000000_8664.exe Address: 14003cf04 */
+
+void FUN_14003cf04(longlong param_1,ulonglong param_2)
+
+{
+  code *pcVar1;
+  ulonglong uVar2;
+  longlong lVar3;
+  undefined8 uVar4;
+  longlong lVar5;
+  longlong lVar6;
+  ulonglong uVar7;
+  ulonglong uVar8;
+  ulonglong uVar9;
+  
+  uVar7 = *(ulonglong *)(param_1 + 0x10);
+  uVar9 = uVar7 + (uVar7 == 0);
+  if (uVar7 < 8 || uVar9 - uVar7 < param_2) {
+    do {
+      if (0x54ba0054ba005 - uVar9 < uVar9) {
+        FUN_14003d06c();
+        goto LAB_14003d064;
+      }
+      uVar9 = uVar9 * 2;
+    } while (uVar9 < 8 || uVar9 - uVar7 < param_2);
+  }
+  if (uVar9 >> 0x3d == 0) {
+    uVar7 = *(ulonglong *)(param_1 + 0x18);
+    lVar3 = FUN_140001fba(uVar9 * 8);
+    uVar2 = uVar9;
+    do {
+      uVar8 = uVar2;
+      uVar2 = uVar8 * 2;
+    } while (uVar8 <= uVar9 >> 1);
+    uVar8 = uVar8 - *(longlong *)(param_1 + 0x10);
+    uVar4 = thunk_FUN_14000d5ca(*(longlong *)(param_1 + 8) + uVar7 * 8,
+                                *(longlong *)(param_1 + 8) + *(longlong *)(param_1 + 0x10) * 8,
+                                lVar3 + uVar7 * 8);
+    lVar5 = *(longlong *)(param_1 + 8);
+    if (uVar8 < uVar7) {
+      thunk_FUN_14000d5ca(lVar5,lVar5 + uVar8 * 8,uVar4);
+      lVar5 = thunk_FUN_14000d5ca(*(longlong *)(param_1 + 8) + uVar8 * 8,
+                                  *(longlong *)(param_1 + 8) + uVar7 * 8,lVar3);
+      uVar7 = uVar8;
+    }
+    else {
+      uVar4 = thunk_FUN_14000d5ca(lVar5,lVar5 + uVar7 * 8,uVar4);
+      FUN_14003d082(uVar4,uVar8 - uVar7);
+      lVar5 = lVar3;
+    }
+    FUN_14003d082(lVar5,uVar7);
+    lVar5 = *(longlong *)(param_1 + 8);
+    if (lVar5 != 0) {
+      uVar7 = *(longlong *)(param_1 + 0x10) * 8;
+      lVar6 = lVar5;
+      if (0xfff < uVar7) {
+        lVar6 = *(longlong *)(lVar5 + -8);
+        if (0x1f < (ulonglong)((lVar5 + -8) - lVar6)) {
+                    /* WARNING: Does not return */
+          pcVar1 = (code *)invalidInstructionException();
+          (*pcVar1)();
+        }
+        uVar7 = uVar7 + 0x27;
+      }
+      thunk_FUN_14018e090(lVar6,uVar7);
+    }
+    *(longlong *)(param_1 + 8) = lVar3;
+    *(longlong *)(param_1 + 0x10) = *(longlong *)(param_1 + 0x10) + uVar8;
+    return;
+  }
+LAB_14003d064:
+                    /* WARNING: Subroutine does not return */
+  FUN_140002001();
+}
+

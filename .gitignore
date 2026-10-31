@@ -4,4 +4,6 @@ build/
 __pycache__/
 *.exe
 *.dll
+!recovered/native/*.exe/
+!recovered/native/*.dll/
 *.pdb

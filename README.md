@@ -58,6 +58,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/decompile.ps1
 - Ghidra / JDK 装在被忽略的 `tools/` 内，不改系统 Java。
 - 输入及拆出的 EXE / DLL 不提交到 Git。
 - `recovered/native/` 是 Ghidra 原始伪代码，不是可直接编译的 C++。
+- 当前六个模块的批量导出已完成，共 59,939 个函数伪代码，详见 `evidence/native_export_summary.json`。
 - 每个函数保留地址；`functions.tsv` 记录成功/失败，`calls.tsv` 记录静态调用边。
 - `strings.tsv` / `string_refs.tsv` 记录识别出的字符串及其静态引用（取决于分析覆盖）。
 - `work/ghidra/` 保存本地分析数据库和日志，不提交到 Git。

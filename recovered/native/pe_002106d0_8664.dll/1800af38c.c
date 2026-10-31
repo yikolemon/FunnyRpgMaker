@@ -1,0 +1,60 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 1800af38c */
+
+longlong *
+FUN_1800af38c(longlong *param_1,ulonglong param_2,undefined8 param_3,longlong param_4,
+             longlong param_5,undefined8 param_6,longlong param_7)
+
+{
+  ulonglong uVar1;
+  longlong lVar2;
+  code *pcVar3;
+  ulonglong uVar4;
+  longlong lVar5;
+  longlong lVar6;
+  
+  lVar6 = param_1[2];
+  if (0x7fffffffffffffffU - lVar6 < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_1800013a5();
+  }
+  param_2 = param_2 + lVar6;
+  uVar1 = param_1[3];
+  uVar4 = 0x7fffffffffffffff;
+  if ((-1 < (longlong)param_2) && (uVar1 <= (uVar1 >> 1 ^ 0x7fffffffffffffff))) {
+    uVar4 = (uVar1 >> 1) + uVar1;
+    if (uVar4 < (param_2 | 0xf)) {
+      uVar4 = param_2 | 0xf;
+    }
+  }
+  lVar5 = FUN_1800013e0(uVar4 + 1);
+  param_1[2] = param_2;
+  param_1[3] = uVar4;
+  if (uVar1 < 0x10) {
+    FUN_1802a82f0(lVar5,param_1,param_4);
+    FUN_1802a82f0(lVar5 + param_4,param_6,param_7);
+    FUN_1802a82f0(lVar5 + param_4 + param_7,param_5 + param_4 + (longlong)param_1,
+                  (lVar6 - (param_5 + param_4)) + 1);
+  }
+  else {
+    lVar2 = *param_1;
+    FUN_1802a82f0(lVar5,lVar2,param_4);
+    FUN_1802a82f0(lVar5 + param_4,param_6,param_7);
+    FUN_1802a82f0(lVar5 + param_4 + param_7,param_5 + param_4 + lVar2,
+                  (lVar6 - (param_5 + param_4)) + 1);
+    uVar4 = uVar1 + 1;
+    lVar6 = lVar2;
+    if (0xfff < uVar4) {
+      lVar6 = *(longlong *)(lVar2 + -8);
+      if (0x1f < (ulonglong)((lVar2 + -8) - lVar6)) {
+                    /* WARNING: Does not return */
+        pcVar3 = (code *)invalidInstructionException();
+        (*pcVar3)();
+      }
+      uVar4 = uVar1 + 0x28;
+    }
+    thunk_FUN_1802464a0(lVar6,uVar4);
+  }
+  *param_1 = lVar5;
+  return param_1;
+}
+

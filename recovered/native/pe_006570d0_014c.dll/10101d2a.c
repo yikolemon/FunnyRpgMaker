@@ -1,0 +1,257 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 10101d2a */
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int * __thiscall FUN_10101d2a(int *param_1,int param_2,char *param_3)
+
+{
+  int iVar1;
+  size_t sVar2;
+  int iVar3;
+  int iVar4;
+  int *piVar5;
+  int *local_38;
+  int *local_34;
+  int local_30;
+  int local_2c;
+  int *local_28;
+  int *local_24;
+  undefined1 *local_20;
+  void *local_1c;
+  undefined1 *local_18;
+  undefined4 local_14;
+  
+  local_20 = (undefined1 *)&local_38;
+  local_18 = &LAB_1012c990;
+  local_1c = ExceptionList;
+  ExceptionList = &local_1c;
+  param_1[6] = 0;
+  param_1[7] = 0;
+  param_1[8] = 0;
+  param_1[9] = 0;
+  param_1[10] = 0;
+  param_1[0xb] = 0;
+  param_1[0xc] = 0;
+  param_1[0xd] = 0;
+  param_1[0xe] = 0;
+  param_1[7] = -1;
+  *(undefined1 *)((int)param_1 + 0x35) = 1;
+  param_1[0x11] = 0;
+  param_1[0x12] = 0;
+  param_1[0x14] = 0;
+  param_1[0x15] = 0;
+  param_1[0x16] = 0;
+  param_1[0x17] = 0;
+  param_1[0x18] = 0;
+  param_1[0x19] = 0;
+  param_1[0x1a] = 0;
+  param_1[0x1b] = 0;
+  param_1[0x1c] = 0;
+  param_1[0x1d] = 0;
+  param_1[0x1e] = 0;
+  param_1[0x1f] = 0;
+  param_1[0x20] = 0;
+  param_1[0x21] = 0;
+  param_1[0x31] = 0;
+  param_1[0x32] = 0;
+  param_1[0x33] = 0;
+  param_1[0x34] = 0;
+  param_1[0x35] = 0;
+  param_1[0x36] = 0;
+  param_1[0x37] = 0;
+  param_1[0x38] = 0;
+  param_1[0x39] = 0;
+  param_1[0x3a] = 0;
+  param_1[0x3b] = 0;
+  param_1[0x3c] = 0;
+  param_1[0x4a] = 0;
+  param_1[0x4b] = 0;
+  param_1[0x4c] = 0;
+  param_1[0x4d] = 0;
+  param_1[0x4d] = 0;
+  param_1[0x4e] = 0;
+  param_1[0x4f] = 0;
+  param_1[0x50] = 0;
+  param_1[0x77] = 0;
+  param_1[0x76] = 0;
+  param_1[0x78] = 0;
+  param_1[0x51] = 0;
+  param_1[0x52] = 0;
+  param_1[0x53] = 0;
+  param_1[0x54] = 0;
+  param_1[0x55] = 0;
+  param_1[0x56] = 0;
+  param_1[0x57] = 0;
+  param_1[0x58] = 0;
+  param_1[0x59] = 0;
+  param_1[0x5a] = 0;
+  param_1[0x5b] = 0;
+  param_1[0x5c] = 0;
+  param_1[0x5d] = 0;
+  param_1[0x5e] = 0;
+  param_1[0x62] = 0;
+  param_1[99] = 0;
+  param_1[100] = 0;
+  param_1[0x65] = 0;
+  param_1[0x66] = 0;
+  param_1[0x6a] = 0;
+  param_1[0x6b] = 0;
+  param_1[0x6c] = 0;
+  param_1[0x6d] = 0;
+  param_1[0x6e] = 0;
+  param_1[0x6f] = 0;
+  param_1[0x70] = 0;
+  param_1[0x71] = 0;
+  param_1[0x72] = 0;
+  param_1[0x82] = 0;
+  param_1[0x83] = 0;
+  param_1[0x84] = 0;
+  param_1[0x85] = 0;
+  param_1[0x8a] = 0;
+  param_1[0x89] = 0;
+  param_1[0x8b] = 0;
+  param_1[0x8d] = 0;
+  param_1[0x8c] = 0;
+  param_1[0x8e] = 0;
+  local_38 = param_1 + 0x51;
+  local_34 = param_1 + 0xb0;
+  param_1[0xb1] = 0;
+  param_1[0xb0] = 0;
+  param_1[0xb2] = 0;
+  param_1[0x8f] = 0;
+  param_1[0x90] = 0;
+  param_1[0x91] = 0;
+  param_1[0x92] = 0;
+  param_1[0x93] = 0;
+  param_1[0x94] = 0;
+  param_1[0x95] = 0;
+  param_1[0x96] = 0;
+  param_1[0x97] = 0;
+  param_1[0x98] = 0;
+  param_1[0x99] = 0;
+  param_1[0x9a] = 0;
+  param_1[0x9b] = 0;
+  param_1[0x9c] = 0;
+  param_1[0x9d] = 0;
+  param_1[0x9e] = 0;
+  param_1[0x9f] = 0;
+  param_1[0xa0] = 0;
+  param_1[0xa1] = 0;
+  param_1[0xa2] = 0;
+  param_1[0xa3] = 0;
+  param_1[0xa4] = 0;
+  param_1[0xa5] = 0;
+  param_1[0xa6] = 0;
+  param_1[0xa7] = 0;
+  param_1[0xa8] = 0;
+  param_1[0xa9] = 0;
+  param_1[0xaa] = 0;
+  param_1[0xab] = 0;
+  param_1[0xac] = 0;
+  param_1[0xb4] = 0;
+  param_1[0xb3] = 0;
+  param_1[0xb5] = 0;
+  local_14 = 5;
+  local_28 = param_1 + 0xbc;
+  local_24 = param_1;
+  FUN_10186fd8(0);
+  piVar5 = local_24;
+  local_14 = 6;
+  _memset(local_24,0,0x440);
+  *piVar5 = param_2;
+  iVar1 = FUN_100fa1cb(param_3);
+  piVar5 = local_24;
+  local_24[1] = iVar1;
+  sVar2 = _strlen(param_3);
+  piVar5[0x2c] = sVar2 + 1;
+  iVar1 = FUN_100fa6c3(param_3,0,0);
+  piVar5[2] = iVar1;
+  iVar4 = piVar5[0x4e];
+  if (iVar4 == piVar5[0x4f]) {
+    if (iVar4 == 0) {
+      iVar1 = 8;
+    }
+    else {
+      iVar1 = iVar4 / 2 + iVar4;
+    }
+    local_30 = iVar4 + 1;
+    if (iVar4 + 1 < iVar1) {
+      local_30 = iVar1;
+    }
+    iVar3 = FUN_100fa1fa(local_30 * 4);
+    piVar5 = local_24;
+    if (local_24[0x50] != 0) {
+      local_2c = iVar3;
+      FUN_1025b2d0(iVar3,local_24[0x50],local_24[0x4e] << 2);
+      FUN_100fa2cb(piVar5[0x50]);
+      iVar3 = local_2c;
+    }
+    local_24[0x50] = iVar3;
+    local_24[0x4f] = local_30;
+    iVar1 = local_24[2];
+    iVar4 = local_24[0x4e];
+    piVar5 = local_24;
+  }
+  else {
+    iVar3 = piVar5[0x50];
+  }
+  *(int *)(iVar3 + iVar4 * 4) = iVar1;
+  piVar5[0x4e] = piVar5[0x4e] + 1;
+  piVar5[0x13] = -1;
+  piVar5[0x11] = 0x7f7fffff;
+  piVar5[0x12] = 0x7f7fffff;
+  iVar1 = FUN_101021d4("#MOVE",0);
+  local_24[0x2d] = iVar1;
+  iVar1 = FUN_101021d4(&DAT_1033cce8,0);
+  local_24[0x2e] = iVar1;
+  iVar3 = _UNK_102b8b8c;
+  iVar4 = _UNK_102b8b88;
+  iVar1 = _UNK_102b8b84;
+  local_24[0x35] = _DAT_102b8b80;
+  local_24[0x36] = iVar1;
+  local_24[0x37] = iVar4;
+  local_24[0x38] = iVar3;
+  local_24[0x45] = -1;
+  *(undefined2 *)(local_24 + 0x46) = 0xffff;
+  *(ulonglong *)(local_24 + 0x48) =
+       CONCAT44((uint)((ulonglong)*(undefined8 *)(local_24 + 0x48) >> 0x20) & _UNK_102b8b94,
+                (uint)*(undefined8 *)(local_24 + 0x48) & _DAT_102b8b90);
+  iVar3 = _UNK_102b8b7c;
+  iVar4 = _UNK_102b8b78;
+  iVar1 = _UNK_102b8b74;
+  local_24[0x4a] = _DAT_102b8b70;
+  local_24[0x4b] = iVar1;
+  local_24[0x4c] = iVar4;
+  local_24[0x4d] = iVar3;
+  local_24[0xad] = -1;
+  local_24[0xae] = -1;
+  local_24[0xaf] = -0x40800000;
+  local_24[0xb8] = 0;
+  *(undefined8 *)(local_24 + 0xb6) = DAT_102b70a0;
+  local_24[0xb9] = -1;
+  *(undefined2 *)((int)local_24 + 0x40a) = 0xffff;
+  local_24[0xba] = (int)local_28;
+  local_24[0xe7] = local_24[1];
+  FUN_10187224(*local_24 + 0x123c);
+  iVar3 = _UNK_102b8b7c;
+  iVar4 = _UNK_102b8b78;
+  iVar1 = _UNK_102b8b74;
+  local_24[0xfb] = _DAT_102b8b70;
+  local_24[0xfc] = iVar1;
+  local_24[0xfd] = iVar4;
+  local_24[0xfe] = iVar3;
+  local_24[10] = 0;
+  local_24[0xb] = 0;
+  local_24[0xc] = 0;
+  local_24[0xd] = 0;
+  local_24[6] = 0;
+  local_24[7] = 0;
+  local_24[8] = 0;
+  local_24[9] = 0;
+  local_24[0xe] = 0;
+  local_24[7] = -1;
+  *(undefined1 *)((int)local_24 + 0x35) = 1;
+  ExceptionList = local_1c;
+  return local_24;
+}
+

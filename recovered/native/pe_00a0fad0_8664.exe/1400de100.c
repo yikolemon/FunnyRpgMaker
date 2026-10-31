@@ -1,0 +1,11 @@
+/* Ghidra pseudocode. Image: pe_00a0fad0_8664.exe Address: 1400de100 */
+
+void __stdcall DeleteCriticalSection(LPCRITICAL_SECTION lpCriticalSection)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x0001400de100. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  DeleteCriticalSection(lpCriticalSection);
+  return;
+}
+

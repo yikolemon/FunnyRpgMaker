@@ -1,0 +1,65 @@
+{
+  "meaning": "Ghidra-identified functions and exported pseudocode only; not original-source coverage or semantic equivalence",
+  "modules": [
+    {
+      "file": "pe_00000000_8664.exe",
+      "sha256": "a31d0e187f428bc985a7c68fceb2436f50313c0ebead135f6fc2a7036edf27bc",
+      "entry_address": "0x14018eea0",
+      "exported_function_count": 12408,
+      "decompiled_function_count": 12408,
+      "failed_function_count": 0,
+      "status": "export_complete",
+      "analysis_timeout_observed": false
+    },
+    {
+      "file": "pe_002106d0_8664.dll",
+      "sha256": "2a967034a85966cb48e57f30531dbb883aeabe5599bc4ba1e972be829eb2fff3",
+      "entry_address": "0x18026d3c0",
+      "exported_function_count": 16053,
+      "decompiled_function_count": 16053,
+      "failed_function_count": 0,
+      "status": "export_complete",
+      "analysis_timeout_observed": false
+    },
+    {
+      "file": "pe_006570d0_014c.dll",
+      "sha256": "3d0b7c39f36a56d5b710e6f19376f1e8acdd958db7b5c7bdf486466294a35a48",
+      "entry_address": "0x10258550",
+      "exported_function_count": 15538,
+      "decompiled_function_count": 15538,
+      "failed_function_count": 0,
+      "status": "export_complete",
+      "analysis_timeout_observed": false
+    },
+    {
+      "file": "pe_00a0fad0_8664.exe",
+      "sha256": "96325ff4e400572e291115a4a4207b3218ae65a1f679cdb6dd4d1fd4f83d69c5",
+      "entry_address": "0x140106060",
+      "exported_function_count": 8683,
+      "decompiled_function_count": 8683,
+      "failed_function_count": 0,
+      "status": "export_complete",
+      "analysis_timeout_observed": false
+    },
+    {
+      "file": "pe_00bf40d0_8664.exe",
+      "sha256": "ce2757985e5788b514f6fe1e667eeea8bb37ab02dc1dc4c50ae41036521a4206",
+      "entry_address": "0x14008c610",
+      "exported_function_count": 3862,
+      "decompiled_function_count": 3862,
+      "failed_function_count": 0,
+      "status": "export_complete",
+      "analysis_timeout_observed": false
+    },
+    {
+      "file": "pe_00d3d4d0_014c.exe",
+      "sha256": "0aa89ec688adfda1f22bef98694c7665f652482ec62c584b1a985705ca191f35",
+      "entry_address": "0x484e30",
+      "exported_function_count": 3395,
+      "decompiled_function_count": 3395,
+      "failed_function_count": 0,
+      "status": "export_complete",
+      "analysis_timeout_observed": false
+    }
+  ]
+}

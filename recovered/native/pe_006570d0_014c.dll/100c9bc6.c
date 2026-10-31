@@ -1,0 +1,51 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 100c9bc6 */
+
+void __fastcall FUN_100c9bc6(int param_1)
+
+{
+  int *piVar1;
+  int iVar2;
+  int *piVar3;
+  int iVar4;
+  int local_28;
+  int local_24;
+  undefined1 *local_20;
+  void *local_1c;
+  undefined1 *local_18;
+  undefined4 local_14;
+  
+  local_20 = (undefined1 *)&local_28;
+  local_18 = &LAB_100cc370;
+  local_1c = ExceptionList;
+  local_14 = 1;
+  iVar4 = *(int *)(param_1 + 8);
+  ExceptionList = &local_1c;
+  local_24 = param_1;
+  piVar3 = &local_28;
+  if (iVar4 != 0) {
+    piVar3 = &local_28;
+    if (*(int **)(param_1 + 0x9c) != (int *)0x0) {
+      local_28 = iVar4;
+      (**(code **)(**(int **)(param_1 + 0x9c) + 8))(param_1 + 0xc,&local_28);
+      iVar4 = *(int *)(local_24 + 8);
+      piVar3 = (int *)local_20;
+    }
+    local_20 = (undefined1 *)piVar3;
+    iVar2 = local_24;
+    FUN_1026d543(iVar4);
+    *(undefined4 *)(iVar2 + 8) = 0;
+    piVar1 = *(int **)(iVar2 + 0xc4);
+    piVar3 = (int *)local_20;
+    if (piVar1 != (int *)0x0) {
+      (**(code **)(*piVar1 + 8))(local_24 + 0xc);
+      piVar3 = (int *)local_20;
+    }
+  }
+  local_20 = (undefined1 *)piVar3;
+  local_14 = 0xffffffff;
+  FUN_100c96fc();
+  FUN_10001fee();
+  ExceptionList = local_1c;
+  return;
+}
+

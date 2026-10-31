@@ -1,0 +1,55 @@
+/* Ghidra pseudocode. Image: pe_00000000_8664.exe Address: 14004048e */
+
+longlong *
+FUN_14004048e(longlong *param_1,ulonglong param_2,undefined8 param_3,longlong param_4,
+             undefined8 param_5,longlong param_6)
+
+{
+  longlong lVar1;
+  longlong lVar2;
+  ulonglong uVar3;
+  longlong lVar4;
+  longlong lVar5;
+  ulonglong uVar6;
+  undefined1 auStack_78 [40];
+  ulonglong local_50;
+  ulonglong local_48;
+  
+  local_48 = DAT_140f17b40 ^ (ulonglong)auStack_78;
+  lVar2 = param_1[2];
+  if (0x7ffffffffffffffeU - lVar2 < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_140002673();
+  }
+  uVar3 = param_1[3];
+  uVar6 = param_2 + lVar2 | 7;
+  local_50 = 0x7ffffffffffffffe;
+  if (((uVar6 < 0x7fffffffffffffff) && (uVar3 <= 0x7ffffffffffffffe - (uVar3 >> 1))) &&
+     (local_50 = (uVar3 >> 1) + uVar3, local_50 < uVar6)) {
+    local_50 = uVar6;
+  }
+  lVar5 = FUN_140002684(param_1,&local_50);
+  param_1[2] = param_2 + lVar2;
+  param_1[3] = local_50;
+  if (uVar3 < 8) {
+    FUN_1401c5180(lVar5,param_1,param_4 * 2);
+    lVar1 = lVar5 + param_4 * 2;
+    FUN_1401c5180(lVar1,param_5,param_6 * 2);
+    FUN_1401c5180(lVar1 + param_6 * 2,(longlong)param_1 + param_4 * 2,(lVar2 - param_4) * 2 + 2);
+  }
+  else {
+    lVar4 = *param_1;
+    FUN_1401c5180(lVar5,lVar4,param_4 * 2);
+    lVar1 = lVar5 + param_4 * 2;
+    FUN_1401c5180(lVar1,param_5,param_6 * 2);
+    FUN_1401c5180(param_6 * 2 + lVar1,lVar4 + param_4 * 2,(lVar2 - param_4) * 2 + 2);
+    FUN_140016a7a(param_1,lVar4,uVar3);
+  }
+  *param_1 = lVar5;
+  if (DAT_140f17b40 != (local_48 ^ (ulonglong)auStack_78)) {
+                    /* WARNING: Subroutine does not return */
+    FUN_140188a00(local_48 ^ (ulonglong)auStack_78);
+  }
+  return param_1;
+}
+

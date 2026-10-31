@@ -1,0 +1,31 @@
+/* Ghidra pseudocode. Image: pe_00000000_8664.exe Address: 14018a570 */
+
+DWORD FUN_14018a570(longlong *param_1,undefined8 param_2,undefined4 param_3,uint param_4)
+
+{
+  DWORD DVar1;
+  longlong lVar2;
+  undefined4 local_28;
+  uint local_24;
+  uint local_20;
+  undefined4 local_1c;
+  undefined8 local_18;
+  undefined8 uStack_10;
+  
+  local_24 = param_4 & 0xffff;
+  local_20 = param_4 & 0xffff0000;
+  local_1c = 0;
+  local_28 = 0x20;
+  local_18 = 0;
+  uStack_10 = 0;
+  lVar2 = CreateFile2(param_2,param_3,7,3,&local_28);
+  *param_1 = lVar2;
+  if (lVar2 != -1) {
+    return 0;
+  }
+                    /* WARNING: Could not recover jumptable at 0x00014018a5e4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  DVar1 = GetLastError();
+  return DVar1;
+}
+

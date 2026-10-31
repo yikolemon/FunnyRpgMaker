@@ -1,0 +1,15 @@
+/* Ghidra pseudocode. Image: pe_00d3d4d0_014c.exe Address: 00467096 */
+
+void __fastcall FUN_00467096(undefined4 *param_1)
+
+{
+  *param_1 = 0;
+  param_1[1] = &LAB_00467e80;
+  param_1[2] = &LAB_00467570;
+  param_1[3] = &LAB_00467e8e;
+  param_1[4] = &LAB_00467f4f;
+  param_1[5] = &LAB_00467fab;
+  param_1[6] = &LAB_00467719;
+  return;
+}
+

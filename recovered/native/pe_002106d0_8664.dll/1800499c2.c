@@ -1,0 +1,61 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 1800499c2 */
+
+undefined8 FUN_1800499c2(undefined8 *param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  int iVar1;
+  longlong lVar2;
+  undefined2 uVar3;
+  longlong *plVar4;
+  undefined8 *puVar5;
+  undefined8 uVar6;
+  longlong local_60;
+  longlong local_58;
+  undefined8 local_50;
+  longlong *local_48;
+  undefined2 local_3a;
+  undefined8 local_38;
+  
+  local_38 = 0xfffffffffffffffe;
+  FUN_1800482ff(&local_50,param_3,*(undefined1 *)(param_1[1] + 10),*(ulonglong *)param_1[2] >> 0x3f)
+  ;
+  lVar2 = *(longlong *)param_1[3];
+  FUN_18004588f(&local_50,lVar2,((longlong *)param_1[3])[1] + lVar2,local_50);
+  uVar6 = local_50;
+  if (*(char *)param_1[4] == '\x01') {
+    if (*(int *)param_1[1] != *(int *)param_1[5] && *(int *)param_1[5] <= *(int *)param_1[1]) {
+      local_3a = 0x30;
+      FUN_1800483b4(&local_50,local_50);
+      uVar6 = local_50;
+    }
+  }
+  iVar1 = *(int *)param_1[6];
+  if (iVar1 < 1) {
+    FUN_18004588f(param_2,*(undefined8 *)param_1[7],*param_1,uVar6);
+  }
+  else {
+    if (*(longlong *)param_1[9] == 0) {
+      local_48 = (longlong *)FUN_18023d070(1);
+    }
+    else {
+      local_48 = *(longlong **)(*(longlong *)param_1[9] + 8);
+      (**(code **)(*local_48 + 8))(local_48);
+    }
+    plVar4 = (longlong *)FUN_180047447(&local_50);
+    uVar3 = (**(code **)(*plVar4 + 0x20))(plVar4);
+    local_60 = param_1[8];
+    local_58 = *(longlong *)(local_60 + 0x10);
+    if (0xf < *(ulonglong *)(local_60 + 0x18)) {
+      local_60 = *(longlong *)local_60;
+    }
+    FUN_180048419(param_2,*(undefined8 *)param_1[7],*param_1,&local_60,uVar3,iVar1,uVar6);
+    if (local_48 != (longlong *)0x0) {
+      puVar5 = (undefined8 *)(**(code **)(*local_48 + 0x10))();
+      if (puVar5 != (undefined8 *)0x0) {
+        (**(code **)*puVar5)(puVar5,1);
+      }
+    }
+  }
+  return param_2;
+}
+

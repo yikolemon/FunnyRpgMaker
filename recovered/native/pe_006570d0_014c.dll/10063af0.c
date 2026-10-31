@@ -1,0 +1,54 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 10063af0 */
+
+int * __thiscall
+FUN_10063af0(int *param_1,uint param_2,undefined4 param_3,undefined4 param_4,int param_5)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  uint uVar4;
+  int local_20;
+  uint local_1c;
+  uint local_18;
+  uint local_14;
+  
+  local_14 = DAT_10388d00 ^ (uint)&local_20;
+  iVar1 = param_1[4];
+  if (0x3ffffffeU - iVar1 < param_2) {
+                    /* WARNING: Subroutine does not return */
+    FUN_100013fb();
+  }
+  local_1c = param_1[5];
+  uVar4 = param_2 + iVar1 | 3;
+  local_18 = 0x3ffffffe;
+  if (((uVar4 < 0x3fffffff) && (local_20 = iVar1, local_1c <= 0x3ffffffe - (local_1c >> 1))) &&
+     (local_18 = (local_1c >> 1) + local_1c, local_18 < uVar4)) {
+    local_18 = uVar4;
+  }
+  iVar3 = FUN_100638ae(param_1,&local_18);
+  param_1[4] = param_2 + iVar1;
+  param_1[5] = local_18;
+  local_20 = iVar3;
+  if (local_1c < 4) {
+    FUN_1025b2d0(iVar3,param_1,iVar1 * 4);
+    iVar3 = iVar3 + iVar1 * 4;
+    FUN_1025b2d0(iVar3,param_4,param_5 * 4);
+    *(undefined4 *)(iVar3 + param_5 * 4) = 0;
+  }
+  else {
+    iVar2 = *param_1;
+    FUN_1025b2d0(iVar3,iVar2,iVar1 * 4);
+    iVar3 = iVar3 + iVar1 * 4;
+    FUN_1025b2d0(iVar3,param_4,param_5 * 4);
+    *(undefined4 *)(iVar3 + param_5 * 4) = 0;
+    FUN_10062064(param_1,iVar2,local_1c);
+  }
+  *param_1 = local_20;
+  if (DAT_10388d00 != (local_14 ^ (uint)&local_20)) {
+                    /* WARNING: Subroutine does not return */
+    FUN_102283e0();
+  }
+  return param_1;
+}
+

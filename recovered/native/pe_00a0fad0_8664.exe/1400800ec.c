@@ -1,0 +1,9 @@
+/* Ghidra pseudocode. Image: pe_00a0fad0_8664.exe Address: 1400800ec */
+
+void Unwind_1400800ec(undefined8 param_1,longlong param_2)
+
+{
+  FUN_140041304(param_2 + 0x148);
+  return;
+}
+

@@ -1,0 +1,17 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 180011a5c */
+
+undefined8 *
+FUN_180011a5c(undefined8 *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+             uint param_5)
+
+{
+  if (((int)param_5 < 0) || (param_5 < 1000000000)) {
+    FUN_180010211(param_1);
+  }
+  else {
+    *param_1 = param_3;
+    *(undefined4 *)(param_1 + 1) = 0x84;
+  }
+  return param_1;
+}
+

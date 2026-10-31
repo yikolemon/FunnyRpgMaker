@@ -1,0 +1,48 @@
+/* Ghidra pseudocode. Image: pe_00a0fad0_8664.exe Address: 140051a93 */
+
+void FUN_140051a93(void)
+
+{
+  undefined1 local_38 [39];
+  undefined1 local_11;
+  undefined8 local_10;
+  
+  local_10 = 0xfffffffffffffffe;
+  FUN_14000169c(local_38,&DAT_14017080e);
+  FUN_14000661a(&DAT_1401cbb88,local_38);
+  FUN_1400067ec(&DAT_1401cbbc8,&local_11);
+  FUN_1400d3740(FUN_140001000);
+  FUN_14000169c(local_38,&DAT_14017069e);
+  FUN_14000661a(&DAT_1401cbc30,local_38);
+  FUN_1400093a4(&DAT_1401cbc70,&local_11);
+  FUN_1400d3740(FUN_14000111a);
+  FUN_14000169c(local_38,"PATH(existing)");
+  FUN_14000661a(&DAT_1401cbcd8,local_38);
+  FUN_140009550(&DAT_1401cbd18,&local_11);
+  FUN_1400d3740(FUN_140001234);
+  FUN_14000169c(local_38,"PATH(non-existing)");
+  FUN_14000661a(&DAT_1401cbd80,local_38);
+  FUN_1400096e0(&DAT_1401cbdc0,&local_11);
+  FUN_1400d3740(FUN_14000134e);
+  FUN_14000169c(local_38,&DAT_140170d9f);
+  FUN_14000661a(&DAT_1401cbe28,local_38);
+  FUN_140009870(&DAT_1401cbe68,&local_11);
+  FUN_1400d3740(FUN_140001468);
+  FUN_14000d960(&DAT_1401cbed0);
+  FUN_14000da86(&DAT_1401cbf10,local_38);
+  FUN_1400d3740(FUN_140001582);
+  FUN_14000169c(local_38,"NUMBER");
+  FUN_1400016fc(&DAT_1401cbf78,local_38);
+  FUN_1400017de(local_38);
+  FUN_1400d3740(FUN_140001824);
+  FUN_14000169c(local_38,"NONNEGATIVE");
+  FUN_14000193e(&DAT_1401cc020,DAT_140139100,local_38);
+  FUN_1400017de(local_38);
+  FUN_1400d3740(FUN_140001aad);
+  FUN_14000169c(local_38,"POSITIVE");
+  FUN_140001bc8(&DAT_1401cc0c8,DAT_140139108,DAT_140139100,local_38);
+  FUN_1400017de(local_38);
+  FUN_1400d3740(FUN_140001df2);
+  return;
+}
+

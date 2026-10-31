@@ -1,0 +1,97 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 180048846 */
+
+longlong * FUN_180048846(longlong *param_1)
+
+{
+  byte bVar1;
+  byte bVar2;
+  char cVar3;
+  char cVar4;
+  char cVar5;
+  uint uVar6;
+  uint uVar7;
+  undefined1 uVar8;
+  byte bVar9;
+  byte bVar10;
+  bool bVar11;
+  
+  uVar6 = FUN_18000c9ec(&DAT_1802ad260,(int)param_1[3]);
+  FUN_18000ca58(&DAT_1802af2dc,(int)param_1[3]);
+  cVar3 = FUN_18000cac4(&DAT_1802afdf4,(int)param_1[3]);
+  FUN_180048a32(param_1);
+  if (*param_1 != param_1[1]) {
+    bVar1 = 0;
+    do {
+      uVar7 = FUN_18000c9ec(&DAT_1802ad260,(int)param_1[3]);
+      cVar4 = FUN_18000cac4(&DAT_1802afdf4,(int)param_1[3]);
+      cVar5 = FUN_18000cb88();
+      bVar10 = (byte)uVar6;
+      bVar9 = (byte)uVar7;
+      if (*(char *)((longlong)param_1 + 0x21) == '\0') {
+        bVar2 = 0;
+        if (cVar3 == '\0') {
+          uVar8 = 1;
+          bVar2 = 0;
+          goto LAB_180048909;
+        }
+LAB_18004890c:
+        bVar1 = bVar1 + 1;
+        bVar11 = bVar10 == 8;
+        if (!bVar11) {
+          bVar1 = 0;
+        }
+        if (bVar9 != 4 || bVar10 != 0) {
+          if ((bVar10 < 5) && ((0x13U >> (uVar6 & 0x1f) & 1) != 0)) {
+            return param_1;
+          }
+          goto LAB_180048949;
+        }
+      }
+      else {
+        bVar2 = 0;
+        if (bVar10 != 2) {
+          if ((uVar6 & 0xff) == 0xc) {
+            uVar8 = 0;
+            bVar2 = 1;
+          }
+          else {
+            uVar8 = 0;
+            bVar2 = 0;
+          }
+LAB_180048909:
+          *(undefined1 *)((longlong)param_1 + 0x21) = uVar8;
+          goto LAB_18004890c;
+        }
+        bVar11 = false;
+        bVar1 = 0;
+LAB_180048949:
+        if ((bVar9 < 5) && ((0x13U >> (uVar7 & 0x1f) & 1) != 0)) {
+          return param_1;
+        }
+        if ((bVar10 == 0xb) || ((uVar6 & 0xff) == 5)) {
+          if ((bVar9 & 0xfe) != 10) goto LAB_18004899a;
+        }
+        else if ((((uVar6 & 0xff) != 3) || (0xb < bVar9)) || ((0x868U >> (uVar7 & 0x1f) & 1) == 0))
+        {
+LAB_18004899a:
+          if (((bVar9 != 10 || (bVar10 - 6 & 0xfb) != 0) &&
+              ((0xc < bVar9 || ((0x1204U >> (uVar7 & 0x1f) & 1) == 0)))) &&
+             (!(bool)(cVar4 == '\0' & bVar2) && (bVar10 != 7 && cVar5 == '\0'))) {
+            if (!bVar11 || bVar9 != 8) {
+              return param_1;
+            }
+            if (!(bool)(bVar1 & 1)) {
+              return param_1;
+            }
+          }
+        }
+      }
+      FUN_18000ca58(&DAT_1802af2dc,(int)param_1[3]);
+      FUN_180048a32(param_1);
+      uVar6 = uVar7;
+      cVar3 = cVar4;
+    } while (*param_1 != param_1[1]);
+  }
+  return param_1;
+}
+

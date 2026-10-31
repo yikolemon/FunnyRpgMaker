@@ -1,0 +1,50 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 1008101e */
+
+int * __thiscall
+FUN_1008101e(int *param_1,undefined4 param_2,uint param_3,undefined4 param_4,int param_5)
+
+{
+  int **ppiVar1;
+  int iVar2;
+  int *unaff_FS_OFFSET;
+  int *local_28;
+  int *local_24;
+  undefined1 *local_20;
+  int local_1c;
+  undefined1 *local_18;
+  undefined4 local_14;
+  
+  local_20 = (undefined1 *)&local_28;
+  local_14 = 0xffffffff;
+  local_18 = &LAB_100c3130;
+  local_1c = *unaff_FS_OFFSET;
+  *unaff_FS_OFFSET = (int)&local_1c;
+  local_24 = param_1;
+  ppiVar1 = &local_28;
+  if (param_5 != 0) {
+    *param_1 = (int)&DAT_102959ec;
+    FUN_10073366();
+    ppiVar1 = (int **)local_20;
+  }
+  local_20 = (undefined1 *)ppiVar1;
+  *(undefined ***)((int)param_1 + *(int *)(*param_1 + 4)) =
+       std::basic_ifstream<char,std::char_traits<char>_>::vftable;
+  *(int *)((int)param_1 + *(int *)(*param_1 + 4) + -4) = *(int *)(*param_1 + 4) + -0x70;
+  local_28 = param_1 + 4;
+  local_14 = 0;
+  FUN_100737c4(local_28,0,0);
+  local_14 = 1;
+  *(undefined ***)((int)local_24 + *(int *)(*local_24 + 4)) =
+       std::basic_ifstream<char,std::char_traits<char>_>::vftable;
+  *(int *)((int)local_24 + *(int *)(*local_24 + 4) + -4) = *(int *)(*local_24 + 4) + -0x70;
+  FUN_10073518();
+  local_14 = 2;
+  iVar2 = FUN_1007e190(param_2,param_3 | 1,param_4);
+  if (iVar2 == 0) {
+    FUN_10073a60((uint)(*(int *)((int)local_24 + *(int *)(*local_24 + 4) + 0x38) == 0) << 2 |
+                 *(uint *)((int)local_24 + *(int *)(*local_24 + 4) + 0xc) | 2,0);
+  }
+  *unaff_FS_OFFSET = local_1c;
+  return local_24;
+}
+

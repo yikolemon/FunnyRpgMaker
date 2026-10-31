@@ -1,0 +1,132 @@
+/* Ghidra pseudocode. Image: pe_00a0fad0_8664.exe Address: 1400ce6bd */
+
+void FUN_1400ce6bd(ulonglong *param_1,ulonglong *param_2)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  ulonglong uVar5;
+  ulonglong uVar6;
+  ulonglong uVar7;
+  undefined8 local_98;
+  undefined8 uStack_90;
+  undefined8 local_88;
+  undefined8 uStack_80;
+  undefined8 local_78;
+  undefined8 uStack_70;
+  undefined8 local_68;
+  undefined8 uStack_60;
+  ulonglong local_58;
+  ulonglong uStack_50;
+  ulonglong local_48;
+  undefined8 local_40;
+  
+  local_40 = 0xfffffffffffffffe;
+  local_98 = *param_1;
+  uStack_90 = param_1[1];
+  local_88 = param_1[2];
+  uStack_80 = param_1[3];
+  param_1[2] = 0;
+  param_1[3] = 0xf;
+  *(undefined1 *)param_1 = 0;
+  local_78 = param_1[4];
+  uStack_70 = param_1[5];
+  local_68 = param_1[6];
+  uStack_60 = param_1[7];
+  param_1[6] = 0;
+  param_1[7] = 0xf;
+  *(undefined1 *)(param_1 + 4) = 0;
+  local_48 = param_1[10];
+  param_1[10] = 0;
+  local_58 = param_1[8];
+  uStack_50 = param_1[9];
+  param_1[8] = 0;
+  param_1[9] = 0;
+  if (param_1 != param_2) {
+    FUN_1400065bc(param_1);
+    uVar5 = *param_2;
+    uVar1 = *(undefined4 *)((longlong)param_2 + 4);
+    uVar6 = param_2[1];
+    uVar2 = *(undefined4 *)((longlong)param_2 + 0xc);
+    uVar3 = *(undefined4 *)((longlong)param_2 + 0x14);
+    uVar7 = param_2[3];
+    uVar4 = *(undefined4 *)((longlong)param_2 + 0x1c);
+    *(int *)(param_1 + 2) = (int)param_2[2];
+    *(undefined4 *)((longlong)param_1 + 0x14) = uVar3;
+    *(int *)(param_1 + 3) = (int)uVar7;
+    *(undefined4 *)((longlong)param_1 + 0x1c) = uVar4;
+    *(int *)param_1 = (int)uVar5;
+    *(undefined4 *)((longlong)param_1 + 4) = uVar1;
+    *(int *)(param_1 + 1) = (int)uVar6;
+    *(undefined4 *)((longlong)param_1 + 0xc) = uVar2;
+    param_2[2] = 0;
+    param_2[3] = 0xf;
+    *(undefined1 *)param_2 = 0;
+    FUN_1400065bc(param_1 + 4);
+    uVar5 = param_2[4];
+    uVar1 = *(undefined4 *)((longlong)param_2 + 0x24);
+    uVar6 = param_2[5];
+    uVar2 = *(undefined4 *)((longlong)param_2 + 0x2c);
+    uVar3 = *(undefined4 *)((longlong)param_2 + 0x34);
+    uVar7 = param_2[7];
+    uVar4 = *(undefined4 *)((longlong)param_2 + 0x3c);
+    *(int *)(param_1 + 6) = (int)param_2[6];
+    *(undefined4 *)((longlong)param_1 + 0x34) = uVar3;
+    *(int *)(param_1 + 7) = (int)uVar7;
+    *(undefined4 *)((longlong)param_1 + 0x3c) = uVar4;
+    *(int *)(param_1 + 4) = (int)uVar5;
+    *(undefined4 *)((longlong)param_1 + 0x24) = uVar1;
+    *(int *)(param_1 + 5) = (int)uVar6;
+    *(undefined4 *)((longlong)param_1 + 0x2c) = uVar2;
+    param_2[6] = 0;
+    param_2[7] = 0xf;
+    *(undefined1 *)(param_2 + 4) = 0;
+    FUN_140016e5c(param_1 + 8);
+    param_1[8] = param_2[8];
+    param_1[9] = param_2[9];
+    param_1[10] = param_2[10];
+    param_2[10] = 0;
+    param_2[8] = 0;
+    param_2[9] = 0;
+  }
+  if (param_2 != &local_98) {
+    FUN_1400065bc(param_2);
+    *(undefined4 *)(param_2 + 2) = (undefined4)local_88;
+    *(undefined4 *)((longlong)param_2 + 0x14) = local_88._4_4_;
+    *(undefined4 *)(param_2 + 3) = (undefined4)uStack_80;
+    *(undefined4 *)((longlong)param_2 + 0x1c) = uStack_80._4_4_;
+    *(undefined4 *)param_2 = (undefined4)local_98;
+    *(undefined4 *)((longlong)param_2 + 4) = local_98._4_4_;
+    *(undefined4 *)(param_2 + 1) = (undefined4)uStack_90;
+    *(undefined4 *)((longlong)param_2 + 0xc) = uStack_90._4_4_;
+    local_88 = 0;
+    uStack_80 = 0xf;
+    local_98 = local_98 & 0xffffffffffffff00;
+    FUN_1400065bc(param_2 + 4);
+    *(undefined4 *)(param_2 + 6) = (undefined4)local_68;
+    *(undefined4 *)((longlong)param_2 + 0x34) = local_68._4_4_;
+    *(undefined4 *)(param_2 + 7) = (undefined4)uStack_60;
+    *(undefined4 *)((longlong)param_2 + 0x3c) = uStack_60._4_4_;
+    *(undefined4 *)(param_2 + 4) = (undefined4)local_78;
+    *(undefined4 *)((longlong)param_2 + 0x24) = local_78._4_4_;
+    *(undefined4 *)(param_2 + 5) = (undefined4)uStack_70;
+    *(undefined4 *)((longlong)param_2 + 0x2c) = uStack_70._4_4_;
+    local_68 = 0;
+    uStack_60 = 0xf;
+    local_78 = local_78 & 0xffffffffffffff00;
+    FUN_140016e5c(param_2 + 8);
+    param_2[8] = local_58;
+    param_2[9] = uStack_50;
+    param_2[10] = local_48;
+    local_48 = 0;
+    local_58 = 0;
+    uStack_50 = 0;
+  }
+  FUN_140016e5c(&local_58);
+  FUN_1400017de(&local_78);
+  FUN_1400017de(&local_98);
+  return;
+}
+

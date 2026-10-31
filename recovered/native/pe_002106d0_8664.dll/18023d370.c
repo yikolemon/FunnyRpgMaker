@@ -1,0 +1,57 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 18023d370 */
+
+undefined8 * FUN_18023d370(undefined8 *param_1)
+
+{
+  wchar_t *pwVar1;
+  undefined4 uVar2;
+  wchar_t **ppwVar3;
+  ushort *puVar4;
+  longlong lVar5;
+  longlong lVar6;
+  uint uVar7;
+  
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0;
+  *(undefined8 *)((longlong)param_1 + 0x1c) = 0;
+  *(undefined8 *)((longlong)param_1 + 0x24) = 0;
+  uVar2 = FUN_180272194();
+  *(undefined4 *)param_1 = uVar2;
+  uVar2 = FUN_180271aec();
+  *(undefined4 *)((longlong)param_1 + 4) = uVar2;
+  ppwVar3 = ___lc_locale_name_func();
+  pwVar1 = ppwVar3[2];
+  *(uint *)(param_1 + 1) = (uint)(pwVar1 == (wchar_t *)0x0);
+  if (pwVar1 != (wchar_t *)0x0) {
+    puVar4 = __pctype_func();
+    uVar7 = 0;
+    lVar5 = 0;
+    do {
+      if ((short)puVar4[lVar5] < 0) {
+        *(byte *)((lVar5 >> 3) + 0xc + (longlong)param_1) =
+             *(byte *)((lVar5 >> 3) + 0xc + (longlong)param_1) | (byte)(1 << (uVar7 & 7));
+      }
+      if ((short)puVar4[lVar5 + 1] < 0) {
+        lVar6 = lVar5 + 1 >> 3;
+        *(byte *)(lVar6 + 0xc + (longlong)param_1) =
+             *(byte *)(lVar6 + 0xc + (longlong)param_1) | (byte)(1 << (uVar7 + 1 & 7));
+      }
+      if ((short)puVar4[lVar5 + 2] < 0) {
+        lVar6 = lVar5 + 2 >> 3;
+        *(byte *)(lVar6 + 0xc + (longlong)param_1) =
+             *(byte *)(lVar6 + 0xc + (longlong)param_1) | (byte)(1 << (uVar7 + 2 & 7));
+      }
+      if ((short)puVar4[lVar5 + 3] < 0) {
+        lVar6 = lVar5 + 3 >> 3;
+        *(byte *)(lVar6 + 0xc + (longlong)param_1) =
+             *(byte *)(lVar6 + 0xc + (longlong)param_1) | (byte)(1 << (uVar7 + 3 & 7));
+      }
+      uVar7 = uVar7 + 4;
+      lVar5 = lVar5 + 4;
+    } while ((int)uVar7 < 0x100);
+  }
+  return param_1;
+}
+

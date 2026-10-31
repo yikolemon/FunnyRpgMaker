@@ -1,0 +1,88 @@
+/* Ghidra pseudocode. Image: pe_00d3d4d0_014c.exe Address: 00448f30 */
+
+int __fastcall FUN_00448f30(int *param_1,int *param_2,int param_3)
+
+{
+  int **ppiVar1;
+  int iVar2;
+  int iVar3;
+  int *piVar4;
+  int *piVar5;
+  int *local_18;
+  uint local_14;
+  
+  ppiVar1 = &local_18;
+  local_14 = DAT_0050e8c0 ^ (uint)&local_18;
+  piVar4 = (int *)param_1[0x85];
+  if (piVar4 == (int *)0x0) {
+    piVar5 = (int *)0x0;
+  }
+  else {
+    piVar5 = (int *)0x0;
+    if (*piVar4 != 0) {
+      piVar5 = piVar4;
+    }
+  }
+  if (*(int *)(param_3 + 0xc) == 0xb) {
+    (**(code **)(param_3 + 0x10))(param_1,param_2);
+    iVar2 = param_2[3];
+    goto LAB_00449011;
+  }
+  local_18 = param_2;
+  switch(*(undefined4 *)(param_3 + 8)) {
+  case 3:
+    param_1 = param_1 + 0x29;
+    break;
+  case 4:
+    local_18 = param_1 + 0x21;
+    iVar3 = 0x90;
+    goto LAB_00448fce;
+  case 5:
+    local_18 = param_1 + 0x2a;
+    iVar3 = 0xd4;
+    goto LAB_00448fce;
+  case 6:
+    local_18 = param_1 + 0x74;
+    iVar3 = 0x11c;
+LAB_00448fce:
+    if (piVar5 == (int *)0x0) goto LAB_00448fde;
+    ppiVar1 = (int **)((int)piVar5 + iVar3);
+    iVar2 = *piVar5;
+    piVar4 = *(int **)((int)piVar5 + iVar3);
+LAB_00448fe8:
+    if (piVar4 == (int *)0x0) {
+      iVar2 = 0;
+      goto LAB_00449011;
+    }
+    goto LAB_00448fec;
+  case 7:
+    goto switchD_00448f83_caseD_7;
+  case 8:
+    break;
+  case 9:
+    iVar2 = 0;
+    local_18 = piVar4;
+    goto LAB_00448fe8;
+  default:
+    param_1 = param_1 + 0x21;
+  }
+  local_18 = param_1;
+switchD_00448f83_caseD_7:
+LAB_00448fde:
+  iVar2 = 0;
+  ppiVar1 = &local_18;
+LAB_00448fec:
+  if (*(int *)(param_3 + 0xc) - 9U < 2) {
+    iVar2 = (*(code *)param_2[0x11])(param_2,param_3,ppiVar1,iVar2,0);
+  }
+  else {
+    iVar2 = (*(code *)param_2[0x10])(param_2,param_3,ppiVar1,iVar2,0);
+  }
+LAB_00449011:
+  if (DAT_0050e8c0 != (local_14 ^ (uint)&local_18)) {
+                    /* WARNING: Subroutine does not return */
+    FUN_0047f2c0(local_14 ^ (uint)&local_18);
+  }
+  return iVar2;
+}
+

@@ -1,0 +1,14 @@
+/* Ghidra pseudocode. Image: pe_006570d0_014c.dll Address: 10220817 */
+
+undefined4 __fastcall FUN_10220817(undefined4 param_1,int param_2)
+
+{
+  undefined4 uVar1;
+  
+  if (param_2 != 0) {
+    uVar1 = FUN_101c3567(param_1,&PTR_LAB_1032266c,param_2);
+    return uVar1;
+  }
+  return 6;
+}
+

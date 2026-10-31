@@ -1,0 +1,123 @@
+/* Ghidra pseudocode. Image: pe_002106d0_8664.dll Address: 180080a14 */
+
+void FUN_180080a14(longlong *param_1,byte param_2)
+
+{
+  undefined8 uVar1;
+  longlong lVar2;
+  longlong lVar3;
+  longlong *plVar4;
+  longlong local_78;
+  longlong lStack_70;
+  undefined8 local_68;
+  uint local_58;
+  undefined4 uStack_54;
+  undefined4 uStack_50;
+  undefined4 uStack_4c;
+  undefined8 local_48;
+  
+  local_48 = 0xfffffffffffffffe;
+  plVar4 = (longlong *)*param_1;
+  if ((param_2 != 1 || plVar4 != (longlong *)0x0) &&
+     (param_2 != 8 && (param_2 & 0xfe) != 2 || plVar4 != (longlong *)0x0)) {
+    if ((byte)(param_2 - 1) < 2) {
+      local_78 = 0;
+      lStack_70 = 0;
+      local_68 = 0;
+      lVar2 = plVar4[1] - *plVar4 >> 4;
+      if (param_2 == 2) {
+        FUN_180080d52(&local_78,lVar2);
+        lVar2 = *(longlong *)*param_1;
+        lVar3 = ((longlong *)*param_1)[1];
+        if (lVar2 != lVar3) {
+          do {
+            FUN_180080f7e(&local_78,lVar2);
+            lVar2 = lVar2 + 0x10;
+          } while (lVar2 != lVar3);
+        }
+      }
+      else {
+        FUN_180080d52(&local_78,lVar2 * -0x5555555555555555);
+        lVar3 = ((longlong *)*param_1)[1];
+        for (lVar2 = *(longlong *)*param_1; lVar2 != lVar3; lVar2 = lVar2 + 0x30) {
+          FUN_180080f7e(&local_78,lVar2 + 0x20);
+        }
+      }
+      if (local_78 != lStack_70) {
+        do {
+          local_58 = *(uint *)(lStack_70 + -0x10);
+          uStack_54 = *(undefined4 *)(lStack_70 + -0xc);
+          uStack_50 = *(undefined4 *)(lStack_70 + -8);
+          uStack_4c = *(undefined4 *)(lStack_70 + -4);
+          *(undefined1 *)(lStack_70 + -0x10) = 0;
+          *(undefined8 *)(lStack_70 + -8) = 0;
+          FUN_18007ff6e(lStack_70 + -0x10);
+          lStack_70 = lStack_70 + -0x10;
+          if ((local_58 & 0xff) == 1) {
+            lVar3 = ((longlong *)CONCAT44(uStack_4c,uStack_50))[1];
+            for (lVar2 = *(longlong *)CONCAT44(uStack_4c,uStack_50); lVar2 != lVar3;
+                lVar2 = lVar2 + 0x30) {
+              FUN_180080f7e(&local_78,lVar2 + 0x20);
+            }
+            plVar4 = (longlong *)CONCAT44(uStack_4c,uStack_50);
+            lVar2 = *plVar4;
+            lVar3 = plVar4[1];
+            if (lVar2 != lVar3) {
+              do {
+                FUN_180081230(lVar2);
+                lVar2 = lVar2 + 0x30;
+              } while (lVar2 != lVar3);
+              plVar4[1] = *plVar4;
+            }
+          }
+          else if ((local_58 & 0xff) == 2) {
+            plVar4 = (longlong *)CONCAT44(uStack_4c,uStack_50);
+            lVar2 = *plVar4;
+            lVar3 = plVar4[1];
+            if (lVar2 != lVar3) {
+              do {
+                FUN_180080f7e(&local_78,lVar2);
+                lVar2 = lVar2 + 0x10;
+              } while (lVar2 != lVar3);
+              plVar4 = (longlong *)CONCAT44(uStack_4c,uStack_50);
+              lVar2 = *plVar4;
+              lVar3 = plVar4[1];
+            }
+            if (lVar2 != lVar3) {
+              do {
+                FUN_18007ff6e(lVar2);
+                lVar2 = lVar2 + 0x10;
+              } while (lVar2 != lVar3);
+              plVar4[1] = *plVar4;
+            }
+          }
+          FUN_18007ff6e(&local_58);
+        } while (local_78 != lStack_70);
+      }
+      FUN_1800812a6(&local_78);
+    }
+    switch(param_2) {
+    case 1:
+      FUN_18008131e(*param_1);
+      uVar1 = 0x20;
+      break;
+    case 2:
+      FUN_1800812a6(*param_1);
+      uVar1 = 0x18;
+      break;
+    case 3:
+      FUN_180001ef2(*param_1);
+      uVar1 = 0x20;
+      break;
+    default:
+      goto switchD_180080c0c_caseD_4;
+    case 8:
+      FUN_180004cea(*param_1);
+      uVar1 = 0x28;
+    }
+    thunk_FUN_1802464a0(*param_1,uVar1);
+  }
+switchD_180080c0c_caseD_4:
+  return;
+}
+
