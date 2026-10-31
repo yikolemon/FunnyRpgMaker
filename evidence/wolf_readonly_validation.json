@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "mode": "read-only-offline",
+  "gameId": "local-user-supplied-wolf-fixture",
+  "executableSha256": "e0716a35323007c79e6033bc19c610a38e1d4ccc0dce47c6f79cf706853e5b76",
+  "machine": 332,
+  "fileVersion": [
+    2,
+    24,
+    2018,
+    622
+  ],
+  "nativeBranch": "2.24-to-pre-3.0",
+  "parsedDatabases": [
+    {
+      "name": "CDataBase",
+      "typeCount": 30,
+      "recordCount": 74,
+      "sha256": [
+        "3d928dee1df7216fb7beb7ea72ca6916decaccd1bae7e3d02016763015697528",
+        "c2456895d434f66f5736b60c7d0e242c01c0e7bd61eb3787978f18da77db3f56"
+      ]
+    },
+    {
+      "name": "DataBase",
+      "typeCount": 30,
+      "recordCount": 84,
+      "sha256": [
+        "98c20ab9013435dd38a55f4e2a3e1a1bbbd0f82f6253d59aebc1b6e72b051ea0",
+        "6a2fe67269acca92163626d1dacec479807ae095e2985f61d38f9ad020da8f40"
+      ]
+    },
+    {
+      "name": "SysDatabase",
+      "typeCount": 28,
+      "recordCount": 343,
+      "sha256": [
+        "6409c8261e78eb6a927f43c1547028b670f1c4d80319758d487f02d59e6674e2",
+        "2c597d45f77aabde6eb65146366731bef091b0162dcb96740e94d6f10b6c65f3"
+      ]
+    }
+  ],
+  "unsupportedDatabases": [
+    {
+      "name": "SysDataBaseBasic",
+      "status": "unsupported-or-invalid",
+      "code": "unsupported_envelope"
+    }
+  ],
+  "commonEvents": {
+    "coverage": "header-only-not-body-validated",
+    "declaredEventCount": 400
+  },
+  "gameDataCoverage": "known-prefix-and-opaque-tail",
+  "verifiedUnchangedBasicDataFiles": 15,
+  "limitations": [
+    "No game executable, DLL, injection or live memory operations are performed",
+    "No decryption, compressed database decoding, map parsing or CommonEvent body parsing",
+    "Offline initial database values are not current live-game values or save data"
+  ]
+}

@@ -12,5 +12,10 @@
   newly authored test material, not recovered original assets or the original UI.
 - `playwright-core` is used as a development/test dependency under Apache-2.0;
   it launches a caller-installed Chrome/Chromium. This project does not redistribute Chrome.
+- The read-only Wolf database and Game.dat readers adapt format semantics from
+  [Sinflower/WolfTL](https://github.com/Sinflower/WolfTL), reference revision
+  `bfc38fc2735ab4f7f7ddbec8d57b7fef65f0712f`, Copyright (c) 2024 Sinflower,
+  MIT License. Full permission/warranty notice: `licenses/WolfTL-MIT.txt`.
+  The upstream source checkout is retained locally in ignored `tools/WolfTL/`.
 - Local analysis tools Ghidra, Temurin JDK and REA remain under ignored `tools/`;
   their upstream licenses and notices continue to apply.

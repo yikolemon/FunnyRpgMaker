@@ -3,9 +3,13 @@ import { createTranslator, createGameContext, runRecovered } from './recovered-r
 import { PipeClient } from './pipe-client.mjs';
 import { CdpClient, listGamePages } from './cdp-client.mjs';
 import { buildGameScript, inspectGameExpression } from './game-scripts.mjs';
+import { inspectWolfGame } from './wolf/inspect.mjs';
 
 const [command, dictionary, ...text] = process.argv.slice(2);
-if (command === 'demo') {
+if (command === 'wolf' && dictionary) {
+  if (text.some(arg => arg !== '--records')) throw new Error('Usage: wolf GAME_DIRECTORY [--records]');
+  console.log(JSON.stringify(await inspectWolfGame(dictionary, { includeRecords: text.includes('--records') }), null, 2));
+} else if (command === 'demo') {
   const translator = createTranslator([['Hello', '你好'], ['world', '世界']]);
   const context = createGameContext();
   runRecovered(context, 'movement', { MOVE_SPEED_ADD: '2' });
@@ -48,5 +52,6 @@ if (command === 'demo') {
   } finally { client.close(); }
 } else {
   console.log('Recovered-module prototype (not the original native application)\n\n  npm run demo\n  npm start -- translate dictionary.json "Hello world"\n  npm start -- game http://127.0.0.1:9222 list\n  npm start -- game http://127.0.0.1:9222 inspect [target-id]\n  npm start -- game http://127.0.0.1:9222 movement 2 [target-id]\n  npm start -- game http://127.0.0.1:9222 translation examples/dictionary.json [target-id]\n  npm start -- inspect-pipe "\\\\.\\pipe\\<existing-game-pipe>"');
+  console.log('  npm start -- wolf "D:/path/to/WolfGame" [--records]   (offline, read-only)');
   if (command) process.exitCode = 1;
 }

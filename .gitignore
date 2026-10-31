@@ -1,6 +1,7 @@
 tools/
 node_modules/
 work/
+tests/testgame/
 build/
 __pycache__/
 *.exe

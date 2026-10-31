@@ -4,7 +4,7 @@
 
 - 输入：`D:\WorkSpace\rpgmaker-steamdeck\FunnyGamePlayer.exe`，只读静态提取。
 - 原始文件及拆分模块 SHA-256、偏移、导入导出：`artifact_inventory.json`。
-- Node.js v22.22.0，`npm test`：26 / 26 通过，包含七段原始脚本的 SHA-256 完整性检查。
+- Node.js v22.22.0，`npm test`：34 / 34 通过，包含七段原始脚本的 SHA-256 完整性检查。
 - `npm run demo`：输出 `你好 世界`，移动速度 6（基础 4 + 增量 2）。
 - 真实本地 Windows 命名管道：新增主机客户端 → 原始提取脚本 → 模拟游戏全局变量，
   已验证数字、Unicode、Promise 及异常响应。不是原生 DLL 或真实游戏集成验证。
@@ -35,7 +35,7 @@
 - 已通过真实 DevTools HTTP / WebSocket 发现和附加页面，并调用公开 CLI 修改移动速度 4 → 6。
 - 验证真实 `Game_Party` 金币读取和 UI 按钮修改、`Window_Base` 字体、
   恢复的翻译文本到达真实 `Bitmap.drawText`。
-- 实测 SceneManager 原始时钟推进约 64.9 ms，恢复的倍率时钟推进约 129.8 ms，比例为 2。
+- 最近回归实测 SceneManager 原始时钟推进约 53.6 ms，恢复的倍率时钟推进约 107.2 ms，比例为 2。
   单次功能验证，不是性能基准。完整报告：`mv_browser_validation.json`。
 - `npm run preview -- --smoke` 已在本机打开可见 Chrome 窗口，自动点击四个接入控制按钮，
   验证结果后关闭；截图保存在本地 `work/mv-preview.png`。
@@ -43,6 +43,17 @@
   跳过缺失类，不改动提取脚本或给 MV 全局补造类。
 - 新接入层使用 CDP，不能等同原版 DLL/V8 接入实现。真实商业游戏、MZ、Steam Deck 仍未验证。
 - 新增 GitHub Actions 引擎任务；此处仅报告本机执行结果，不把尚未查看的 CI 结果算作通过。
+
+## Wolf 模块只读恢复
+
+- `npm run test:wolf` 已在用户提供的 x86 Wolf 2.24 游戏上通过。
+- 实际公开 CLI 已验证 PE 版本读取、三套 `.project/.dat` 配对、88 类型 / 501 记录读取。
+- BasicData 下 15 个文件前后 SHA-256、大小、mtime 不变。未启动游戏。
+- CommonEvent 仅读取头部声明的 400 事件，未解析正文；Game.dat 保留不透明尾部，
+  `SysDataBaseBasic` 零头部不在已支持语法内。摘要：`wolf_readonly_validation.json`。
+- 恢复依据及 MIT 依赖来源：`docs/wolf-recovery.md`。未将公开依赖代码冒充为完整原生恢复。
+- 测试游戏目录已加入 Git 忽略；完整本地解析结果保留在忽略的 `work/`。
+- MV 真实引擎回归测试仍通过。
 
 ## 尚未建立
 
