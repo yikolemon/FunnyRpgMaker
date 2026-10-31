@@ -1,0 +1,7 @@
+tools/
+work/
+build/
+__pycache__/
+*.exe
+*.dll
+*.pdb
