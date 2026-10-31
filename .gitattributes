@@ -1,0 +1,6 @@
+* text=auto
+recovered/scripts/*.js text eol=lf
+recovered/native/** text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.java text eol=lf

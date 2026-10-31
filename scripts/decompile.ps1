@@ -12,3 +12,5 @@ foreach ($image in Get-ChildItem "$root/work/artifacts" -File | Sort-Object Name
     & "$($ghidra.FullName)/support/analyzeHeadless.bat" $projects $image.BaseName -import $image.FullName -overwrite -analysisTimeoutPerFile 1800 -max-cpu 4 -scriptPath $PSScriptRoot -postScript ExportDecompiled.java "$root/recovered/native" -log "$projects/$($image.BaseName).log"
     if ($LASTEXITCODE -ne 0) { throw "Ghidra failed for $($image.Name)" }
 }
+python "$PSScriptRoot/summarize_decompilation.py"
+if ($LASTEXITCODE -ne 0) { throw 'Failed to summarize native exports' }

@@ -41,6 +41,11 @@ Node `vm` 不是安全沙箱，只用于运行已检查的恢复脚本；不要�
 偏移、散列、导入导出表见 `evidence/artifact_inventory.json`。
 模块的确切职责需要结合反编译和调用关系验证，不能只靠文件名推断。
 
+已经通过 REA 实际反编译一个启动辅助程序的主函数：
+`recovered/focused/launch-helper-x64-wmain.c`。
+它包含路径检查、热键管理分支、进程启动及错误处理；分析说明见
+[`docs/native-startup.md`](docs/native-startup.md)。该函数不是完整程序，也不能直接编译。
+
 安装本地工具、提取并批量导出：
 
 ```powershell
