@@ -15,6 +15,7 @@ import sys
 import threading
 import time
 import uuid
+from wolf_subtitle_state import LatestCaption, VisibleTextGate, decode_wolf_caption, plain_display_text
 
 ROOT = Path(__file__).resolve().parents[1]
 SUPPORTED_SHA256 = 'e0716a35323007c79e6033bc19c610a38e1d4ccc0dce47c6f79cf706853e5b76'
@@ -37,6 +38,7 @@ def main():
     parser.add_argument('--smoke-seconds', type=float, default=0)
     parser.add_argument('--headless', action='store_true', help='Capture test without a subtitle window')
     parser.add_argument('--validation-report', type=Path, help='Optional text-free verification summary (must be outside game directory)')
+    parser.add_argument('--screenshot', action='store_true', help='Save a screenshot of the owned subtitle window to this run directory (requires Pillow)')
     args = parser.parse_args()
     if sys.version_info < (3, 12):
         parser.error('Python 3.12 or newer is required')
@@ -44,6 +46,13 @@ def main():
         parser.error('This verified capture profile currently supports Windows only')
     if args.smoke_seconds < 0 or (args.headless and not args.smoke_seconds):
         parser.error('Headless runs require a positive --smoke-seconds')
+    if args.screenshot:
+        if args.headless:
+            parser.error('--screenshot requires a visible subtitle window')
+        try:
+            import PIL.ImageGrab
+        except ImportError:
+            parser.error('--screenshot requires Pillow; no game process was started')
     launcher = ROOT / 'build/wolf/wolf_launch.exe'
     capture_dll = ROOT / 'build/wolf/wolf_capture.dll'
     if not launcher.is_file() or not capture_dll.is_file():
@@ -72,12 +81,14 @@ def main():
         raise RuntimeError('Copied executable digest mismatch')
     shutil.copy(capture_dll, run / 'wolf_capture.dll')
 
-    messages = queue.Queue(maxsize=32)
-    ui = queue.Queue(maxsize=32)
+    messages = LatestCaption()
+    ui = queue.Queue(maxsize=1)
     replies = queue.Queue()
     stop = threading.Event()
     counters = {'captured': 0, 'matched': 0, 'decodeErrors': 0, 'dropped': 0, 'workerErrors': 0,
-                'captureErrors': 0, 'captureLimitReached': False, 'uiMatchedShown': 0}
+                'captureErrors': 0, 'captureLimitReached': False, 'uiMatchedShown': 0,
+                'coalesced': 0, 'staleSuppressed': 0, 'formatBlocksRemoved': 0,
+                'controlsRemoved': 0, 'uiUpdates': 0, 'screenshotSaved': False}
     worker = None
     game_process = None
     pid = None
@@ -93,10 +104,17 @@ def main():
     kernel.CloseHandle.argtypes = [ctypes.c_void_p]
 
     def offer(target, value):
-        try:
-            target.put_nowait(value)
-        except queue.Full:
-            counters['dropped'] += 1
+        # A subtitle is current state, not a playback queue.
+        while True:
+            try:
+                target.put_nowait(value)
+                return
+            except queue.Full:
+                try:
+                    target.get_nowait()
+                    counters['coalesced'] += 1
+                except queue.Empty:
+                    pass
 
     def start_thread(function):
         thread = threading.Thread(target=function, daemon=True)
@@ -105,6 +123,7 @@ def main():
 
     def capture_loop():
         buffer = b''
+        visible = VisibleTextGate()
         try:
             with (run / 'wolf-capture.bin').open('rb') as source:
                 while not stop.is_set():
@@ -126,13 +145,17 @@ def main():
                         raw = buffer[8:8 + length]
                         buffer = buffer[8 + length:]
                         try:
-                            text = raw.decode('cp932', errors='strict').rstrip('\0')
-                        except UnicodeDecodeError:
+                            caption = decode_wolf_caption(raw)
+                        except (UnicodeDecodeError, ValueError):
                             counters['decodeErrors'] += 1
                             continue
+                        text = caption.text
+                        counters['formatBlocksRemoved'] += caption.format_blocks
+                        counters['controlsRemoved'] += caption.removed_controls
                         if text:
                             counters['captured'] += 1
-                            offer(messages, text)
+                            if visible.observe(text, time.monotonic()):
+                                messages.publish(text)
         except Exception as error:
             counters['captureErrors'] += 1
             offer(ui, {'error': str(error)})
@@ -149,15 +172,13 @@ def main():
 
     def translate_loop():
         request_id = 0
-        last = None
+        processed_generation = 0
         while not stop.is_set():
-            try:
-                text = messages.get(timeout=0.2)
-            except queue.Empty:
-                continue
-            if text == last:
-                continue
-            last = text
+            pending = messages.next_stable(processed_generation, stop)
+            if pending is None:
+                return
+            generation, text = pending
+            processed_generation = generation
             request_id += 1
             try:
                 worker.stdin.write(json.dumps({'id': request_id, 'text': text}, ensure_ascii=False) + '\n')
@@ -167,9 +188,14 @@ def main():
                     raise RuntimeError(reply.get('error', 'Translation response correlation failed'))
                 if reply['matched']:
                     counters['matched'] += 1
-                offer(ui, {'original': text, **reply})
+                reply['translation'] = plain_display_text(reply['translation'])
+                current = messages.is_current(generation)
+                if current:
+                    offer(ui, {'original': text, 'generation': generation, **reply})
+                else:
+                    counters['staleSuppressed'] += 1
                 with (run / 'captured-local.jsonl').open('a', encoding='utf-8') as stream:
-                    stream.write(json.dumps({'original': text, **reply}, ensure_ascii=False) + '\n')
+                    stream.write(json.dumps({'original': text, 'generation': generation, 'current': current, **reply}, ensure_ascii=False) + '\n')
             except Exception as error:
                 counters['workerErrors'] += 1
                 offer(ui, {'error': str(error)})
@@ -209,17 +235,36 @@ def main():
                         break
             else:
                 import tkinter as tk
+                import tkinter.font as tkfont
                 window = tk.Tk()
                 window.title('Wolf 实时字幕（实验版，不是游戏内替换）')
                 window.geometry('920x260+40+620')
                 window.attributes('-topmost', True)
                 window.configure(bg='#172131')
-                status = tk.Label(window, text='本地词典已加载。等待游戏中的文字；关闭此窗口会结束本次游戏副本。', bg='#172131', fg='#b9d0ef', wraplength=890)
+                families = set(tkfont.families(window))
+                family = next((name for name in ('Microsoft YaHei UI', 'Microsoft YaHei', '微软雅黑', 'SimSun', '宋体') if name in families), 'TkDefaultFont')
+                status = tk.Label(window, text='本地词典已加载；仅显示最新稳定文本。关闭此窗口会结束本次游戏副本。', bg='#172131', fg='#b9d0ef', wraplength=890, font=(family, 10))
                 status.pack(padx=12, pady=8)
-                translated = tk.Label(window, text='等待捕获文本…', bg='#172131', fg='white', wraplength=890, font=('Microsoft YaHei', 18), justify='left')
+                translated = tk.Label(window, text='等待捕获文本…', bg='#172131', fg='white', wraplength=890, font=(family, 18), justify='left')
                 translated.pack(fill='both', expand=True, padx=12)
-                original = tk.Label(window, text='', bg='#172131', fg='#a7b4c7', wraplength=890, justify='left')
+                original = tk.Label(window, text='', bg='#172131', fg='#a7b4c7', wraplength=890, justify='left', font=(family, 11))
                 original.pack(fill='x', padx=12, pady=8)
+                if args.screenshot:
+                    tk.Label(window, text='字体自检：中文显示正常；字幕不应出现方框或历史回放。', font=(family, 11), bg='#172131', fg='#b9d0ef').pack()
+                shown = [None]
+                counters['fontFamily'] = family
+
+                def screenshot():
+                    if counters['screenshotSaved']:
+                        return
+                    from PIL import ImageGrab
+                    window.update_idletasks()
+                    x, y = window.winfo_rootx(), window.winfo_rooty()
+                    ImageGrab.grab(bbox=(x, y, x + window.winfo_width(), y + window.winfo_height()), all_screens=True).save(run / 'subtitle-window.png')
+                    counters['screenshotSaved'] = True
+
+                if args.screenshot:
+                    window.after(5000, screenshot)
 
                 def update():
                     if stop.is_set() or kernel.WaitForSingleObject(handle, 0) != 258 or (args.smoke_seconds and time.monotonic() - started >= args.smoke_seconds):
@@ -232,10 +277,14 @@ def main():
                             break
                         if 'error' in event:
                             status.config(text=event['error'])
-                        else:
+                        elif messages.is_current(event['generation']) and shown[0] != (event['original'], event['translation']):
+                            shown[0] = event['original'], event['translation']
                             status.config(text='本地词典命中' if event['matched'] else '词典未命中：保留原文（不联网）')
                             translated.config(text=event['translation'] or '（空译文）')
                             original.config(text=event['original'])
+                            counters['uiUpdates'] += 1
+                            with (run / 'ui-transitions.jsonl').open('a', encoding='utf-8') as stream:
+                                stream.write(json.dumps({'seconds': time.monotonic() - started, 'generation': event['generation'], 'original': event['original'], 'translation': event['translation']}, ensure_ascii=False) + '\n')
                             if event['matched']:
                                 counters['uiMatchedShown'] += 1
                     if counters['captureLimitReached']:
@@ -276,6 +325,7 @@ def main():
         (run / 'summary.json').write_text(json.dumps(result, indent=2), encoding='utf-8')
         passed = bool(agent_stats and counters['matched'] and not counters['workerErrors'] and not counters['decodeErrors'] and not counters['dropped']
                       and not counters['captureErrors'] and not counters['captureLimitReached']
+                      and (not args.screenshot or counters['screenshotSaved'])
                       and result['originalSourceUnchanged'] and (args.headless or counters['uiMatchedShown']))
         if args.validation_report:
             summary = {key: value for key, value in result.items() if key != 'run'}

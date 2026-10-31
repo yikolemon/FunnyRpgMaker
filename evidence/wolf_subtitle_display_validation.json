@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "scope": "Captured runtime transitions and subtitle-window screenshot",
+  "counts": {
+    "captured": 23,
+    "matched": 2,
+    "decodeErrors": 0,
+    "dropped": 0,
+    "workerErrors": 0,
+    "captureErrors": 0,
+    "captureLimitReached": false,
+    "uiMatchedShown": 2,
+    "coalesced": 0,
+    "staleSuppressed": 0,
+    "formatBlocksRemoved": 207,
+    "controlsRemoved": 0,
+    "uiUpdates": 4,
+    "screenshotSaved": true,
+    "fontFamily": "Microsoft YaHei UI"
+  },
+  "uiTransitionSeconds": [
+    1.344,
+    1.672,
+    2.469,
+    24.109
+  ],
+  "longestObservedCaptionHoldSeconds": 21.64,
+  "controlCharactersInUi": 0,
+  "strictlyIncreasingGenerations": true,
+  "screenshot": {
+    "sha256": "a3eaad891345b65dad398faa5fb5c4005428ba70c973a4bdf98a714ac7e826ce",
+    "size": [
+      920,
+      260
+    ],
+    "storedLocallyOnly": true
+  },
+  "originalSourceUnchanged": true,
+  "limitations": [
+    "Screenshot reviewed separately; image validity alone is not visual glyph verification",
+    "Not full gameplay or all drawing-control coverage",
+    "External subtitles, not in-place game translation"
+  ]
+}

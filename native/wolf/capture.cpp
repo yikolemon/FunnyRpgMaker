@@ -43,14 +43,17 @@ static void capture(void* container) noexcept {
             const auto now = GetTickCount64();
             const auto found = recent.find(value);
             const bool unseen = found == recent.end();
-            if (!capped && (unseen || now - found->second >= 3000)) {
-                if (recent.size() >= 2048) {
+            const bool entered = unseen || now - found->second >= 750;
+            if (!capped) {
+                if (unseen && recent.size() >= 2048) {
                     for (auto it = recent.begin(); it != recent.end();) {
-                        if (now - it->second >= 3000) it = recent.erase(it); else ++it;
+                        if (now - it->second >= 750) it = recent.erase(it); else ++it;
                     }
                 }
                 if (recent.size() >= 2048 && unseen) { LeaveCriticalSection(&lock); continue; }
+                // Refresh on every draw, not only on emission: stationary UI must never replay on a timer.
                 recent[value] = now;
+                if (!entered) { LeaveCriticalSection(&lock); continue; }
                 if (written + length + 16 <= 20 * 1024 * 1024) {
                     DWORD count = 0;
                     uint32_t header[2] = { length, slot };

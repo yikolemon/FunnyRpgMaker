@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: '22'
       - run: npm test
+      - run: npm run test:wolf-state
       - run: npm run demo
   real-mv-engine:
     runs-on: ubuntu-latest

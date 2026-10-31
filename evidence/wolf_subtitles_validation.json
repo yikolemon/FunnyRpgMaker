@@ -3,25 +3,32 @@
   "executableSha256": "e0716a35323007c79e6033bc19c610a38e1d4ccc0dce47c6f79cf706853e5b76",
   "agent": {
     "installed": true,
-    "captureRecords": 20,
+    "captureRecords": 23,
     "adapter": "native-x86-capture-only"
   },
   "counts": {
-    "captured": 20,
-    "matched": 6,
+    "captured": 23,
+    "matched": 2,
     "decodeErrors": 0,
     "dropped": 0,
     "workerErrors": 0,
     "captureErrors": 0,
     "captureLimitReached": false,
-    "uiMatchedShown": 6
+    "uiMatchedShown": 2,
+    "coalesced": 0,
+    "staleSuppressed": 0,
+    "formatBlocksRemoved": 207,
+    "controlsRemoved": 0,
+    "uiUpdates": 4,
+    "screenshotSaved": true,
+    "fontFamily": "Microsoft YaHei UI"
   },
   "dictionarySha256": "a54ffdb0f7fc9215443507eab13d24a0125beec5f1944ae68ba9ba5b700a5817",
   "originalExecutableUnchanged": true,
   "originalSourceFilesVerified": 844,
   "originalSourceUnchanged": true,
   "status": "passed",
-  "smokeSeconds": 15.0,
+  "smokeSeconds": 25.0,
   "windowOpened": true,
   "limitations": [
     "Exact executable digest only; no other Wolf versions verified",

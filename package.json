@@ -10,7 +10,8 @@
     "test:engine": "node scripts/verify-mv-browser.mjs",
     "fixture:serve": "node scripts/serve-mv-fixture.mjs",
     "preview": "node scripts/preview-mv.mjs",
-    "test:wolf": "node scripts/verify-wolf-game.mjs"
+    "test:wolf": "node scripts/verify-wolf-game.mjs",
+    "test:wolf-state": "python -m unittest discover -s tests -p test_wolf_subtitle_state.py -v"
   },
   "engines": {
     "node": ">=22"

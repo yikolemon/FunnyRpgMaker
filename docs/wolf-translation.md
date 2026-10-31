@@ -30,7 +30,8 @@ python scripts/wolf-subtitles.py "游戏目录" --dictionary "本地词典.json"
   `e0716a35323007c79e6033bc19c610a38e1d4ccc0dce47c6f79cf706853e5b76`。
 - 即用户提供的 x86 Wolf 2.24 游戏 EXE。不是支持所有 2.24 游戏；换版本或修改 EXE 会拒绝启动。
 - 捕获消息绘制函数读取的文本，不支持图片内文字、动画贴图文字等不可见于该函数的内容。
-- 原文保留 CP932 编码解释，译文通过独立 Unicode 窗口显示；暂不处理 Wolf 控制码的排版。
+- 已在捕获边界按字节移除当前配置的绘制控制块，再以 CP932 解码为纯文本；
+  译文通过独立 Unicode 窗口显示，不复刻游戏内颜色/坐标布局。
 - 使用恢复出的 AC 自动机/换行重排实现匹配，不依赖 MV 游戏全局对象。
 - 字幕是与游戏分离的置顶窗口，可以拖动；不是绑定游戏坐标或嵌入全屏画面的叠加层。
 - 目前只验证启动/菜单阶段，完整剧情、读档、长期稳定性和 Steam Deck 尚未验证。
@@ -58,6 +59,7 @@ python scripts/wolf-subtitles.py "游戏目录" --dictionary "本地词典.json"
 
 ```powershell
 npm test
+npm run test:wolf-state
 python scripts/wolf-subtitles.py "tests/testgame/JPN HENTAI RABBIT HOOD" --smoke-seconds 15 --validation-report evidence/wolf_subtitles_validation.json
 ```
 
@@ -67,6 +69,24 @@ python scripts/wolf-subtitles.py "tests/testgame/JPN HENTAI RABBIT HOOD" --smoke
 
 `uiMatchedShown` 表示程序实际更新了可见 Tk 标签，不是 OCR/像素级渲染等价性证明。
 没有词典命中、出现解码/工作进程错误或丢包的烟雾测试不会报告通过。
+
+需要截图时添加 `--screenshot`（需 Pillow），截图只保存到本次运行的
+`work/wolf-runs/.../subtitle-window.png`，不会上传游戏画面。
+可用 `python scripts/verify-wolf-display.py "本次运行目录"` 校验界面时间记录、控制字节和图片文件；
+该校验不代替人工查看截图。
+
+## 方框与旧文本快速回放的修复
+
+首版缺陷：内部格式控制字节未经解码就送到 Tk，导致方框；捕获缓存只在发出事件时更新，
+使仍在绘制的旧文本每 3 秒重发，字幕又将多个结果依次显示。
+
+现在在每次绘制时刷新 last-seen，持续可见文本不再周期性重发；
+格式块在 CP932 解码前按字节消费，不能只用正则删除控制字符，否则坐标参数仍会泄漏。
+后续只保留最新稳定文本，不存放待播放历史；每个输入带 generation，
+已被新文本取代的翻译结果不能写回界面；相同可见字幕不重复绘制。
+
+12 项 Python 回归覆盖持续重绘 30 秒、多个标签并行重绘、最新值替换、
+过期结果拒绝、停止清理，以及二进制格式参数/编码边界。
 
 ## 逆向依据与实现差异
 
